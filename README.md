@@ -18,7 +18,7 @@ We introduce:
 
 ---
 
-## 📦 Coming Soon
+ ## 📦 Coming Soon
 
 This repository will be populated with:
 
@@ -40,6 +40,5 @@ Clinician-labelled clinical-impact benchmark
 
 Preprint available on arXiv:
 
-
-## Citation
+## Citation
 
