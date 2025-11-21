@@ -1,0 +1,69 @@
+{
+  "assess.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "ground_truth_conversation": "(21) Doctor: OK. And your waterworks are uh, all OK? You're passing urine OK?\n(21) Patient: Yep.\n(22) Doctor: OK, all right. Um, so just moving on. In terms of your other medical history, is there anything else I should be aware of?\n(22) Patient: I'm currently taking .",
+        "transcription_conversation": "(21) Doctor: OK. And your waterworks are uh, all OK? You're passing urine OK?\n(21) Patient: Yep.\n(22) Doctor: OK, all right. Um, so just moving on. In terms of your other medical history, is there anything else I should be aware of?\n(22) Patient: i'm currently taking my purchase",
+        "reasoning": "The transcription incorrectly transcribes the patient's medication. The patient states they are taking a medication, but the transcription says \"my purchase\". This is a significant error as it omits a key part of the patient's medical history, which could lead to adverse drug interactions or affect treatment decisions.",
+        "clinical_impact": "2"
+      },
+      {
+        "ground_truth_conversation": "(37) Doctor: OK. Um, you can try just regular painkillers, uh, Paracetamol would be advisable. Um, make sure you drink plenty of fluids. You can try some cranberry juice as well, which uh, can sometimes help with your urine symptoms. Um, take the antibiotics, uh, and give me a call, you know, if you are worried about anything else.\n(37) Patient: Uh, sure. That sounds great. Thank you very much. Um, should I just collect the script at my pharmacy?\n(38) Doctor: Yeah, if I send it straight to your pharmacy, start the antibiotics today, something called Trimethoprim. Um, you can take two tablets, uh, one tablet twice a day for three days.\n(38) Patient: OK. OK, , that sounds great.",
+        "transcription_conversation": "(37) Doctor: OK. Um, you can try just regular painkillers, uh, Paracetamol would be advisable. Um, make sure you drink plenty of fluids. You can try some cranberry juice as well, which uh, can sometimes help with your urine symptoms. Um, take the antibiotics, uh, and give me a call, you know, if you are worried about anything else.\n(37) Patient: Uh, sure. That sounds great. Thank you very much. Um, should I just collect the script at my pharmacy?\n(38) Doctor: Yeah, if I send it straight to your pharmacy, start the antibiotics today, something called Trimethoprim. Um, you can take two tablets, uh, one tablet twice a day for three days.\n(38) Patient: okay okay that sounds right",
+        "clinical_impact": "0"
+      },
+      {
+        "ground_truth_conversation": "(11) Doctor: OK.\n(11) Patient: But I haven't taken my temperature, so I'm not a hundred percent sure if I had a fever. But it feels like I probably did. 'Cause I was just, I was next to my boyfriend. And he was completely warm and totally fine. And I just like couldn't stop shivering. And kept adding more sweaters on, and I was still cold.\n(12) Doctor: OK. OK. OK. Alright. Um, fine. And in terms of any other symptoms, so have you had any nausea? Have you had any vomiting?\n(12) Patient: No. No, no nausea. No vomiting. Like, um yeah, nothing like that.",
+        "transcription_conversation": "(11) Doctor: OK.\n(11) Patient: But I haven't taken my temperature, so I'm not a hundred percent sure if I had a fever. But it feels like I probably did. 'Cause I was just, I was next to my boyfriend. And he was completely warm and totally fine. And I just like couldn't stop shivering. And kept adding more sweaters on, and I was still cold.\n(12) Doctor: OK. OK. OK. Alright. Um, fine. And in terms of any other symptoms, so have you had any nausea? Have you had any vomiting?\n(12) Patient: no no no not yet no vomiting yeah not nothing like that",
+        "clinical_impact": "0"
+      },
+      {
+        "ground_truth_conversation": "(18) Doctor: I see. All right. Have you noticed any change in the number of floaters or black dots you're seeing since the surgery?\n(18) Patient: Yeah, that's a little bit maybe less, but that is still there. Black dot.\n(19) Doctor: Got it. So, I just want to ask about something else now. Have you noticed any flashing lights since the surgery?\n(19) Patient: Uh, there in a few days after the operation, then now it's getting better.",
+        "transcription_conversation": "(18) Doctor: I see. All right. Have you noticed any change in the number of floaters or black dots you're seeing since the surgery?\n(18) Patient: Yeah, that's a little bit maybe less, but that is still there. Black dot.\n(19) Doctor: Got it. So, I just want to ask about something else now. Have you noticed any flashing lights since the surgery?\n(19) Patient: there in the few days after the operation then now it's getting better",
+        "clinical_impact": "0"
+      },
+      {
+        "ground_truth_conversation": "(4) Doctor: That's great, thank you so much for that. Are you in a private place where you're OK to speak at the moment?\n(4) Patient: Yes.\n(5) Doctor: OK. So how can I help you today? You've been having some problems with your asthma. Is that right?\n(5) Patient: Sorry, say that .",
+        "transcription_conversation": "(4) Doctor: That's great, thank you so much for that. Are you in a private place where you're OK to speak at the moment?\n(4) Patient: Yes.\n(5) Doctor: OK. So how can I help you today? You've been having some problems with your asthma. Is that right?\n(5) Patient: sorry say that to you",
+        "clinical_impact": "0"
+      },
+      {
+        "ground_truth_conversation": "(7) Doctor: K and . When, when you say it comes and goes, does it completely go away?\n(7) Patient: Uh, just kind of fades, so it's still there a little bit but, it kind of gets more or less, severe.\n(8) Doctor: OK. And any, any other symptoms that you've had, any problems with your eyes, or your eyesight?\n(8) Patient: Uh, no, not at all.",
+        "transcription_conversation": "(7) Doctor: K and . When, when you say it comes and goes, does it completely go away?\n(7) Patient: Uh, just kind of fades, so it's still there a little bit but, it kind of gets more or less, severe.\n(8) Doctor: OK. And any, any other symptoms that you've had, any problems with your eyes, or your eyesight?\n(8) Patient: no not at all",
+        "clinical_impact": "0"
+      }
+    ],
+    "signature": {
+      "instructions": "You are an expert in clinical quality assurance. Your task is to analyze and assess the clinical impact of errors in a medical conversation transcribed by an ASR system. You will be given a \"Ground Truth Conversation\" and a \"Transcription Conversation\".\n\nCarefully compare the two transcripts to identify any discrepancies, such as word substitutions, omissions, or hallucinations (added words). Based on these errors, provide a clinical justification for your assessment and classify the severity of the impact.\n\nYour assessment should be categorized into one of three levels:\n- **0 (No impact):** The errors are purely cosmetic and do not change the meaning of the conversation. This includes differences in punctuation, capitalization, or interchangeable filler words.\n- **1 (Minimal impact):** Some information is lost or changed, but it is not critical to the core diagnosis, treatment plan, or patient instructions. The overall clinical picture remains intact.\n- **2 (Significant impact):** The errors involve missing or incorrect information that could realistically affect diagnosis, treatment decisions, or patient safety. This includes errors in dosages, symptoms, or personal details like an address.\n\nFor each pair of conversations, provide the following:\n1.  **Reasoning:** A brief clinical justification explaining the nature of the error and why it warrants the assigned impact level.\n2.  **Clinical Impact:** The numerical class (0, 1, or 2). Return ONLY the number.",
+      "fields": [
+        {
+          "prefix": "Ground Truth Conversation:",
+          "description": "${ground_truth_conversation}"
+        },
+        {
+          "prefix": "Transcription Conversation:",
+          "description": "${transcription_conversation}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Brief clinical justification for the assessment."
+        },
+        {
+          "prefix": "Clinical Impact:",
+          "description": "Clinical impact class (return ONLY the number):\n        0 = No impact: cosmetic differences only (punctuation, capitalization, filler words)\n        1 = Minimal impact: some information missing/changed but NOT critical to diagnosis or treatment decisions  \n        2 = Significant impact: missing/incorrect information that COULD affect diagnosis, treatment, or patient safety\n        Return ONLY: 0, 1, or 2"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.3",
+      "cloudpickle": "3.1"
+    }
+  }
+}

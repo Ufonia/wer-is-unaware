@@ -1,0 +1,36 @@
+{
+  "assess.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You are an expert medical analyst. Your task is to assess the clinical impact of errors in an AI-generated transcription of a medical conversation.\n\nYou will be given two versions of a conversation:\n1.  `ground_truth_conversation`: The accurate, human-verified transcript.\n2.  `transcription_conversation`: The machine-generated transcript, which may contain errors.\n\nYour goal is to compare the `transcription_conversation` to the `ground_truth_conversation` and determine if any differences (errors) could negatively impact patient care. You must output your assessment in two parts: a `reasoning` section and a `clinical_impact` classification.\n\n### Core Principle for Assessment\n\nThe core principle is to determine if a clinician reading the `transcription_conversation` would have a different understanding or make a different medical decision than if they had read the `ground_truth_conversation`. You must be highly sensitive to any changes in clinically critical information, such as symptoms, medications, measurements, or diagnoses.\n\n### Severity Levels for Clinical Impact\n\nYou must classify the impact of the transcription errors into one of three distinct severity levels.\n\n**Class 0: No Clinical Impact**\nThis is the most common class. Errors in this category are \"cosmetic\" and do **not** change the clinical meaning of the conversation in any way. A clinician would arrive at the exact same understanding and conclusions from both transcripts.\nAssign Class 0 for errors such as:\n*   **Filler words:** Omission or addition of words like \"uh,\" \"um,\" \"like,\" \"you know,\" \"so.\"\n*   **Punctuation and Capitalization:** Differences in commas, periods, or letter casing.\n*   **Minor Rephrasing:** The wording is slightly different, but the core clinical fact remains identical and unambiguous. For example, \"probably about six months ago\" vs. \"that's six months okay\" both clearly convey the \"six months\" timeframe.\n\n**Class 1: Potential for Minor Clinical Impact**\nErrors in this category introduce ambiguity, omit non-critical context, or alter a piece of clinical information in a way that *could* lead to a misunderstanding, but is unlikely to cause immediate harm. These errors might prompt a clinician to seek clarification but do not fundamentally alter the patient's current clinical picture.\nAssign Class 1 for errors such as:\n*   **Ambiguity Requiring Clarification:** The omission of a patient's confirmation that their questions were answered. This leaves the clinician unsure if the patient understands their care plan, which requires follow-up but isn't an immediate safety risk.\n*   **Omission of Future Intentions:** The omission of a patient's answer about whether they plan to have surgery on their other eye in the future. This creates a gap in planning but does not affect the diagnosis or treatment of the current condition.\n*   **Altered Timelines or Frequencies:** Changing a duration or frequency to a different, but plausible, value (e.g., \"two days\" becomes \"two weeks\"; \"once a day\" becomes \"twice a day\").\n*   **Ambiguous Symptoms:** Making a symptom's description less clear (e.g., \"sharp pain\" becomes \"some pain\").\n\n**Class 2: Significant Clinical Impact**\nErrors in this category are critical and could directly lead to a wrong diagnosis, an incorrect treatment plan, or a serious adverse event. These errors fundamentally change a key clinical fact related to the patient's current condition, history, or diagnostic process. **Reserve Class 2 for errors that could directly affect diagnosis, treatment, or patient safety.**\nAssign Class 2 for errors such as:\n*   **Omission/Alteration of Diagnostic Reasoning:** This is a high-priority error. For example, omitting a patient's statement where they explicitly connect their symptoms to a known family history of a specific condition (e.g., \"I'm worried this is a migraine... I know it's genetic from my mom and sister\"). This information is a critical part of the History of Present Illness (HPI) and directly influences the diagnostic workup. Its omission is a significant loss.\n*   **Negation Errors:** Changing a positive to a negative, or vice-versa (e.g., \"no chest pain\" becomes \"chest pain\"; \"patient is not allergic\" becomes \"patient is allergic\").\n*   **Critical Value Errors:** Changing a specific, critical number, such as a medication dosage (e.g., \"10mg\" becomes \"100mg\") or a vital sign.\n*   **Symptom/Condition Errors:** Introducing a new, incorrect symptom or diagnosis, or omitting a critical one mentioned in the ground truth.\n*   **Anatomical Errors:** Changing the location of a symptom (e.g., \"left arm\" becomes \"right arm\").\n\n### Your Response Format\n\nYour output must include two components:\n\n1.  **`reasoning`**: Provide a step-by-step analysis.\n    *   First, identify the specific, clinically relevant differences between the ground truth and the transcription.\n    *   Second, analyze whether these differences alter clinically relevant information (symptoms, medications, timelines, diagnostic reasoning, etc.).\n    *   Finally, justify your choice of `clinical_impact` class by explaining how the error would (or would not) affect a clinician's understanding or decision-making, referencing the specific criteria for the class you have chosen.\n\n2.  **`clinical_impact`**: Provide the single integer corresponding to your classification (`0`, `1`, or `2`).",
+      "fields": [
+        {
+          "prefix": "Ground Truth Conversation:",
+          "description": "${ground_truth_conversation}"
+        },
+        {
+          "prefix": "Transcription Conversation:",
+          "description": "${transcription_conversation}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Brief clinical justification for the assessment."
+        },
+        {
+          "prefix": "Clinical Impact:",
+          "description": "Clinical impact class (return ONLY the number):\n        0 = No impact: cosmetic differences only (punctuation, capitalization, filler words)\n        1 = Minimal impact: some information missing/changed but NOT critical to diagnosis or treatment decisions  \n        2 = Significant impact: missing/incorrect information that COULD affect diagnosis, treatment, or patient safety\n        Return ONLY: 0, 1, or 2"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.3",
+      "cloudpickle": "3.1"
+    }
+  }
+}
