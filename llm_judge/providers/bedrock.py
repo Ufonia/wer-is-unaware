@@ -1,6 +1,9 @@
 from typing import Optional, Tuple
-
+import os
 import dspy
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def init_bedrock(
     task_model: str,
@@ -9,7 +12,7 @@ def init_bedrock(
     max_tokens: int = 1000,
 ) -> Tuple[dspy.LM, Optional[dspy.LM]]:
     """Configure DSPy to use AWS Bedrock."""
-    task_lm = dspy.LM(f"bedrock/{task_model}", region_name=region, max_tokens=max_tokens)
+    task_lm = dspy.LM(f"bedrock/{task_model}", region_name=(os.getenv("AWS_REGION", region)), max_tokens=max_tokens)
     dspy.settings.configure(lm=task_lm)
 
     reflection_lm = None
