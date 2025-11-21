@@ -3,8 +3,7 @@
 Lightweight, public-ready LLM sentence-level alignment and evaluation toolkit. Uses OpenRouter for LLM calls and uv for dependency management.
 
 ## Quickstart
-- Install uv (https://github.com/astral-sh/uv) and run `uv sync`.
-- Configure .env with `OPENROUTER_API_KEY` and `OPENROUTER_MODEL`
+- See root `README.md` for setup (uv install, environment variables).
 - Generate an alignment:
   ```bash
   uv run python alignment/scripts/generate_alignment.py \
