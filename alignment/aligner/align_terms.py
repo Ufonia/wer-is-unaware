@@ -66,8 +66,8 @@ class TextAligner:
         fuzzy_threshold: float = 0.6,
         confidence_weight: float = 0.2,
     ):
-        self.similarity_threshold = similarity_threshold  # Minimum threshold for any match
-        self.fuzzy_threshold = fuzzy_threshold  # Higher threshold for accepting fuzzy matches
+        self.similarity_threshold = similarity_threshold
+        self.fuzzy_threshold = fuzzy_threshold
         self.confidence_weight = confidence_weight
 
     def parse_golden_transcript(
@@ -181,7 +181,6 @@ class TextAligner:
             0.5 * char_similarity + 0.3 * word_similarity + 0.2 * length_similarity
         )
 
-        # Semantic validation for short utterances with no overlap
         if len(words1) <= 3 or len(words2) <= 3:
             if word_similarity == 0.0:
                 common_words = {"or", "and", "the", "a", "an", "is", "are", "was", "were", "yes", "no"}

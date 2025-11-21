@@ -197,7 +197,6 @@ Provide only the JSON response, no other text."""
         """Fix cases where the same ASR result is used in multiple alignments"""
         from collections import defaultdict
         
-        # Group alignments by ASR ID/index
         asr_usage = defaultdict(list)
         
         for i, alignment in enumerate(alignments):
@@ -206,14 +205,12 @@ Provide only the JSON response, no other text."""
                 asr_key = alignment.asr.id if alignment.asr.id != "combined" else f"seq_{alignment.asr.sequence_order}"
                 asr_usage[asr_key].append((i, alignment))
         
-        # Find and fix duplicates
         fixed_alignments = alignments.copy()
         
         for asr_key, alignment_list in asr_usage.items():
             if len(alignment_list) > 1:
                 logger.warning(f"Duplicate ASR usage detected for {asr_key}: {len(alignment_list)} alignments")
                 
-                # Get all golden texts that are trying to use this ASR
                 golden_texts = [align[1].golden.text for align in alignment_list]
                 indices = [align[0] for align in alignment_list]
                 
@@ -222,10 +219,8 @@ Provide only the JSON response, no other text."""
                 # Check if these are consecutive golden utterances that should be combined
                 consecutive_indices = sorted(indices)
                 if all(consecutive_indices[i] == consecutive_indices[i-1] + 1 for i in range(1, len(consecutive_indices))):
-                    # They are consecutive - combine them into a single alignment
                     combined_golden_text = " ".join(align[1].golden.text for align in sorted(alignment_list, key=lambda x: x[0]))
                     
-                    # Keep the first alignment with combined golden text
                     first_idx = consecutive_indices[0]
                     first_alignment = fixed_alignments[first_idx]
                     
@@ -236,7 +231,6 @@ Provide only the JSON response, no other text."""
                         sequence_order=first_alignment.golden.sequence_order
                     )
                     
-                    # Update the first alignment to represent the combined match
                     fixed_alignments[first_idx] = AlignmentMatch(
                         golden=combined_golden,
                         asr=first_alignment.asr,
@@ -249,28 +243,22 @@ Provide only the JSON response, no other text."""
                     logger.info(f"  Golden: '{combined_golden_text}'")
                     logger.info(f"  ASR: '{first_alignment.asr.text}'")
                     
-                    # Remove subsequent alignments - they're now represented in the combined match
-                    # We'll create a special marker to track which golden indices were combined
                     combined_golden_indices = consecutive_indices.copy()
                     
-                    # Store the combined indices in the first alignment for reference
                     fixed_alignments[first_idx].multi_golden_sequence = combined_golden_indices
                     fixed_alignments[first_idx].match_type = 'multi_golden'
                     
-                    # Mark subsequent alignments as None (to be filtered out later)
                     for idx in consecutive_indices[1:]:
                         fixed_alignments[idx] = None
                         logger.debug(f"Removed golden index {idx} (now part of combined match at index {first_idx})")
                         
                 else:
                     # Not consecutive - keep the best match, mark others as missing
-                    # Sort by similarity score and keep the best one
                     best_alignment_info = max(alignment_list, key=lambda x: x[1].similarity_score)
                     best_idx = best_alignment_info[0]
                     
                     logger.info(f"Keeping best match at golden index {best_idx} (score: {best_alignment_info[1].similarity_score:.3f})")
                     
-                    # Mark all others as missing
                     for idx, alignment in alignment_list:
                         if idx != best_idx:
                             fixed_alignments[idx] = AlignmentMatch(
@@ -282,7 +270,6 @@ Provide only the JSON response, no other text."""
                             )
                             logger.debug(f"Marked golden index {idx} as missing")
         
-        # Filter out None entries (removed duplicate alignments)
         final_alignments = [alignment for alignment in fixed_alignments if alignment is not None]
         
         return final_alignments
@@ -292,16 +279,14 @@ Provide only the JSON response, no other text."""
                              asr_results: List[ASRResult]) -> List[AlignmentMatch]:
         """Simple post-processing to catch obvious missed matches between unmatched golden and unused ASR"""
         
-        # Find unmatched golden utterances
         unmatched_indices = []
         for i, alignment in enumerate(alignments):
             if alignment.match_type == 'missing':
                 unmatched_indices.append(i)
         
         if not unmatched_indices:
-            return alignments  # No unmatched golden utterances
+            return alignments
         
-        # Find unused ASR results
         used_asr_ids = set()
         for alignment in alignments:
             if alignment.asr and alignment.match_type != 'missing':
@@ -310,11 +295,10 @@ Provide only the JSON response, no other text."""
         unused_asr = [asr for asr in asr_results if asr.id not in used_asr_ids]
         
         if not unused_asr:
-            return alignments  # No unused ASR results
+            return alignments
         # TODO - check why the length of unused asr here doesnt appear to match the results in the unmatched analysis
         logger.info(f"Checking {len(unmatched_indices)} unmatched golden vs {len(unused_asr)} unused ASR for obvious matches...")
         
-        # Try to match unmatched golden with unused ASR
         fixed_alignments = alignments.copy()
         
         for golden_idx in unmatched_indices:
@@ -323,7 +307,6 @@ Provide only the JSON response, no other text."""
             best_score = 0.0
             
             for asr in unused_asr:
-                # Use the parent class's similarity calculation
                 score = self.calculate_text_similarity(golden.text, asr.text)
                 # TODO - consider making more strict - this does not take into account relative position of utterances, so it is matching utterances from completely different parts of the conversation
                 # Perhaps, bring in the positional awareness here from the text alignment system
@@ -336,7 +319,6 @@ Provide only the JSON response, no other text."""
                 logger.info(f"  Golden: '{golden.text}'")
                 logger.info(f"  ASR: '{best_asr.text}' (similarity: {best_score:.3f})")
                 
-                # Update the alignment
                 fixed_alignments[golden_idx] = AlignmentMatch(
                     golden=golden,
                     asr=best_asr,
@@ -345,7 +327,6 @@ Provide only the JSON response, no other text."""
                     match_type='fuzzy'
                 )
                 
-                # Remove this ASR from unused list so it can't be used again
                 unused_asr.remove(best_asr)
         
         return fixed_alignments
