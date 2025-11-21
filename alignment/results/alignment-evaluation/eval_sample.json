@@ -1,0 +1,37 @@
+{
+  "golden_utterances_metrics": {
+    "tp": 0,
+    "tn": 3,
+    "fp": 0,
+    "fn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 1.0
+  },
+  "asr_results_metrics": {
+    "tp": 0,
+    "tn": 3,
+    "fp": 0,
+    "fn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 1.0
+  },
+  "total_golden_utterances": 3,
+  "total_asr_results": 3,
+  "unmatched_golden_groundtruth": [],
+  "unmatched_golden_llm": [],
+  "unmatched_asr_groundtruth": [],
+  "unmatched_asr_llm": [],
+  "structural_alignment_metrics": {
+    "mismatches": [],
+    "accuracy_percent": 100.0
+  },
+  "quality_issues": {
+    "duplicate_asr_usage": [],
+    "duplicate_golden_usage": [],
+    "has_quality_issues": false
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "description": "LLM-generated alignment for golden_day3-consultation06-combined.json vs patient_day3-consultation06-combined_deepgram.json",
+  "created_by": "llm_aligner",
+  "total_golden_utterances": 20,
+  "total_asr_results": 23,
+  "unused_golden_results": [],
+  "unused_asr_results": [
+    {
+      "asr_index": 8,
+      "asr_text": "yep"
+    },
+    {
+      "asr_index": 15,
+      "asr_text": "no i'm not even there"
+    }
+  ],
+  "alignments": [
+    {
+      "golden_indices": [
+        0
+      ],
+      "golden_text": "I have been",
+      "asr_indices": [
+        0
+      ],
+      "asr_text": "hi i've been",
+      "asr_confidences": [
+        0.87841797
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        1
+      ],
+      "golden_text": "Uh, not really. My name is Jonathan Irving.",
+      "asr_indices": [
+        1,
+        2
+      ],
+      "asr_text": "not ready my name is jonathan irving",
+      "asr_confidences": [
+        0.85253906,
+        0.92578125
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        2
+      ],
+      "golden_text": "Uh, six, twelve, uh, eighty.",
+      "asr_indices": [
+        3
+      ],
+      "asr_text": "six twelve eighty",
+      "asr_confidences": [
+        0.9633789
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 0.980"
+    },
+    {
+      "golden_indices": [
+        3
+      ],
+      "golden_text": "Uh, sixty two Lewin Road Streatham SW sixteen six JT.",
+      "asr_indices": [
+        4
+      ],
+      "asr_text": "sixty two lewin road streatham sw sixteen six j t",
+      "asr_confidences": [
+        0.9375
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 0.980"
+    },
+    {
+      "golden_indices": [
+        4
+      ],
+      "golden_text": "Yes.",
+      "asr_indices": [
+        5
+      ],
+      "asr_text": "yes",
+      "asr_confidences": [
+        0.99365234
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        5
+      ],
+      "golden_text": "Yes, about fifteen minutes ago, I was gardening and, um, I was stung by wasp. Um, ran inside.",
+      "asr_indices": [
+        6
+      ],
+      "asr_text": "yeah so about fifteen minutes ago i was gardening and i was stung by a wasp ran inside",
+      "asr_confidences": [
+        0.9833984250000001
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        6
+      ],
+      "golden_text": "And now I'm, um, just starting to notice a few things. Yeah, I'm having quite shallow breath.",
+      "asr_indices": [
+        7
+      ],
+      "asr_text": "and now i'm just starting to notice a few things yeah i'm having quite shallow",
+      "asr_confidences": [
+        0.95043945
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        7
+      ],
+      "golden_text": "Not throat, but I can , yeah, I can I can definitely feel something in the lips, yeah.",
+      "asr_indices": [
+        9
+      ],
+      "asr_text": "not so but i can i yeah i can i can definitely feel something in the lips yeah",
+      "asr_confidences": [
+        0.99609375
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        8
+      ],
+      "golden_text": "Yes, yeah.",
+      "asr_indices": [
+        10
+      ],
+      "asr_text": "yes yeah",
+      "asr_confidences": [
+        0.9995117
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        9
+      ],
+      "golden_text": "Alright. I mean, you know, to be honest, I'm just doing this to establish whether I should go to the hospital.",
+      "asr_indices": [
+        11
+      ],
+      "asr_text": "i mean i've you know to be honest i'm just doing this to establish whether i should go to hospital",
+      "asr_confidences": [
+        0.9953613299999999
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        10
+      ],
+      "golden_text": "Uh, no.",
+      "asr_indices": [
+        12
+      ],
+      "asr_text": "no",
+      "asr_confidences": [
+        0.9875488
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 0.990"
+    },
+    {
+      "golden_indices": [
+        11
+      ],
+      "golden_text": "Uh, yeah. Um, a bit of tightness. Yeah, a bit of tightness, yeah.",
+      "asr_indices": [
+        13
+      ],
+      "asr_text": "yeah a bit of tightness yeah a bit of tightness yeah",
+      "asr_confidences": [
+        0.99560547
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 0.980"
+    },
+    {
+      "golden_indices": [
+        12
+      ],
+      "golden_text": "Uh, no, not really. Uh, a bit of eczema and I'm allergic to penicillin.",
+      "asr_indices": [
+        14
+      ],
+      "asr_text": "no not really a bit of eczema and i'm allergic to penicillin",
+      "asr_confidences": [
+        0.9953613299999999
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 0.980"
+    },
+    {
+      "golden_indices": [
+        13
+      ],
+      "golden_text": "Yes there's a bit of blotching .",
+      "asr_indices": [
+        16
+      ],
+      "asr_text": "yes there's a bit of blocking down here",
+      "asr_confidences": [
+        0.984375
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        14
+      ],
+      "golden_text": "I wouldn't even know what to take then.",
+      "asr_indices": [
+        17
+      ],
+      "asr_text": "i wouldn't even know what to take now",
+      "asr_confidences": [
+        0.9980469
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        15
+      ],
+      "golden_text": "Um, yes, I've used them for flying. I have aerosinusitis, so yes, I do",
+      "asr_indices": [
+        18
+      ],
+      "asr_text": "yes i've used them for flying i have aerocinocytosis so yes i do somewhere",
+      "asr_confidences": [
+        0.865722655
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.850"
+    },
+    {
+      "golden_indices": [
+        16
+      ],
+      "golden_text": "Yes, my wife can take me to the emergency room, yeah.",
+      "asr_indices": [
+        19
+      ],
+      "asr_text": "yes my wife can take me to the emergency room yeah",
+      "asr_confidences": [
+        0.9902344
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        17
+      ],
+      "golden_text": "OK. She's listening. I'll get her to call now, yeah",
+      "asr_indices": [
+        20
+      ],
+      "asr_text": "okay she's listening i'll get her to call now yep",
+      "asr_confidences": [
+        0.98828125
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 0.990"
+    },
+    {
+      "golden_indices": [
+        18
+      ],
+      "golden_text": "OK. Yeah. Alright, thank you. She's on it now. Yeah, she's on the phone.",
+      "asr_indices": [
+        21
+      ],
+      "asr_text": "yeah alright thank you she's on it now yeah she's on the phone yeah",
+      "asr_confidences": [
+        0.9970703
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        19
+      ],
+      "golden_text": "Alright, thank you for the advice .",
+      "asr_indices": [
+        22
+      ],
+      "asr_text": "alright thank you yeah right yeah",
+      "asr_confidences": [
+        0.9680176
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.600"
+    }
+  ],
+  "summary": {
+    "total_alignments": 20,
+    "golden_coverage_percent": 100.0,
+    "asr_usage_percent": 91.3
+  }
+}

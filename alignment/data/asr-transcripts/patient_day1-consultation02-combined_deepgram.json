@@ -1,0 +1,472 @@
+[
+  {
+    "id": "e73ccc69-42b7-4012-9fb8-1f2ed15759f0",
+    "text": "hello",
+    "final": true,
+    "confidence": 0.84277344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:37:47.934Z",
+    "startedAt": "2025-10-02T12:37:46.271Z",
+    "endedAt": "2025-10-02T12:37:46.672Z"
+  },
+  {
+    "id": "9c7c8dc1-f50e-46c4-ae60-8f1fb32ca2e0",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.9875488,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:37:57.267Z",
+    "startedAt": "2025-10-02T12:37:55.702Z",
+    "endedAt": "2025-10-02T12:37:56.102Z"
+  },
+  {
+    "id": "9141c864-002f-466c-be14-7f7263f534c6",
+    "text": "yes so it's been a few days now i have like a sore and a red skin it's kind of itchy and it's like super annoying so i'd like to find something quick to solve it",
+    "final": true,
+    "confidence": 0.994262695,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:11.618Z",
+    "startedAt": "2025-10-02T12:37:59.412Z",
+    "endedAt": "2025-10-02T12:38:10.602Z"
+  },
+  {
+    "id": "e03f5a25-81f1-4cf6-95df-323956dc7e45",
+    "text": "mostly like my chest my my hand my arm like",
+    "final": true,
+    "confidence": 0.91833495,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:20.859Z",
+    "startedAt": "2025-10-02T12:38:15.822Z",
+    "endedAt": "2025-10-02T12:38:19.752Z"
+  },
+  {
+    "id": "5d5d6314-fc26-4568-8370-6895f903427e",
+    "text": "i agree it's it's super annoying like it's itching a lot like all the time and i can't even sleep at night like i really need something quickly to solve it because even at work i",
+    "final": true,
+    "confidence": 0.97347006,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:30.369Z",
+    "startedAt": "2025-10-02T12:38:20.232Z",
+    "endedAt": "2025-10-02T12:38:29.392Z"
+  },
+  {
+    "id": "fc003c41-3872-4d49-9169-e8090026e0c6",
+    "text": "like when i'm in the meeting and i have to like think about my work and focus like actually focus on my work it's really annoying because i can't actually think about what i have to say i'm always like disturbed by this disease and so yes earlier i was like prescribed for my eczema",
+    "final": true,
+    "confidence": 0.9407226600000002,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:59.166Z",
+    "startedAt": "2025-10-02T12:38:29.792Z",
+    "endedAt": "2025-10-02T12:38:58.112Z"
+  },
+  {
+    "id": "2468ac8e-1676-44d8-8889-a5332a143eab",
+    "text": "they gave me like some cream and something to when i like was shower when i was in the shower had to put something",
+    "final": true,
+    "confidence": 0.9980469,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:08.294Z",
+    "startedAt": "2025-10-02T12:39:00.042Z",
+    "endedAt": "2025-10-02T12:39:07.172Z"
+  },
+  {
+    "id": "badeb796-ae0f-4876-b88f-feeeb933ddee",
+    "text": "and i mean at that time yes but the symptoms like these symptoms are like",
+    "final": true,
+    "confidence": 0.980834965,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:17.516Z",
+    "startedAt": "2025-10-02T12:39:12.062Z",
+    "endedAt": "2025-10-02T12:39:16.582Z"
+  },
+  {
+    "id": "f3345558-71d2-4bee-88c9-8698867e1164",
+    "text": "when the systems appeared again i tried those and it didn't work i've tried a few things like i bought like a spirit cream at the pharmacy last night but it apparently didn't help because it's still each meal up today",
+    "final": true,
+    "confidence": 0.9752604166666666,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:30.154Z",
+    "startedAt": "2025-10-02T12:39:17.012Z",
+    "endedAt": "2025-10-02T12:39:28.362Z"
+  },
+  {
+    "id": "d5a89b93-70fb-4a31-a58f-f3e9af0fa21d",
+    "text": "steroid cream",
+    "final": true,
+    "confidence": 0.8310547,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:34.858Z",
+    "startedAt": "2025-10-02T12:39:32.922Z",
+    "endedAt": "2025-10-02T12:39:33.962Z"
+  },
+  {
+    "id": "2e0727a1-216e-4bd0-8e0a-255e41a82471",
+    "text": "and",
+    "final": true,
+    "confidence": 0.60253906,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:44.576Z",
+    "startedAt": "2025-10-02T12:39:42.662Z",
+    "endedAt": "2025-10-02T12:39:43.142Z"
+  },
+  {
+    "id": "315300a0-da2f-49da-a772-8c93cdafa0b2",
+    "text": "it's much more like itchy and my eczema was more like only in the arms and now also on the chest and in the in the on the hands as well like yeah when like i like for instance hiking during the weekends and i i can't really do it anymore because it's like very like like i wanted to do that last weekend and it was super painful and i i have to take like showers every day to be able to kind of ease this itching part which is very very annoying",
+    "final": true,
+    "confidence": 0.9852818071428573,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:14.773Z",
+    "startedAt": "2025-10-02T12:39:44.302Z",
+    "endedAt": "2025-10-02T12:40:13.762Z"
+  },
+  {
+    "id": "1a5a9f18-6284-47bc-8f03-614a764da672",
+    "text": "yeah",
+    "final": true,
+    "confidence": 0.77319336,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:18.375Z",
+    "startedAt": "2025-10-02T12:40:17.182Z",
+    "endedAt": "2025-10-02T12:40:17.421Z"
+  },
+  {
+    "id": "f58986da-884d-4ee6-b958-0d167fb550bb",
+    "text": "yeah exactly",
+    "final": true,
+    "confidence": 0.7819824,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:21.561Z",
+    "startedAt": "2025-10-02T12:40:19.792Z",
+    "endedAt": "2025-10-02T12:40:20.511Z"
+  },
+  {
+    "id": "2e9eb91b-076b-4796-aedb-d280d6eeaed5",
+    "text": "no so my team is a bit cracked in some part like kind of cracked if you see what i mean but yeah",
+    "final": true,
+    "confidence": 0.9944661466666666,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:35.213Z",
+    "startedAt": "2025-10-02T12:40:26.372Z",
+    "endedAt": "2025-10-02T12:40:34.182Z"
+  },
+  {
+    "id": "262bd2c1-792a-4aae-9580-983c6273fcbc",
+    "text": "no",
+    "final": true,
+    "confidence": 0.9790039,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:41.542Z",
+    "startedAt": "2025-10-02T12:40:39.972Z",
+    "endedAt": "2025-10-02T12:40:40.372Z"
+  },
+  {
+    "id": "02d64bc6-198d-4b9b-acd6-43da5bc60436",
+    "text": "four days ago",
+    "final": true,
+    "confidence": 0.9921875,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:45.449Z",
+    "startedAt": "2025-10-02T12:40:43.822Z",
+    "endedAt": "2025-10-02T12:40:44.541Z"
+  },
+  {
+    "id": "99befded-f461-48fd-b9c3-fdae81088788",
+    "text": "no it's actually like it's really annoying because i'm thinking about maybe i should change something because i i haven't and i don't understand and i'm kind of",
+    "final": true,
+    "confidence": 0.9584961033333332,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:08.723Z",
+    "startedAt": "2025-10-02T12:40:58.342Z",
+    "endedAt": "2025-10-02T12:41:07.692Z"
+  },
+  {
+    "id": "e013f6b3-e598-40fa-b9dd-99a7c63b2d1c",
+    "text": "afraid of asking people around me because it cannot you know i don't feel really comfortable asking about these questions it's kind of intimate and so i will see your head now",
+    "final": true,
+    "confidence": 0.9619140533333334,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:18.751Z",
+    "startedAt": "2025-10-02T12:41:08.792Z",
+    "endedAt": "2025-10-02T12:41:17.812Z"
+  },
+  {
+    "id": "af30e162-824c-4923-ba30-8ec33763243e",
+    "text": "and no just the chest hand and like",
+    "final": true,
+    "confidence": 0.84008789,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:36.286Z",
+    "startedAt": "2025-10-02T12:41:32.402Z",
+    "endedAt": "2025-10-02T12:41:35.372Z"
+  },
+  {
+    "id": "ced3b4b5-4afa-4013-9c58-0670e5db7ee6",
+    "text": "in my what",
+    "final": true,
+    "confidence": 0.96875,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:42.618Z",
+    "startedAt": "2025-10-02T12:41:40.992Z",
+    "endedAt": "2025-10-02T12:41:41.632Z"
+  },
+  {
+    "id": "1401e719-d1e9-4dad-a061-f21319ae8c77",
+    "text": "oh on my face no",
+    "final": true,
+    "confidence": 0.9645996,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:45.622Z",
+    "startedAt": "2025-10-02T12:41:43.482Z",
+    "endedAt": "2025-10-02T12:41:44.602Z"
+  },
+  {
+    "id": "1acb6d6e-e20a-4532-8b7b-9d40aabb41a6",
+    "text": "no just very cheap",
+    "final": true,
+    "confidence": 0.9926758,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:54.244Z",
+    "startedAt": "2025-10-02T12:41:51.722Z",
+    "endedAt": "2025-10-02T12:41:53.322Z"
+  },
+  {
+    "id": "2e308c02-9e60-4b25-a297-58c719301756",
+    "text": "no",
+    "final": true,
+    "confidence": 0.904541,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:04.274Z",
+    "startedAt": "2025-10-02T12:42:02.832Z",
+    "endedAt": "2025-10-02T12:42:03.232Z"
+  },
+  {
+    "id": "34950b2a-9535-4ce1-8f66-8bc2607f4414",
+    "text": "i i think so",
+    "final": true,
+    "confidence": 0.9941406,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:09.392Z",
+    "startedAt": "2025-10-02T12:42:07.342Z",
+    "endedAt": "2025-10-02T12:42:08.382Z"
+  },
+  {
+    "id": "6567ae1d-722c-48ac-98d3-ef16ef2fe8a3",
+    "text": "and you what",
+    "final": true,
+    "confidence": 0.80200195,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:19.723Z",
+    "startedAt": "2025-10-02T12:42:18.022Z",
+    "endedAt": "2025-10-02T12:42:18.662Z"
+  },
+  {
+    "id": "821ad08b-634a-4acd-a4f4-100a23c522df",
+    "text": "and i so i had eczema before so maybe it's this but it seems like more",
+    "final": true,
+    "confidence": 0.99707032,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:28.446Z",
+    "startedAt": "2025-10-02T12:42:22.332Z",
+    "endedAt": "2025-10-02T12:42:26.992Z"
+  },
+  {
+    "id": "b5723154-e46a-4ef0-9fdc-e99e52121ee4",
+    "text": "like my was only on the arm so i'm i'm not sure i i really have no idea yes",
+    "final": true,
+    "confidence": 0.84234619,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:49.406Z",
+    "startedAt": "2025-10-02T12:42:27.902Z",
+    "endedAt": "2025-10-02T12:42:47.882Z"
+  },
+  {
+    "id": "32359961-9169-44c4-84a3-f1c68d5b59ff",
+    "text": "no i just had asthma in the past but not anymore",
+    "final": true,
+    "confidence": 0.9970703000000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:08.671Z",
+    "startedAt": "2025-10-02T12:43:03.932Z",
+    "endedAt": "2025-10-02T12:43:07.862Z"
+  },
+  {
+    "id": "7036606a-c48f-4df6-a71a-8acce5d60e20",
+    "text": "no",
+    "final": true,
+    "confidence": 0.9592285,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:14.694Z",
+    "startedAt": "2025-10-02T12:43:13.342Z",
+    "endedAt": "2025-10-02T12:43:13.662Z"
+  },
+  {
+    "id": "696de585-6255-4423-a48a-6702bc8fe6b8",
+    "text": "i like something sorry yeah",
+    "final": true,
+    "confidence": 0.8354492,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:19.710Z",
+    "startedAt": "2025-10-02T12:43:15.742Z",
+    "endedAt": "2025-10-02T12:43:18.302Z"
+  },
+  {
+    "id": "e0c6a7a4-ca3e-4548-91b2-e1ba8801e8e7",
+    "text": "hello yes",
+    "final": true,
+    "confidence": 0.98828125,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:32.538Z",
+    "startedAt": "2025-10-02T12:43:30.671Z",
+    "endedAt": "2025-10-02T12:43:31.472Z"
+  },
+  {
+    "id": "a8f8bdb3-16c2-4b3b-9c54-03d60f073ae5",
+    "text": "oh no",
+    "final": true,
+    "confidence": 0.9782715,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:38.348Z",
+    "startedAt": "2025-10-02T12:43:35.852Z",
+    "endedAt": "2025-10-02T12:43:37.452Z"
+  },
+  {
+    "id": "083f5baf-98a3-4760-a0f9-0a2184f71127",
+    "text": "so i live with a few flatmates i'm so you know i'm thirty one i yeah i'm i have a full time job and so i'm living with the people to save money",
+    "final": true,
+    "confidence": 0.9752604166666666,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:57.849Z",
+    "startedAt": "2025-10-02T12:43:46.512Z",
+    "endedAt": "2025-10-02T12:43:56.792Z"
+  },
+  {
+    "id": "010f7e94-49d6-4d7b-8697-49a8cb908ec9",
+    "text": "i work at a pharmaceutical company so it's been it's been a few years now it's it's kind of interesting we are working on a like a kind of project manager i mean",
+    "final": true,
+    "confidence": 0.96907553,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:14.496Z",
+    "startedAt": "2025-10-02T12:44:01.832Z",
+    "endedAt": "2025-10-02T12:44:12.982Z"
+  },
+  {
+    "id": "0d9206bf-3e46-4560-8ffa-4680b0f19571",
+    "text": "no",
+    "final": true,
+    "confidence": 0.9758301,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:27.296Z",
+    "startedAt": "2025-10-02T12:44:25.922Z",
+    "endedAt": "2025-10-02T12:44:26.242Z"
+  },
+  {
+    "id": "2b8fe4da-42e7-4346-b2dd-21ce74361d71",
+    "text": "you know once in a while i can i like hanging out with people once in a while so yeah i'd say a few a few beers per week something like this nothing nothing crazy i used to drink a lot more when i was younger but it's been",
+    "final": true,
+    "confidence": 0.99389649,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:42.179Z",
+    "startedAt": "2025-10-02T12:44:30.162Z",
+    "endedAt": "2025-10-02T12:44:41.172Z"
+  },
+  {
+    "id": "096fa6d6-5ad3-44e4-8dd7-a011319f92ae",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.98657227,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:23.584Z",
+    "startedAt": "2025-10-02T12:45:22.002Z",
+    "endedAt": "2025-10-02T12:45:22.481Z"
+  },
+  {
+    "id": "abdd0142-5622-4ea0-8b93-563422e869e9",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.9916992,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:30.626Z",
+    "startedAt": "2025-10-02T12:45:29.171Z",
+    "endedAt": "2025-10-02T12:45:29.491Z"
+  },
+  {
+    "id": "0a7efad8-119f-4fa0-b7b1-6b9413ad6081",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.9914551,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:37.751Z",
+    "startedAt": "2025-10-02T12:45:36.361Z",
+    "endedAt": "2025-10-02T12:45:36.762Z"
+  },
+  {
+    "id": "02a1782e-7ba2-40ae-97a0-80fbd6ca8ec5",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.99316406,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:52.175Z",
+    "startedAt": "2025-10-02T12:45:50.702Z",
+    "endedAt": "2025-10-02T12:45:51.182Z"
+  },
+  {
+    "id": "94d87a7c-db87-488d-8058-a97e02d66bf7",
+    "text": "okay just i i have tried antihistamine lately but it didn't really help",
+    "final": true,
+    "confidence": 0.989013675,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:46:13.043Z",
+    "startedAt": "2025-10-02T12:46:06.912Z",
+    "endedAt": "2025-10-02T12:46:12.152Z"
+  },
+  {
+    "id": "bf2d9eb7-7fd9-4978-9a4b-2ce7bdc9efc1",
+    "text": "i have tried the antihistamines but it's",
+    "final": true,
+    "confidence": 0.99194335,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:46:20.470Z",
+    "startedAt": "2025-10-02T12:46:15.161Z",
+    "endedAt": "2025-10-02T12:46:18.722Z"
+  },
+  {
+    "id": "1f23c4fc-5ff0-4844-b1dc-b0d556708302",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.8630371,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:46:27.983Z",
+    "startedAt": "2025-10-02T12:46:26.601Z",
+    "endedAt": "2025-10-02T12:46:26.922Z"
+  },
+  {
+    "id": "a5194b75-b9d7-4fb0-be20-c0c9cf947af7",
+    "text": "that sound good",
+    "final": true,
+    "confidence": 0.97998047,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:46:48.338Z",
+    "startedAt": "2025-10-02T12:46:46.492Z",
+    "endedAt": "2025-10-02T12:46:47.292Z"
+  },
+  {
+    "id": "be3614a2-05f6-41e6-98d1-3f9090d60710",
+    "text": "no that's it",
+    "final": true,
+    "confidence": 0.8977051,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:46:53.171Z",
+    "startedAt": "2025-10-02T12:46:50.892Z",
+    "endedAt": "2025-10-02T12:46:52.092Z"
+  },
+  {
+    "id": "001ace62-bdfe-4811-ba66-893fb8a4b18c",
+    "text": "thank you very much",
+    "final": true,
+    "confidence": 1,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:46:56.577Z",
+    "startedAt": "2025-10-02T12:46:54.682Z",
+    "endedAt": "2025-10-02T12:46:55.482Z"
+  }
+]
