@@ -39,6 +39,17 @@ Clinician-labelled clinical-impact benchmark
 ## 📄 Paper
 
 Preprint available on arXiv:
+https://arxiv.org/abs/2511.16544
 
 ## Citation
-
+```
+@misc{ellis2025werunawareassessingasr,
+      title={WER is Unaware: Assessing How ASR Errors Distort Clinical Understanding in Patient Facing Dialogue}, 
+      author={Zachary Ellis and Jared Joselowitz and Yash Deo and Yajie He and Anna Kalygina and Aisling Higham and Mana Rahimzadeh and Yan Jia and Ibrahim Habli and Ernest Lim},
+      year={2025},
+      eprint={2511.16544},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2511.16544}, 
+}
+```
