@@ -1,0 +1,42 @@
+{
+  "description": "Manual groundtruth alignment for golden_sample vs patient_sample",
+  "created_by": "human_expert",
+  "total_golden_utterances": 3,
+  "total_asr_results": 3,
+  "unused_golden_results": [],
+  "unused_asr_results": [],
+  "alignments": [
+    {
+      "golden_indices": [0],
+      "golden_text": "Hello doctor.",
+      "asr_indices": [0],
+      "asr_text": "Hello doctor",
+      "asr_confidences": [0.98],
+      "match_type": "exact",
+      "notes": ""
+    },
+    {
+      "golden_indices": [1],
+      "golden_text": "I have some pain in my eye.",
+      "asr_indices": [1],
+      "asr_text": "I have some pain in my eye",
+      "asr_confidences": [0.95],
+      "match_type": "exact",
+      "notes": ""
+    },
+    {
+      "golden_indices": [2],
+      "golden_text": "It started yesterday.",
+      "asr_indices": [2],
+      "asr_text": "It started yesterday",
+      "asr_confidences": [0.93],
+      "match_type": "exact",
+      "notes": ""
+    }
+  ],
+  "summary": {
+    "total_alignments": 3,
+    "golden_coverage_percent": 100.0,
+    "asr_usage_percent": 100.0
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "description": "LLM-generated alignment for golden_day2-consultation02-combined.json vs patient_day2-consultation02-combined_deepgram.json",
+  "created_by": "llm_aligner",
+  "total_golden_utterances": 41,
+  "total_asr_results": 59,
+  "unused_golden_results": [
+    {
+      "golden_index": 28,
+      "golden_text": "OK."
+    },
+    {
+      "golden_index": 40,
+      "golden_text": "Bye."
+    }
+  ],
+  "unused_asr_results": [],
+  "alignments": [
+    {
+      "golden_indices": [
+        0
+      ],
+      "golden_text": "Hello, good morning.",
+      "asr_indices": [
+        0
+      ],
+      "asr_text": "hello good morning",
+      "asr_confidences": [
+        0.99853516
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        1
+      ],
+      "golden_text": "Nice to see you.",
+      "asr_indices": [
+        1
+      ],
+      "asr_text": "nice to see you",
+      "asr_confidences": [
+        0.9921875
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        2
+      ],
+      "golden_text": "Yes. Uh, my name is John Smith. And I was born on the fifth of April, uh, nineteen seventy three.",
+      "asr_indices": [
+        2,
+        3
+      ],
+      "asr_text": "yes my name is john smith i was born on the fifth of april nineteen",
+      "asr_confidences": [
+        0.9807129,
+        1
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        3
+      ],
+      "golden_text": "Yes. .",
+      "asr_indices": [
+        4
+      ],
+      "asr_text": "yes certainly",
+      "asr_confidences": [
+        0.9577637
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        4
+      ],
+      "golden_text": "Yeah. Um, I just noticed this like about a week ago, or something? Um, have like a weird swelling on, on, on my elbow. I noticed that when I was in the shower. Uh, It's not painful at all, or like, I I feel fine. But it's just, just a bit, a bit weird, to see that. Um, it's, it's slightly warm. Um, and I, I, cannot feel like this, little bit fluid in inside, or, uh, um?",
+      "asr_indices": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "asr_text": "yeah i just noticed this like about a week ago or something i have like a weird swelling on on on my elbow i noticed that when i was in the shower it's not painful at all like i i fine but it's just it's it's slightly warm and i i kinda feel like a bit fluid in inside the i'm",
+      "asr_confidences": [
+        0.9853515500000001,
+        0.9907226499999999,
+        0.99609375,
+        0.9875488,
+        0.99609375,
+        0.9863281
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.850"
+    },
+    {
+      "golden_indices": [
+        5
+      ],
+      "golden_text": "So, I, I like to know what's going on with .",
+      "asr_indices": [
+        11
+      ],
+      "asr_text": "so i i i have to know what's going on",
+      "asr_confidences": [
+        0.9902344
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        6
+      ],
+      "golden_text": "Um, it's the, the left elbow.",
+      "asr_indices": [
+        12
+      ],
+      "asr_text": "it's the",
+      "asr_confidences": [
+        0.99609375
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.400"
+    },
+    {
+      "golden_indices": [
+        7
+      ],
+      "golden_text": "No, not really. Um, not that I know of. I haven't noticed anything. I can actually like move it normally. Um, it's just, I , I can just see that. It feels a bit strange, a bit",
+      "asr_indices": [
+        13,
+        14,
+        15
+      ],
+      "asr_text": "no not really not that i know of i haven't noticed anything i can actually like fit normally i i can just see that it's a bit",
+      "asr_confidences": [
+        0.9987793,
+        0.9970703,
+        0.96240234
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        8
+      ],
+      "golden_text": "Not really. No, I just, you know sit at a desk. Um, yeah.",
+      "asr_indices": [
+        16,
+        17
+      ],
+      "asr_text": "not really no i just yeah",
+      "asr_confidences": [
+        0.9875488,
+        0.98535156
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.600"
+    },
+    {
+      "golden_indices": [
+        9
+      ],
+      "golden_text": "No, no I haven't noticed that before. Um, I don't have any like history of, of seeing this. I don't remember at at all.",
+      "asr_indices": [
+        18,
+        19
+      ],
+      "asr_text": "no no i haven't noticed that before i don't have any like history of of seeing this i don't remember at at at at all",
+      "asr_confidences": [
+        0.9941406,
+        0.9716797
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        10
+      ],
+      "golden_text": "Um, no, well I, I do, well I think, I think I have something like uh, osteoarthritis. Um, Uh, uh, it sometimes kind of hurts, uh, my joints. But uh, in my family, I'm not sure.",
+      "asr_indices": [
+        20,
+        21,
+        22
+      ],
+      "asr_text": "oh well i i do well i think i think i have something like authorized it sometimes kind of helps my joints",
+      "asr_confidences": [
+        0.99902344,
+        0.99609375,
+        0.9770508
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        11
+      ],
+      "golden_text": "I don't know. No.",
+      "asr_indices": [
+        23
+      ],
+      "asr_text": "i don't know",
+      "asr_confidences": [
+        0.939209
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        12
+      ],
+      "golden_text": "Um, yes. Yes, a few years ago.",
+      "asr_indices": [
+        24
+      ],
+      "asr_text": "yes just a few years ago",
+      "asr_confidences": [
+        0.97265625
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        13
+      ],
+      "golden_text": "a a GP. Um, yeah.",
+      "asr_indices": [
+        25
+      ],
+      "asr_text": "gp yeah",
+      "asr_confidences": [
+        0.9394531
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        14
+      ],
+      "golden_text": "I'm uh, fifty three.",
+      "asr_indices": [
+        26
+      ],
+      "asr_text": "i'm fifty three",
+      "asr_confidences": [
+        0.92578125
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        15
+      ],
+      "golden_text": "Um, Well not, not really, no. Um, I'm, I'm allergic to, to peanuts. Um, but that's, that's pretty much all I uh, have to say about my medical history, yeah.",
+      "asr_indices": [
+        27
+      ],
+      "asr_text": "well not not for you know so for you i'm i'm allergic to to peanuts but that's pretty cool i have to say about my",
+      "asr_confidences": [
+        0.82836914
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.500"
+    },
+    {
+      "golden_indices": [
+        16
+      ],
+      "golden_text": "Uh, no. Not that I know of.",
+      "asr_indices": [
+        28
+      ],
+      "asr_text": "no",
+      "asr_confidences": [
+        0.9782715
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.400"
+    },
+    {
+      "golden_indices": [
+        17
+      ],
+      "golden_text": "Uh, no.",
+      "asr_indices": [
+        29
+      ],
+      "asr_text": "no",
+      "asr_confidences": [
+        0.8713379
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        18
+      ],
+      "golden_text": "yeah. I do, I do, I do some sports. I run regularly, like two, three times a week. Um, yeah, no, I'm, think I'm healthy.",
+      "asr_indices": [
+        30,
+        31
+      ],
+      "asr_text": "i do i do i do some sports i run regularly like two three times a week think i'm healthy",
+      "asr_confidences": [
+        0.9931640749999999,
+        0.99853516
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        19
+      ],
+      "golden_text": "Uh, yeah, sure.",
+      "asr_indices": [
+        32
+      ],
+      "asr_text": "yes sure",
+      "asr_confidences": [
+        0.99316406
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        20
+      ],
+      "golden_text": "Yeah. It's a bit warm, yes.",
+      "asr_indices": [
+        33,
+        34
+      ],
+      "asr_text": "yeah it's a bit warm yes",
+      "asr_confidences": [
+        0.7470703,
+        0.9680176
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        21
+      ],
+      "golden_text": "On the, on the tip of the elbow, it's, it's OK, just like, next to it like where the, the swelling is, it's a bit, yeah it feels weird.",
+      "asr_indices": [
+        35,
+        36,
+        37
+      ],
+      "asr_text": "on the on the tip of the elbow it's it's okay just like next to it like where the the swelling is it's a bit yeah it feels a bit fluid",
+      "asr_confidences": [
+        0.9970703,
+        0.96313477,
+        0.88842773
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        22
+      ],
+      "golden_text": "Uh, no not really. I have skin really dry now.",
+      "asr_indices": [
+        38
+      ],
+      "asr_text": "no not really i have",
+      "asr_confidences": [
+        0.92089844
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.600"
+    },
+    {
+      "golden_indices": [
+        23
+      ],
+      "golden_text": "No.",
+      "asr_indices": [
+        39
+      ],
+      "asr_text": "no not at all",
+      "asr_confidences": [
+        0.9506836
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.600"
+    },
+    {
+      "golden_indices": [
+        24
+      ],
+      "golden_text": "OK.",
+      "asr_indices": [
+        40
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.9838867
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        25
+      ],
+      "golden_text": "Alright.",
+      "asr_indices": [
+        41
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.8474121
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        26
+      ],
+      "golden_text": "OK.",
+      "asr_indices": [
+        42
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.9760742
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        27
+      ],
+      "golden_text": "K . O",
+      "asr_indices": [
+        43,
+        44
+      ],
+      "asr_text": "k k",
+      "asr_confidences": [
+        0.8442383,
+        0.84106445
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        29
+      ],
+      "golden_text": "Mm-hmm.",
+      "asr_indices": [
+        45
+      ],
+      "asr_text": "mhmm",
+      "asr_confidences": [
+        0.9448242
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        30
+      ],
+      "golden_text": "Yeah.",
+      "asr_indices": [
+        46
+      ],
+      "asr_text": "yeah",
+      "asr_confidences": [
+        0.90405273
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        31
+      ],
+      "golden_text": "OK.",
+      "asr_indices": [
+        47
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.9890137
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        32
+      ],
+      "golden_text": "do you, do you think it's something dangerous? Like something, like could I die from that, or is it, is it",
+      "asr_indices": [
+        48,
+        49
+      ],
+      "asr_text": "do do you think it's like",
+      "asr_confidences": [
+        0.9819336,
+        0.9172363
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.500"
+    },
+    {
+      "golden_indices": [
+        33
+      ],
+      "golden_text": "OK. Yeah, OK, I see.",
+      "asr_indices": [
+        50,
+        51
+      ],
+      "asr_text": "okay okay",
+      "asr_confidences": [
+        0.76416016,
+        0.8857422
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        34
+      ],
+      "golden_text": "OK.",
+      "asr_indices": [
+        52
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.98706055
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        35
+      ],
+      "golden_text": "Yeah that, that sounds good. Thank you.",
+      "asr_indices": [
+        53
+      ],
+      "asr_text": "yeah that that sounds good thank you",
+      "asr_confidences": [
+        0.99853516
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        36
+      ],
+      "golden_text": "Um, well just yeah I just wanted to know about this. Um, yeah it feels a bit better now . Uh, but yeah, no that's it. Thank you.",
+      "asr_indices": [
+        54
+      ],
+      "asr_text": "well just yeah i just wanted to know about this yeah it feels a bit better now to know that",
+      "asr_confidences": [
+        0.994140625
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        37
+      ],
+      "golden_text": "OK. Sure. thanks. Bye.",
+      "asr_indices": [
+        55
+      ],
+      "asr_text": "sure",
+      "asr_confidences": [
+        0.9790039
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.400"
+    },
+    {
+      "golden_indices": [
+        38
+      ],
+      "golden_text": "OK. OK, yeah that sounds good. I, I'll do that. And if I see that it's getting worse, I'll probably ask for a physical appointment.",
+      "asr_indices": [
+        56
+      ],
+      "asr_text": "okay yeah that sounds good i i'll i'll do that and if i see that it's getting worse i'll probably ask for it",
+      "asr_confidences": [
+        0.99609375
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        39
+      ],
+      "golden_text": "Thank you. Alright. Sounds",
+      "asr_indices": [
+        57,
+        58
+      ],
+      "asr_text": "thank thank you alright",
+      "asr_confidences": [
+        0.3864746,
+        0.7414551
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.800"
+    }
+  ],
+  "summary": {
+    "total_alignments": 39,
+    "golden_coverage_percent": 95.1,
+    "asr_usage_percent": 100.0
+  }
+}

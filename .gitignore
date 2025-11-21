@@ -1,0 +1,29 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual env / tooling
+.venv/
+.env
+.python-version
+.pytest_cache/
+.mypy_cache/
+.cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+.ipynb_checkpoints/
+
+# Generated outputs
+data/llm-alignments/*.json
+!data/llm-alignments/.gitkeep
+results/alignment-evaluation/*.json
+!results/alignment-evaluation/.gitkeep

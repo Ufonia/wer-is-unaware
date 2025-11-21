@@ -1,0 +1,739 @@
+{
+  "description": "LLM-generated alignment for golden_day2-consultation05-combined.json vs patient_day2-consultation05-combined_deepgram.json",
+  "created_by": "llm_aligner",
+  "total_golden_utterances": 50,
+  "total_asr_results": 56,
+  "unused_golden_results": [
+    {
+      "golden_index": 37,
+      "golden_text": "Yes."
+    },
+    {
+      "golden_index": 48,
+      "golden_text": "No, I think that covers, most of it."
+    },
+    {
+      "golden_index": 49,
+      "golden_text": ", thank you."
+    }
+  ],
+  "unused_asr_results": [],
+  "alignments": [
+    {
+      "golden_indices": [
+        0
+      ],
+      "golden_text": "Hi.",
+      "asr_indices": [
+        0
+      ],
+      "asr_text": "hi",
+      "asr_confidences": [
+        0.9104004
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        1,
+        2
+      ],
+      "golden_text": "Yeah, it's John Smith, and I am thirty two years old. I'm thirty two years old.",
+      "asr_indices": [
+        1
+      ],
+      "asr_text": "yes john smith and i am thirty two years old i'm thirty two years old",
+      "asr_confidences": [
+        0.97216798
+      ],
+      "match_type": "multi_golden",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        3
+      ],
+      "golden_text": "It's four Park Avenue, and it's AB one CB two.",
+      "asr_indices": [
+        2
+      ],
+      "asr_text": "it's four park avenue and it's a b one",
+      "asr_confidences": [
+        0.9790039
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        4
+      ],
+      "golden_text": "Yes.",
+      "asr_indices": [
+        3
+      ],
+      "asr_text": "yes",
+      "asr_confidences": [
+        0.7668457
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        5
+      ],
+      "golden_text": "Sorry, say that .",
+      "asr_indices": [
+        4
+      ],
+      "asr_text": "sorry say that to you",
+      "asr_confidences": [
+        0.9567871
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        6
+      ],
+      "golden_text": "So, um, I've been experiencing very weird symptoms, over the past month or so. And I don't know what's causing them. I have googled it and, um, nothing's coming up, so I thought I'd come and speak to you about it.",
+      "asr_indices": [
+        5,
+        6
+      ],
+      "asr_text": "so i've been experiencing very weird symptoms and i don't causing them i have googled it nothing's coming up i thought i'd come and speak to you about it",
+      "asr_confidences": [
+        0.9980469,
+        0.99121095
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        7
+      ],
+      "golden_text": "So, it started with, feeling very tired, but for a couple of days, and then I get back to normal. And then I started losing feeling, in my hands and arms. I get a weird sensation like, uh, I guess, pins and needles.",
+      "asr_indices": [
+        7,
+        8
+      ],
+      "asr_text": "so it started with getting very tired for a couple of days and then i get back to normal and then i started losing feeling in front of my hands and arms get a good sensation of i guess the needles",
+      "asr_confidences": [
+        0.94628906,
+        0.9151204333333333
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.850"
+    },
+    {
+      "golden_indices": [
+        8
+      ],
+      "golden_text": "And. Yeah, that's correct.",
+      "asr_indices": [
+        9
+      ],
+      "asr_text": "and yeah that's correct",
+      "asr_confidences": [
+        0.892334
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        9
+      ],
+      "golden_text": "My right hand.",
+      "asr_indices": [
+        10
+      ],
+      "asr_text": "my right hand",
+      "asr_confidences": [
+        0.9008789
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        10
+      ],
+      "golden_text": "Yes.",
+      "asr_indices": [
+        11
+      ],
+      "asr_text": "yes",
+      "asr_confidences": [
+        0.98999023
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        11
+      ],
+      "golden_text": "Yes, that's fine.",
+      "asr_indices": [
+        12
+      ],
+      "asr_text": "yes that's fine",
+      "asr_confidences": [
+        0.99853516
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        12
+      ],
+      "golden_text": "Uh, the pins and needles are in the hand, but I feel like my arm is getting weaker, but it only lasts few days and then goes back to normal. So, it's very weird.",
+      "asr_indices": [
+        13
+      ],
+      "asr_text": "the pins and needles are in the hand but i feel like my arm is getting weaker but it only last few days and then goes back to normal so it's very weird",
+      "asr_confidences": [
+        0.9934895833333334
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        13
+      ],
+      "golden_text": "Uh, my, colleague said, I'm walking slightly differently to normal. And again, it's only for three days, or three or four days.",
+      "asr_indices": [
+        14,
+        15
+      ],
+      "asr_text": "my colleague said i'm walking slightly differently to normal and again it's only for three days or three or four days",
+      "asr_confidences": [
+        0.9892578,
+        0.99902344
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        14
+      ],
+      "golden_text": "Yes.",
+      "asr_indices": [
+        16
+      ],
+      "asr_text": "yes",
+      "asr_confidences": [
+        0.9904785
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        15
+      ],
+      "golden_text": "Um, I generally feel tired, and weak. And, sometimes I feel nauseous, and I don't feel like I want to do anything.",
+      "asr_indices": [
+        17,
+        18
+      ],
+      "asr_text": "i generally feel tired and weak and sometimes i feel nauseous and i don't feel like i want to do anything",
+      "asr_confidences": [
+        0.9633789,
+        0.9921875
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        16
+      ],
+      "golden_text": "Yes.",
+      "asr_indices": [
+        19
+      ],
+      "asr_text": "yes",
+      "asr_confidences": [
+        0.9909668
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        17
+      ],
+      "golden_text": "Yeah, so, at the same time I get my arm symptoms, my leg feels weaker.",
+      "asr_indices": [
+        20
+      ],
+      "asr_text": "yes so at the same time i get my arm symptoms my leg feels weaker",
+      "asr_confidences": [
+        0.99902344
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        18
+      ],
+      "golden_text": "No, it has not. So normally, I'm, fit and well actually.",
+      "asr_indices": [
+        21
+      ],
+      "asr_text": "no it has not",
+      "asr_confidences": [
+        0.9980469
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.600"
+    },
+    {
+      "golden_indices": [
+        19
+      ],
+      "golden_text": "They have been getting more regular. So at the start, it would be maybe once a week, uh, to every once , once a month, but now it's getting uh, uh, a couple of times a day.",
+      "asr_indices": [
+        22,
+        23
+      ],
+      "asr_text": "they have been getting more regular so at the start it would be to every once a a month but now it's getting a couple of times a day",
+      "asr_confidences": [
+        0.9921875,
+        0.99584962
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        20
+      ],
+      "golden_text": ", probably a month and a half, maybe two months.",
+      "asr_indices": [
+        24
+      ],
+      "asr_text": "probably a month and a half maybe two months",
+      "asr_confidences": [
+        0.96777344
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        21
+      ],
+      "golden_text": "So, recently I've noticed, I can't hold my cup of coffee. And when I, do drink coffee, it's slightly harder to drink. And that's only been in the last couple of days, I guess.",
+      "asr_indices": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "asr_text": "so recently i've noticed i can't hold my cup of coffee do drink coffee it's slightly harder to drink and that's only been in the last couple of days i guess",
+      "asr_confidences": [
+        0.84228516,
+        0.9995117,
+        0.99902344,
+        1
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        22
+      ],
+      "golden_text": "Only during the episodes.",
+      "asr_indices": [
+        29
+      ],
+      "asr_text": "only during the episodes",
+      "asr_confidences": [
+        0.9970703
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        23
+      ],
+      "golden_text": "Not currently, no.",
+      "asr_indices": [
+        30
+      ],
+      "asr_text": "not currently no",
+      "asr_confidences": [
+        0.99316406
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        24
+      ],
+      "golden_text": "I, I, I feel like there's something in my throat.",
+      "asr_indices": [
+        31
+      ],
+      "asr_text": "i i i feel like there's something in my throat",
+      "asr_confidences": [
+        0.9980469
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        25
+      ],
+      "golden_text": "No, I can speak fine.",
+      "asr_indices": [
+        32
+      ],
+      "asr_text": "no i can speak fine",
+      "asr_confidences": [
+        0.99902344
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        26
+      ],
+      "golden_text": "I, I don't think so, but I wear glasses.",
+      "asr_indices": [
+        33
+      ],
+      "asr_text": "i don't think so but i wear glasses",
+      "asr_confidences": [
+        0.99902344
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        27
+      ],
+      "golden_text": "Uh, yes. My, father has had a, operation to the side of his neck, to reduce the risk of stroke.",
+      "asr_indices": [
+        34,
+        35
+      ],
+      "asr_text": "yes my operation to the side of his neck",
+      "asr_confidences": [
+        0.99902344,
+        1
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.500"
+    },
+    {
+      "golden_indices": [
+        28
+      ],
+      "golden_text": "No, so after my, dad had his operation, I was required to be checked, and my cholesterol , was fine.",
+      "asr_indices": [
+        36
+      ],
+      "asr_text": "no so after my dad had his operation i was required to be checked and my cholesterol was fine",
+      "asr_confidences": [
+        0.99951172
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        29
+      ],
+      "golden_text": "Yeah. They checked my diabetes, my blood pressure and my, cholesterol, and the doctor said it was all OK.",
+      "asr_indices": [
+        37,
+        38
+      ],
+      "asr_text": "yeah they checked my diabetes my blood pressure and my cholesterol and the doctor said it was all okay",
+      "asr_confidences": [
+        0.8720703,
+        0.99902344
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        30
+      ],
+      "golden_text": "No.",
+      "asr_indices": [
+        39
+      ],
+      "asr_text": "no",
+      "asr_confidences": [
+        0.779541
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        31
+      ],
+      "golden_text": "I take an aspirin, seventy five milligrams, once a day, but that's, because of something I read on the internet.",
+      "asr_indices": [
+        40
+      ],
+      "asr_text": "i take an aspirin seventy five milligrams once a day but that's",
+      "asr_confidences": [
+        0.99609375
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        32
+      ],
+      "golden_text": "I think it's, meant to reduce your risk of stroke and heart attack.",
+      "asr_indices": [
+        41
+      ],
+      "asr_text": "i think it's meant to reduce your risk of stroke and heart attack",
+      "asr_confidences": [
+        0.9621582
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        33
+      ],
+      "golden_text": "Yes I took, I started to , taking it after my, father had his operation, but that wasn't the doctor telling me.",
+      "asr_indices": [
+        42
+      ],
+      "asr_text": "yes i took i started taking it after my father had his operation",
+      "asr_confidences": [
+        0.9980469
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        34
+      ],
+      "golden_text": "No, I haven't.",
+      "asr_indices": [
+        43
+      ],
+      "asr_text": "no i haven't",
+      "asr_confidences": [
+        0.9659831
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        35
+      ],
+      "golden_text": "Yes, I am.",
+      "asr_indices": [
+        44
+      ],
+      "asr_text": "yes i am",
+      "asr_confidences": [
+        0.9326172
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        36
+      ],
+      "golden_text": "Uh, I'm, uh, I'm actually a doctor.",
+      "asr_indices": [
+        45
+      ],
+      "asr_text": "i'm i'm actually a doctor",
+      "asr_confidences": [
+        0.9675293
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        38
+      ],
+      "golden_text": "I work in, uh, plastic surgery.",
+      "asr_indices": [
+        46
+      ],
+      "asr_text": "i work in a plastic surgery",
+      "asr_confidences": [
+        0.9980469
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        39
+      ],
+      "golden_text": "I'm allergic to penicillin only.",
+      "asr_indices": [
+        47
+      ],
+      "asr_text": "i'm allergic to penicillin only",
+      "asr_confidences": [
+        0.99121094
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        40
+      ],
+      "golden_text": "No, I live with my wife.",
+      "asr_indices": [
+        48
+      ],
+      "asr_text": "no i live with my wife",
+      "asr_confidences": [
+        1
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        41
+      ],
+      "golden_text": "No, I don't.",
+      "asr_indices": [
+        49
+      ],
+      "asr_text": "no i don't",
+      "asr_confidences": [
+        0.9938151
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        42
+      ],
+      "golden_text": "Uh, I've actually, got no idea.",
+      "asr_indices": [
+        50
+      ],
+      "asr_text": "i've absolutely got no idea",
+      "asr_confidences": [
+        0.94384766
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        43
+      ],
+      "golden_text": "OK.",
+      "asr_indices": [
+        51
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.8874512
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        44
+      ],
+      "golden_text": "No, I'm perfectly fine at the moment.",
+      "asr_indices": [
+        52
+      ],
+      "asr_text": "no i'm perfectly fine at the moment",
+      "asr_confidences": [
+        1
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        45
+      ],
+      "golden_text": "Sure.",
+      "asr_indices": [
+        53
+      ],
+      "asr_text": "sure",
+      "asr_confidences": [
+        0.9946289
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        46
+      ],
+      "golden_text": "Sure.",
+      "asr_indices": [
+        54
+      ],
+      "asr_text": "sure",
+      "asr_confidences": [
+        0.9135742
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        47
+      ],
+      "golden_text": "OK.",
+      "asr_indices": [
+        55
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.9797363
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    }
+  ],
+  "summary": {
+    "total_alignments": 46,
+    "golden_coverage_percent": 94.0,
+    "asr_usage_percent": 100.0
+  }
+}

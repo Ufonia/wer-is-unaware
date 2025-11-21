@@ -1,0 +1,547 @@
+{
+  "description": "LLM-generated alignment for golden_day3-consultation01-combined.json vs patient_day3-consultation01-combined_deepgram.json",
+  "created_by": "llm_aligner",
+  "total_golden_utterances": 36,
+  "total_asr_results": 49,
+  "unused_golden_results": [],
+  "unused_asr_results": [
+    {
+      "asr_index": 1,
+      "asr_text": "mhmm"
+    }
+  ],
+  "alignments": [
+    {
+      "golden_indices": [
+        0
+      ],
+      "golden_text": "Hi, hi I'm Maria.",
+      "asr_indices": [
+        0
+      ],
+      "asr_text": "hi hi amber",
+      "asr_confidences": [
+        0.8762207
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        1
+      ],
+      "golden_text": "I'm all right, thank you. Well I feel a little weird today, to be honest.",
+      "asr_indices": [
+        2
+      ],
+      "asr_text": "i'm alright thank you i feel a little weird today to be honest",
+      "asr_confidences": [
+        0.99169923
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        2
+      ],
+      "golden_text": "Yes. Maria Trabalotsa.",
+      "asr_indices": [
+        3
+      ],
+      "asr_text": "yes maria",
+      "asr_confidences": [
+        0.70501708
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.600"
+    },
+    {
+      "golden_indices": [
+        3
+      ],
+      "golden_text": "That is the first of October, ninety-nine.",
+      "asr_indices": [
+        4
+      ],
+      "asr_text": "that is the first of october",
+      "asr_confidences": [
+        0.8626708999999999
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        4
+      ],
+      "golden_text": "Yes, M Traba at Gmail dot com.",
+      "asr_indices": [
+        5,
+        6
+      ],
+      "asr_text": "yes at g mail dot com",
+      "asr_confidences": [
+        0.99194336,
+        0.9980469
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        5
+      ],
+      "golden_text": "Yes I think I am, yeah.",
+      "asr_indices": [
+        7
+      ],
+      "asr_text": "yep i think i am yeah",
+      "asr_confidences": [
+        0.9980469
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        6, 
+        7
+      ],
+      "golden_text": "Yeah that is, well, I don't think, I don't think it was, it it wasn't a sandwich but it was, it was something with prawn so. Basically, I, I sometimes go with my friends to, to this place called . And, we, we regularly have like usually I have like a normal vegetarian soup or something. And yeah, and, then I wanted to try something new.",
+      "asr_indices": [
+        8,
+        9
+      ],
+      "asr_text": "yeah that is well i don't think i don't think it was it it wasn't a sandwich but it was it was something with crumbs so basically i i sometimes go with my friends to to this place called fedex park and we we regularly have like usually i have like a normal vegetarian soup or something and yeah and then i wanted to try something new",
+      "asr_confidences": [
+        0.99423828,
+        0.9903971333333335
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.850"
+    },
+    {
+      "golden_indices": [
+        8, 
+        9
+      ],
+      "golden_text": "Um, so what happened was, I, I ordered a prawn soup it it's it it's called it's like a soup, I ordered a prawn one this time. And, yeah and then my feel like my lips started feeling a little weird just in the in the corner sort of on the left first.",
+      "asr_indices": [
+        10,
+        11
+      ],
+      "asr_text": "so what happened was i i ordered a soup it's it's it's it's called laksa it's like soup i ordered prawn one this time yeah and then my feels like my lips start feeling a little weird in the in the corner so of on the left first",
+      "asr_confidences": [
+        0.99316406,
+        0.9435546880000001
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.850"
+    },
+    {
+      "golden_indices": [
+        10
+      ],
+      "golden_text": "And then, I don't know and then, we went back we had little bit of chat, of banter I wasn't really, paying attention. Uh, now I feel the that there is a swelling, there is like a swelling on my, on my upper lip and it's kind of getting bigger. I don't know what to do.",
+      "asr_indices": [
+        12,
+        13,
+        14
+      ],
+      "asr_text": "i don't know and then we went back we had a little bit of a chat of banter it wasn't really now i feel the that there is a swelling there is like a swelling on my on my upper lip and it's kind of getting bigger i don't know what to do",
+      "asr_confidences": [
+        0.99902344,
+        0.99121094,
+        0.9884440033333334
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        11
+      ],
+      "golden_text": "That was, that must have been just after work, so maybe like around seven.",
+      "asr_indices": [
+        15
+      ],
+      "asr_text": "that was that must have been just after work so maybe like around seven",
+      "asr_confidences": [
+        0.95092775
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        12
+      ],
+      "golden_text": "Well I wasn't really paying attention so, it must have been like, must have been like, I don't know half an hour maybe.",
+      "asr_indices": [
+        16,
+        17
+      ],
+      "asr_text": "i wasn't really paying attention so it must have been like an half an hour maybe",
+      "asr_confidences": [
+        0.94812012,
+        0.58203125
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        13
+      ],
+      "golden_text": "Yeah.",
+      "asr_indices": [
+        18
+      ],
+      "asr_text": "yeah",
+      "asr_confidences": [
+        0.99902344
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        14
+      ],
+      "golden_text": "Yeah it's it it still feel it like, really pumping blood and it's kinda getting bigger it feels like it's getting worse.",
+      "asr_indices": [
+        19,
+        20
+      ],
+      "asr_text": "yeah it's it's can you still feel it like really pumping blood and it's kinda getting bigger it feels like it's getting worse",
+      "asr_confidences": [
+        0.86694336,
+        0.9633789
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        15
+      ],
+      "golden_text": "Yeah actually, I, I feel like I can't breathe that well right now.",
+      "asr_indices": [
+        21,
+        22
+      ],
+      "asr_text": "yeah actually i i feel like i can't breathe that well right now",
+      "asr_confidences": [
+        0.9802246,
+        0.9941406
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        16
+      ],
+      "golden_text": "And I don't know if it's the chest it just generally feels a little difficult, but yeah it might be, I'm not sure.",
+      "asr_indices": [
+        23,
+        24
+      ],
+      "asr_text": "i don't know if it's the test it just generally feels a little but yeah it might be i'm not sure",
+      "asr_confidences": [
+        0.9091797,
+        0.99609375
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.850"
+    },
+    {
+      "golden_indices": [
+        17
+      ],
+      "golden_text": "Yeah, well, maybe, I remember like a year ago. A year ago I was, out with my friends.",
+      "asr_indices": [
+        25,
+        26,
+        27
+      ],
+      "asr_text": "yeah well maybe i remember like a year ago out with my friends",
+      "asr_confidences": [
+        0.93115234,
+        0.99121094,
+        1
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.750"
+    },
+    {
+      "golden_indices": [
+        18,
+        19
+      ],
+      "golden_text": "And I think we went like, to a late night kinda Chinese place, and I remember that I was quite drunk to be honest. And I remember that after like having that very late. I've woke up the next morning quite swollen up and had also I, felt really bad and quite difficult breathing, but I don't know what it was I had it was like a curry or something I think.",
+      "asr_indices": [
+        28,
+        29,
+        30
+      ],
+      "asr_text": "i think we went like to late night kind of chinese place and i remember that i was quite drunk to be honest and i remember that after like having that very late i woke up the next morning quite swollen up and had also like quite difficult breathing but i don't know what it was i had it was like carry or something i think",
+      "asr_confidences": [
+        0.9892578,
+        0.98986816
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        20
+      ],
+      "golden_text": "But I generally have asthma so, I took I, I take, ohh what's it called? Salbutamol inhalers?",
+      "asr_indices": [
+        31
+      ],
+      "asr_text": "well i generally have asthma so i tell i i take oh what's it called solbutamol inhalers",
+      "asr_confidences": [
+        0.96472167
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        21
+      ],
+      "golden_text": "Yeah, so I do take that regularly but I've always taken it. I generally have asthma.",
+      "asr_indices": [
+        32
+      ],
+      "asr_text": "yeah so i do take that regularly but that's always taken it i generally have that",
+      "asr_confidences": [
+        0.9783935500000001
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.850"
+    },
+    {
+      "golden_indices": [
+        22
+      ],
+      "golden_text": "Ohh I, no I don't think so, no.",
+      "asr_indices": [
+        33
+      ],
+      "asr_text": "no i don't think so no",
+      "asr_confidences": [
+        1
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        23
+      ],
+      "golden_text": "Hmm, no. I, I got no I do sometimes but I don't know which ones, but I have a peanut allergy as well, like always had it.",
+      "asr_indices": [
+        34
+      ],
+      "asr_text": "no about no i think sometimes but i don't know which one so i have a peanut allergy as well like always had it",
+      "asr_confidences": [
+        0.8949381499999999
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        24
+      ],
+      "golden_text": "I, think I do get antihistamines for that but I'm not sure which ones.",
+      "asr_indices": [
+        35
+      ],
+      "asr_text": "i think i did get antihistamines for that but i'm not sure which ones",
+      "asr_confidences": [
+        0.99121094
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        25
+      ],
+      "golden_text": "When I was a kid I think I remember my mom told me about it, but I don't know what it was 'cause I was small and I've changed doctors since.",
+      "asr_indices": [
+        36
+      ],
+      "asr_text": "when i was a kid i i remember my mom told me about it but i don't know what it was because i was small and i changed doctors then",
+      "asr_confidences": [
+        0.9555664033333332
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        26
+      ],
+      "golden_text": "Yeah is that well I was like six or something I, I, I think. Ohh sorry, the swelling is getting, ohh my god ohh, yeah I think when I was six.",
+      "asr_indices": [
+        37,
+        38
+      ],
+      "asr_text": "yeah is that well i would like six or something i i i think oh i thought oh yeah i think when i was sick",
+      "asr_confidences": [
+        0.97265625,
+        0.9350586
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        27
+      ],
+      "golden_text": "Ohh, I feel a little dizzy right now to be honest, ohh.",
+      "asr_indices": [
+        39
+      ],
+      "asr_text": "i'm busy right now to be honest",
+      "asr_confidences": [
+        0.9897461
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.500"
+    },
+    {
+      "golden_indices": [
+        28
+      ],
+      "golden_text": "No, I don't think I have no.",
+      "asr_indices": [
+        40
+      ],
+      "asr_text": "no i don't think i have no",
+      "asr_confidences": [
+        0.997558595
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        29
+      ],
+      "golden_text": "I'm alone at the moment, yeah.",
+      "asr_indices": [
+        41
+      ],
+      "asr_text": "i'm alone at the moment yeah",
+      "asr_confidences": [
+        0.9980469
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        30
+      ],
+      "golden_text": "Hey ohh somebody just came, somebody just came yes, I'm not alone any more. Thank.",
+      "asr_indices": [
+        42
+      ],
+      "asr_text": "somebody just came somebody just came yes i'm not alone anymore thank",
+      "asr_confidences": [
+        0.9613037
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        31
+      ],
+      "golden_text": "Yes, uh Mum, Mum do we have any antihistamines around? Yes.",
+      "asr_indices": [
+        43
+      ],
+      "asr_text": "yes mom mom do we have any entrees around yes",
+      "asr_confidences": [
+        0.99438475
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        32
+      ],
+      "golden_text": "Ohh yeah yeah we do . Yes she said she will yes, yes.",
+      "asr_indices": [
+        44,
+        45
+      ],
+      "asr_text": "oh yeah we do yes she said she will yep yes",
+      "asr_confidences": [
+        0.9406738,
+        0.9436035
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        33
+      ],
+      "golden_text": "OK, OK. Yes, thank .",
+      "asr_indices": [
+        46
+      ],
+      "asr_text": "okay okay yes thank you",
+      "asr_confidences": [
+        0.8994140749999999
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        34
+      ],
+      "golden_text": "Yes, yes will do, yes, thank .",
+      "asr_indices": [
+        47
+      ],
+      "asr_text": "yeah yeah all the yes thank",
+      "asr_confidences": [
+        0.88439943
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        35
+      ],
+      "golden_text": "Thank you very much thank bye bye.",
+      "asr_indices": [
+        48
+      ],
+      "asr_text": "thank you very much thanks bye bye",
+      "asr_confidences": [
+        0.9970703000000001
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    }
+  ],
+  "summary": {
+    "total_alignments": 36,
+    "golden_coverage_percent": 100.0,
+    "asr_usage_percent": 98.0
+  }
+}

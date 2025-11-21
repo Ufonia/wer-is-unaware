@@ -1,0 +1,642 @@
+{
+  "description": "LLM-generated alignment for golden_day1-consultation02-combined.json vs patient_day1-consultation02-combined_deepgram.json",
+  "created_by": "llm_aligner",
+  "total_golden_utterances": 42,
+  "total_asr_results": 47,
+  "unused_golden_results": [
+    {
+      "golden_index": 23,
+      "golden_text": "Yeah."
+    }
+  ],
+  "unused_asr_results": [
+    {
+      "asr_index": 10,
+      "asr_text": "and"
+    },
+    {
+      "asr_index": 13,
+      "asr_text": "yeah exactly"
+    }
+  ],
+  "alignments": [
+    {
+      "golden_indices": [
+        0
+      ],
+      "golden_text": "Hello. Can you hear me well?",
+      "asr_indices": [
+        0
+      ],
+      "asr_text": "hello",
+      "asr_confidences": [
+        0.84277344
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.400"
+    },
+    {
+      "golden_indices": [
+        1
+      ],
+      "golden_text": "OK.",
+      "asr_indices": [
+        1
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.9875488
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        2
+      ],
+      "golden_text": "Yes. So, it's been a few days now. I have like a sore, and a red skin. It's kind of, it's really itchy, and it's like super annoying. So I'd like to find something quick to solve it.",
+      "asr_indices": [
+        2
+      ],
+      "asr_text": "yes so it's been a few days now i have like a sore and a red skin it's kind of itchy and it's like super annoying so i'd like to find something quick to solve it",
+      "asr_confidences": [
+        0.994262695
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.980"
+    },
+    {
+      "golden_indices": [
+        3
+      ],
+      "golden_text": "Uh, mostly like my chest, my, my hands, my arms. Like, like really, it's it's super annoying. Like it's itching a lot, like all the time. And I can't even sleep at night. I really need something quickly to, to solve it. Because even at work I, I can, when I'm in a meeting and I have to, like uh think about my work, I can't focus, I can't actually focus on my work. It's really annoying because I can't actually think about, uh, what I have to say. I'm always like, uh, disturbed by this disease.",
+      "asr_indices": [
+        3,
+        4,
+        5
+      ],
+      "asr_text": "mostly like my chest my my hand my arm like i agree it's it's super annoying like it's itching a lot like all the time and i can't even sleep at night like i really need something quickly to solve it because even at work i like when i'm in the meeting and i have to like think about my work and focus like actually focus on my work it's really annoying because i can't actually think about what i have to say i'm always like disturbed by this disease and so yes earlier i was like prescribed for my eczema",
+      "asr_confidences": [
+        0.91833495,
+        0.97347006,
+        0.9407226600000002
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        4
+      ],
+      "golden_text": "Um so yes. Uh earlier I was like prescribed for my eczema.",
+      "asr_indices": [
+        5
+      ],
+      "asr_text": "like when i'm in the meeting and i have to like think about my work and focus like actually focus on my work it's really annoying because i can't actually think about what i have to say i'm always like disturbed by this disease and so yes earlier i was like prescribed for my eczema",
+      "asr_confidences": [
+        0.9407226600000002
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        5
+      ],
+      "golden_text": "And they gave me like some cream, and something to, uh when I like shower, when I was in the shower, had to put something. But um",
+      "asr_indices": [
+        6
+      ],
+      "asr_text": "they gave me like some cream and something to when i like was shower when i was in the shower had to put something",
+      "asr_confidences": [
+        0.9980469
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        6
+      ],
+      "golden_text": "Um I mean, at that time yes. That's, those symptoms, like these symptoms appear like, when the symptoms appeared again, I tried those and it didn't work. I've tried a few things. Like I bought a, a steroid cream at the pharmacy last night. But it apparently didn't help, because it's still itching a lot today. Uh, yeah.",
+      "asr_indices": [
+        7,
+        8
+      ],
+      "asr_text": "and i mean at that time yes but the symptoms like these symptoms are like when the systems appeared again i tried those and it didn't work i've tried a few things like i bought like a spirit cream at the pharmacy last night but it apparently didn't help because it's still each meal up today",
+      "asr_confidences": [
+        0.980834965,
+        0.9752604166666666
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.850"
+    },
+    {
+      "golden_indices": [
+        7
+      ],
+      "golden_text": "A steroid cream.",
+      "asr_indices": [
+        9
+      ],
+      "asr_text": "steroid cream",
+      "asr_confidences": [
+        0.8310547
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        8,
+        9
+      ],
+      "golden_text": "Um it's much more like itchy. And my eczema was more like only in the arm. But now it's also on the chest. And in the on the, on the hands as well. Like pretty, yeah when, like I like, for instance hiking, during the weekend. And I am, I can't really do it anymore, because it's like very like I wanted to do that last weekend. And because super painful, and I I have to take like showers every day to be able to, cannot uh ease this itching part, which is very very annoying.",
+      "asr_indices": [
+        11
+      ],
+      "asr_text": "it's much more like itchy and my eczema was more like only in the arms and now also on the chest and in the in the on the hands as well like yeah when like i like for instance hiking during the weekends and i i can't really do it anymore because it's like very like like i wanted to do that last weekend and it was super painful and i i have to take like showers every day to be able to kind of ease this itching part which is very very annoying",
+      "asr_confidences": [
+        0.9852818071428573
+      ],
+      "match_type": "multi_golden",
+      "notes": "LLM generated with similarity score: 0.980"
+    },
+    {
+      "golden_indices": [
+        10
+      ],
+      "golden_text": "Yeah.",
+      "asr_indices": [
+        12
+      ],
+      "asr_text": "yeah",
+      "asr_confidences": [
+        0.77319336
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        11
+      ],
+      "golden_text": ". OK. No. Um so my skin is a bit cracked in some parts, like kind of cracked, if you see what I mean. But uh, yeah.",
+      "asr_indices": [
+        14
+      ],
+      "asr_text": "no so my team is a bit cracked in some part like kind of cracked if you see what i mean but yeah",
+      "asr_confidences": [
+        0.9944661466666666
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        12
+      ],
+      "golden_text": "No.",
+      "asr_indices": [
+        15
+      ],
+      "asr_text": "no",
+      "asr_confidences": [
+        0.9790039
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        13
+      ],
+      "golden_text": "Four days ago.",
+      "asr_indices": [
+        16
+      ],
+      "asr_text": "four days ago",
+      "asr_confidences": [
+        0.9921875
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        14
+      ],
+      "golden_text": "No I . It's actually like, it's really annoying, because I'm thinking about, maybe I should change something. Because I I haven't, and I don't understand I cannot, um afraid of asking people around me because it's cannot you know um, I don't feel really comfortable asking about these questions. It's kind of intimate that. So I your help now.",
+      "asr_indices": [
+        17,
+        18
+      ],
+      "asr_text": "no it's actually like it's really annoying because i'm thinking about maybe i should change something because i i haven't and i don't understand and i'm kind of afraid of asking people around me because it cannot you know i don't feel really comfortable asking about these questions it's kind of intimate and so i will see your head now",
+      "asr_confidences": [
+        0.9584961033333332,
+        0.9619140533333334
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        15
+      ],
+      "golden_text": "Yeah. Uh, no. Just the chest, hands and like, like inside the elbows. Yeah.",
+      "asr_indices": [
+        19
+      ],
+      "asr_text": "and no just the chest hand and like",
+      "asr_confidences": [
+        0.84008789
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.600"
+    },
+    {
+      "golden_indices": [
+        16
+      ],
+      "golden_text": "Am I what?",
+      "asr_indices": [
+        20
+      ],
+      "asr_text": "in my what",
+      "asr_confidences": [
+        0.96875
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        17
+      ],
+      "golden_text": "On my face? No.",
+      "asr_indices": [
+        21
+      ],
+      "asr_text": "oh on my face no",
+      "asr_confidences": [
+        0.9645996
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        18
+      ],
+      "golden_text": "No. just very itchy. Nothing else.",
+      "asr_indices": [
+        22
+      ],
+      "asr_text": "no just very cheap",
+      "asr_confidences": [
+        0.9926758
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.700"
+    },
+    {
+      "golden_indices": [
+        19
+      ],
+      "golden_text": "No.",
+      "asr_indices": [
+        23
+      ],
+      "asr_text": "no",
+      "asr_confidences": [
+        0.904541
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        20
+      ],
+      "golden_text": "I I think so.",
+      "asr_indices": [
+        24
+      ],
+      "asr_text": "i i think so",
+      "asr_confidences": [
+        0.9941406
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        21
+      ],
+      "golden_text": "Any what?",
+      "asr_indices": [
+        25
+      ],
+      "asr_text": "and you what",
+      "asr_confidences": [
+        0.80200195
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        22
+      ],
+      "golden_text": "Um so I had eczema before. So maybe it's disease, but it seems like more uh, like uh my eczema was only on the arms. So, I'm I'm not sure. I I really have no idea.",
+      "asr_indices": [
+        26,
+        27
+      ],
+      "asr_text": "and i so i had eczema before so maybe it's this but it seems like more like my was only on the arm so i'm i'm not sure i i really have no idea yes",
+      "asr_confidences": [
+        0.99707032,
+        0.84234619
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        24
+      ],
+      "golden_text": "Uh, no. I just had asthma in the past. But not anymore.",
+      "asr_indices": [
+        28
+      ],
+      "asr_text": "no i just had asthma in the past but not anymore",
+      "asr_confidences": [
+        0.9970703000000001
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.980"
+    },
+    {
+      "golden_indices": [
+        25
+      ],
+      "golden_text": "Uh no.",
+      "asr_indices": [
+        29
+      ],
+      "asr_text": "no",
+      "asr_confidences": [
+        0.9592285
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        26
+      ],
+      "golden_text": "I like some , sorry? Yeah?",
+      "asr_indices": [
+        30
+      ],
+      "asr_text": "i like something sorry yeah",
+      "asr_confidences": [
+        0.8354492
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        27
+      ],
+      "golden_text": "Hello? Yes.",
+      "asr_indices": [
+        31
+      ],
+      "asr_text": "hello yes",
+      "asr_confidences": [
+        0.98828125
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        28
+      ],
+      "golden_text": "Ohh, allergies. Uh, no.",
+      "asr_indices": [
+        32
+      ],
+      "asr_text": "oh no",
+      "asr_confidences": [
+        0.9782715
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.500"
+    },
+    {
+      "golden_indices": [
+        29
+      ],
+      "golden_text": "Uh so, I live with a few flatmates. I'm a, so you know I'm thirty one. Uh I, yeah I'm I have a full time job. And so I'm living with a few people to save money.",
+      "asr_indices": [
+        33
+      ],
+      "asr_text": "so i live with a few flatmates i'm so you know i'm thirty one i yeah i'm i have a full time job and so i'm living with the people to save money",
+      "asr_confidences": [
+        0.9752604166666666
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        30
+      ],
+      "golden_text": "Uh I work uh at a pharmaceutical company. So it's been a, it's been a few years now. Uh it's uh, it's kind of interesting. We're working I'm a, like a kind of project manager. Uh I mean, do you want to, to know more about it?",
+      "asr_indices": [
+        34
+      ],
+      "asr_text": "i work at a pharmaceutical company so it's been it's been a few years now it's it's kind of interesting we are working on a like a kind of project manager i mean",
+      "asr_confidences": [
+        0.96907553
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.800"
+    },
+    {
+      "golden_indices": [
+        31
+      ],
+      "golden_text": "No.",
+      "asr_indices": [
+        35
+      ],
+      "asr_text": "no",
+      "asr_confidences": [
+        0.9758301
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        32
+      ],
+      "golden_text": "Uh you know, once in a while I can, I like hanging out with people once in a while. So yeah I'd say a few, a few beers per week. Something like this. Nothing, nothing crazy. I used to drink a lot more when I was younger. But it's been, it's been a while.",
+      "asr_indices": [
+        36
+      ],
+      "asr_text": "you know once in a while i can i like hanging out with people once in a while so yeah i'd say a few a few beers per week something like this nothing nothing crazy i used to drink a lot more when i was younger but it's been",
+      "asr_confidences": [
+        0.99389649
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.900"
+    },
+    {
+      "golden_indices": [
+        33
+      ],
+      "golden_text": "OK. OK.",
+      "asr_indices": [
+        37
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.98657227
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.500"
+    },
+    {
+      "golden_indices": [
+        34
+      ],
+      "golden_text": "OK.",
+      "asr_indices": [
+        38
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.9916992
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        35
+      ],
+      "golden_text": "OK.",
+      "asr_indices": [
+        39
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.9914551
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        36
+      ],
+      "golden_text": "OK.",
+      "asr_indices": [
+        40
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.99316406
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        37
+      ],
+      "golden_text": "OK. Yes, I have tried antihistamines, uh lately, but it didn't really help.",
+      "asr_indices": [
+        41
+      ],
+      "asr_text": "okay just i i have tried antihistamine lately but it didn't really help",
+      "asr_confidences": [
+        0.989013675
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        38
+      ],
+      "golden_text": "I have tried uh antihistamines, but uh but it didn't really help.",
+      "asr_indices": [
+        42
+      ],
+      "asr_text": "i have tried the antihistamines but it's",
+      "asr_confidences": [
+        0.99194335
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.600"
+    },
+    {
+      "golden_indices": [
+        39
+      ],
+      "golden_text": "OK.",
+      "asr_indices": [
+        43
+      ],
+      "asr_text": "okay",
+      "asr_confidences": [
+        0.8630371
+      ],
+      "match_type": "exact",
+      "notes": "LLM generated with similarity score: 1.000"
+    },
+    {
+      "golden_indices": [
+        40
+      ],
+      "golden_text": "That sounds good.",
+      "asr_indices": [
+        44
+      ],
+      "asr_text": "that sound good",
+      "asr_confidences": [
+        0.97998047
+      ],
+      "match_type": "fuzzy",
+      "notes": "LLM generated with similarity score: 0.950"
+    },
+    {
+      "golden_indices": [
+        41
+      ],
+      "golden_text": "Uh, no that's it. Thank you very much. Bye. Thank you as well. Bye.",
+      "asr_indices": [
+        45,
+        46
+      ],
+      "asr_text": "no that's it thank you very much",
+      "asr_confidences": [
+        0.8977051,
+        1
+      ],
+      "match_type": "multi_fragment",
+      "notes": "LLM generated with similarity score: 0.700"
+    }
+  ],
+  "summary": {
+    "total_alignments": 40,
+    "golden_coverage_percent": 97.6,
+    "asr_usage_percent": 95.7
+  }
+}

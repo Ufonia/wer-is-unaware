@@ -1,0 +1,26 @@
+[
+  {
+    "id": "a0",
+    "text": "Hello doctor",
+    "confidence": 0.98,
+    "startedAt": "2024-01-01T00:00:00Z",
+    "endedAt": "2024-01-01T00:00:01Z",
+    "receivedAt": "2024-01-01T00:00:01Z"
+  },
+  {
+    "id": "a1",
+    "text": "I have some pain in my eye",
+    "confidence": 0.95,
+    "startedAt": "2024-01-01T00:00:02Z",
+    "endedAt": "2024-01-01T00:00:03Z",
+    "receivedAt": "2024-01-01T00:00:03Z"
+  },
+  {
+    "id": "a2",
+    "text": "It started yesterday",
+    "confidence": 0.93,
+    "startedAt": "2024-01-01T00:00:05Z",
+    "endedAt": "2024-01-01T00:00:06Z",
+    "receivedAt": "2024-01-01T00:00:06Z"
+  }
+]
