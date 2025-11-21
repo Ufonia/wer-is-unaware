@@ -7,8 +7,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class OpenRouterClient:
-    """Thin wrapper over OpenAI SDK configured for OpenRouter."""
-
     def __init__(self, model: str, api_key: Optional[str] = None):
         self.client = OpenAI(
             api_key=os.getenv("OPENROUTER_API_KEY"),

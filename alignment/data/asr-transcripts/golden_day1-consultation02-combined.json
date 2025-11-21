@@ -8,6 +8,5 @@
   "anonymisation_utc": null,
   "age": null,
   "gender": null,
-  "tool_anonymiser": null,
-  "processed_by": "Zachary Ellis"
+  "tool_anonymiser": null
 }
