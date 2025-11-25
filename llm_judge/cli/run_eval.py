@@ -13,7 +13,7 @@ from llm_judge.providers import setup_models
 def parse_args():
     parser = argparse.ArgumentParser(description="Evaluate a saved clinical judge artifact.")
     parser.add_argument("--artifact", type=str, required=True, help="Path to saved judge JSON.")
-    parser.add_argument("--data-path", type=str, default=os.getenv("DATA_PATH"), help="CSV file path.")
+    parser.add_argument("--data-path", type=str, default=os.getenv("DATA_PATH", "jaredjoss/mistranscription-clinical-impact-dataset"), help="CSV file path or Hugging Face dataset ID (e.g., 'username/dataset-name').")
     parser.add_argument("--test-size", type=int, default=50)
     parser.add_argument("--val-size", type=int, default=30)
     parser.add_argument("--seed", type=int, default=42)

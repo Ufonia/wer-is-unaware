@@ -4,9 +4,33 @@ import dspy
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-def load_dataset(csv_path: str) -> pd.DataFrame:
-    """Load dataset and drop rows without final_outcome."""
-    df = pd.read_csv(csv_path)
+
+def load_dataset(data_path: str) -> pd.DataFrame:
+    """
+    Load dataset from CSV file or Hugging Face Hub.
+    
+    Args:
+        data_path: Path to CSV file or Hugging Face dataset ID (e.g., "username/dataset-name")
+    
+    Returns:
+        DataFrame with rows without final_outcome dropped
+    """
+    if "/" in data_path and not data_path.endswith(".csv") and not data_path.startswith("./") and not data_path.startswith("/"):
+        try:
+            from datasets import load_dataset
+            dataset = load_dataset(data_path)
+            if hasattr(dataset, "keys"):
+                dfs = []
+                for split in dataset.keys():
+                    dfs.append(dataset[split].to_pandas())
+                df = pd.concat(dfs, ignore_index=True)
+            else:
+                df = dataset.to_pandas()
+        except Exception as e:
+            raise ValueError(f"Failed to load dataset from Hugging Face Hub '{data_path}': {e}")
+    else:
+        df = pd.read_csv(data_path)
+    
     return df.dropna(subset=["final_outcome"])
 
 

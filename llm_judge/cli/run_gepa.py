@@ -11,7 +11,7 @@ from llm_judge.providers import setup_models
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Run GEPA optimization for clinical impact judge.")
-    parser.add_argument("--data-path", type=str, default="llm_judge/dataset/primock_data_final_outcomes.csv", help="CSV file path.")
+    parser.add_argument("--data-path", type=str, default="jaredjoss/mistranscription-clinical-impact-dataset", help="CSV file path or Hugging Face dataset ID (e.g., 'username/dataset-name').")
     parser.add_argument("--provider", type=str, default="openrouter", choices=["gemini", "bedrock", "openrouter"])
     parser.add_argument("--task-model", type=str, default="meta-llama/llama-3.3-70b-instruct")
     parser.add_argument("--reflection-model", type=str, default="anthropic/claude-4-sonnet")

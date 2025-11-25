@@ -10,7 +10,7 @@ As Automatic Speech Recognition (ASR) is increasingly deployed in clinical dialo
 ## 🔍 Overview
 
 We introduce (available here):
-- Clinician-annotated clinical-impact dataset: `llm_judge/dataset/primock_data_final_outcomes.csv`
+- Clinician-annotated clinical-impact dataset: Available on [Hugging Face Hub](https://huggingface.co/datasets/jaredjoss/mistranscription-clinical-impact-dataset) or locally at `llm_judge/dataset/primock_data_final_outcomes.csv`
 - Semantic LLM-based aligner: `alignment/aligner/` (see `alignment/README.md` for usage)
 - LLM-as-a-Judge optimized with GEPA/MIPRO: `llm_judge/` (artifacts in `llm_judge/results/`)
 - Evaluations of ASR metrics (code under `alignment/scripts/` and `alignment/results/`)
@@ -31,6 +31,15 @@ We introduce (available here):
 
 - Example: run judge (GEPA)
   ```bash
+  # Using Hugging Face dataset (recommended)
+  uv run python -m llm_judge.cli.run_gepa \
+    --data-path jaredjoss/mistranscription-clinical-impact-dataset \
+    --provider openrouter \
+    --task-model meta-llama/llama-3.3-70b-instruct \
+    --reflection-model anthropic/claude-4-sonnet \
+    --output llm_judge/results/clinical_judge_gepa.json
+  
+  # Or using local CSV
   uv run python -m llm_judge.cli.run_gepa \
     --data-path llm_judge/dataset/primock_data_final_outcomes.csv \
     --provider openrouter \
@@ -39,6 +48,20 @@ We introduce (available here):
     --output llm_judge/results/clinical_judge_gepa.json
   ```
 
+## 📊 Dataset
+
+The clinical-impact dataset is available on [Hugging Face Hub](https://huggingface.co/datasets/jaredjoss/mistranscription-clinical-impact-dataset) and includes:
+
+- **12 columns**: `index`, `composite_key`, `doctor`, `patient_ground_truth`, `patient_hypothesis`, `alignment_status`, `provider`, `norm_ground_truth`, `norm_hypothesis`, `fer_gt_context`, `fer_hyp_context`, `final_outcome`
+- **~1,214 examples** with train/validation/test splits (stratified by `final_outcome`)
+- **Labels**: `final_outcome` values of 0 (No Impact), 1 (Minimal Impact), or 2 (Significant Impact)
+
+Load it with:
+```python
+from datasets import load_dataset
+dataset = load_dataset("jaredjoss/mistranscription-clinical-impact-dataset")
+```
+
 ## 📁 Folder Structure
 - `alignment/` — semantic alignment toolkit (aligner code, scripts, sample data, sample results).
 - `llm_judge/` — clinical impact judge (signatures, metrics, providers, optimizers, CLI, bundled dataset, saved judges).
@@ -46,7 +69,7 @@ We introduce (available here):
 ### Important Files
 - `alignment/data/` — example ASR transcripts and ground-truth alignments.
 - `alignment/results/` — sample alignment evaluations.
-- `llm_judge/dataset/` — clinical-impact dataset.
+- `llm_judge/dataset/` — clinical-impact dataset (CSV format, also available on HF Hub).
 - `llm_judge/results/` — optimized judges (GEPA, MIPROv2).
 
 ## 📦 Coming Soon

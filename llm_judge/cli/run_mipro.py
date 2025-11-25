@@ -12,7 +12,7 @@ from llm_judge.providers import setup_models
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Run MIPROv2 optimization for clinical impact judge.")
-    parser.add_argument("--data-path", type=str, default=os.getenv("DATA_PATH"), help="CSV file path.")
+    parser.add_argument("--data-path", type=str, default=os.getenv("DATA_PATH", "jaredjoss/mistranscription-clinical-impact-dataset"), help="CSV file path or Hugging Face dataset ID (e.g., 'username/dataset-name').")
     parser.add_argument("--provider", type=str, default="openrouter", choices=["gemini", "bedrock", "openrouter"])
     parser.add_argument("--task-model", type=str, default="anthropic/claude-3.5-sonnet")
     parser.add_argument("--output", type=str, default="clinical_judge_mipro.json")
