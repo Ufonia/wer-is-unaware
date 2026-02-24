@@ -2194,13 +2194,13 @@ dependencies = [
     { name = "nltk" },
     { name = "num2words" },
     { name = "openai" },
+    { name = "pandas" },
     { name = "rouge-score" },
     { name = "sacrebleu" },
 ]
 
 [package.optional-dependencies]
 dev = [
-    { name = "pandas" },
     { name = "pytest" },
 ]
 learned-semantic = [
@@ -2219,7 +2219,7 @@ requires-dist = [
     { name = "num2words", specifier = ">=0.5.13" },
     { name = "numpy", marker = "extra == 'learned-semantic'", specifier = ">=1.24" },
     { name = "openai", specifier = ">=1.35.0" },
-    { name = "pandas", marker = "extra == 'dev'", specifier = ">=2.0" },
+    { name = "pandas", specifier = ">=2.0" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0" },
     { name = "rouge-score", specifier = ">=0.1" },
     { name = "sacrebleu", specifier = ">=2.3" },

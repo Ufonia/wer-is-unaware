@@ -22,15 +22,15 @@ def test_decimal_number_to_words():
     assert "two" in result
 
 
-def test_filler_removal():
-    result = get_clean_transcript("uh um hello", remove_non_lexical_tokens=True)
+def test_filler_removed_by_default():
+    result = get_clean_transcript("uh um hello")
     assert "uh" not in result
     assert "um" not in result
     assert "hello" in result
 
 
-def test_filler_kept_by_default():
-    result = get_clean_transcript("uh hello")
+def test_filler_kept_when_disabled():
+    result = get_clean_transcript("uh hello", remove_non_lexical_tokens=False)
     assert "uh" in result
     assert "hello" in result
 

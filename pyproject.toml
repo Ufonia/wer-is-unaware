@@ -11,12 +11,13 @@ dependencies = [
   "nltk>=3.8",
   "rouge-score>=0.1",
   "sacrebleu>=2.3",
+  "pandas>=2.0",
 ]
 
 [project.optional-dependencies]
 learned-semantic = ["sentence-transformers>=2.2", "numpy>=1.24"]
 plot = ["matplotlib>=3.8"]
-dev = ["pytest>=8.0", "pandas>=2.0"]
+dev = ["pytest>=8.0"]
 
 [tool.setuptools.packages.find]
 include = ["metrics*", "llm_judge*", "alignment*"]
