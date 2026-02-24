@@ -8,6 +8,8 @@ dist/
 
 .venv/
 .env
+.env.*
+!.env.example
 .python-version
 .pytest_cache/
 .mypy_cache/
@@ -24,3 +26,42 @@ data/llm-alignments/*.json
 !data/llm-alignments/.gitkeep
 results/alignment-evaluation/*.json
 !results/alignment-evaluation/.gitkeep
+
+# Data protection — prevent accidental leakage of patient/clinical data
+# Block common data formats by default (allowlist specific files below)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.sqlite
+*.db
+
+# Audio files (should never be committed)
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# Model checkpoints (too large, download separately)
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.ckpt
+checkpoints/
+
+# Allowlisted data files — only these CSVs are tracked
+!llm_judge/dataset/primock_data_final_outcomes.csv
+
+# Temporary/scratch files
+/tmp/
+scratch/
+*.tmp

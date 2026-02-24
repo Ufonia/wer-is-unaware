@@ -19,7 +19,11 @@ We introduce (available here):
 
 - Install Python 3.10+ and `uv` (recommended): https://github.com/astral-sh/uv
 - Install dependencies: `uv sync`
-- Environment:
+- Download required NLTK data (needed for BLEU, METEOR):
+  ```bash
+  python -c "import nltk; nltk.download('punkt_tab'); nltk.download('wordnet')"
+  ```
+- Environment variables (for LLM judge, not needed for metrics):
   - OpenRouter (default for LLM calls): `OPENROUTER_API_KEY` (required), `OPENROUTER_MODEL` optional
   - Gemini (optional): `GCP_PROJECT_ID`, `GCP_LOCATION`
   - Bedrock (optional): `AWS_REGION`
@@ -40,10 +44,12 @@ We introduce (available here):
   ```
 
 ## 📁 Folder Structure
+- `metrics/` — ASR evaluation metrics toolkit (15 edit-distance and n-gram metrics, with learned semantic metrics coming soon).
 - `alignment/` — semantic alignment toolkit (aligner code, scripts, sample data, sample results).
 - `llm_judge/` — clinical impact judge (signatures, metrics, providers, optimizers, CLI, bundled dataset, saved judges).
 
 ### Important Files
+- `metrics/` — metric calculation API (`from metrics import calculate_metric, list_metrics`).
 - `alignment/data/` — example ASR transcripts and ground-truth alignments.
 - `alignment/results/` — sample alignment evaluations.
 - `llm_judge/dataset/` — clinical-impact dataset.
