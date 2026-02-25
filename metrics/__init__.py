@@ -65,16 +65,28 @@ def get_metric_info(name: str) -> MetricInfo:
     )
 
 
-def calculate_metric(name: str, gt: str, hyp: str, **kwargs) -> float:
+def calculate_metric(
+    name: str,
+    gt: str,
+    hyp: str,
+    *,
+    clean: bool = True,
+    filter_nlts: bool = True,
+    **kwargs,
+) -> float:
     """Calculate a single metric for a GT/HYP pair.
 
     Text is cleaned via ``get_clean_transcript`` before being passed to the
-    metric function.
+    metric function unless *clean* is ``False``.
 
     Args:
         name: Registered metric name (e.g. ``"wer"``).
         gt: Ground-truth transcript.
         hyp: Hypothesis transcript.
+        clean: If ``True`` (default), normalise transcripts before scoring.
+        filter_nlts: If ``True`` (default), remove non-lexical tokens
+            (fillers like "uh", "um") during cleaning.  Ignored when
+            *clean* is ``False``.
         **kwargs: Forwarded to the metric function (e.g. model handles).
 
     Returns:
@@ -89,10 +101,11 @@ def calculate_metric(name: str, gt: str, hyp: str, **kwargs) -> float:
 
     entry = REGISTRY[name]
 
-    gt_clean = get_clean_transcript(gt)
-    hyp_clean = get_clean_transcript(hyp)
+    if clean:
+        gt = get_clean_transcript(gt, remove_non_lexical_tokens=filter_nlts)
+        hyp = get_clean_transcript(hyp, remove_non_lexical_tokens=filter_nlts)
 
-    return entry.fn(gt_clean, hyp_clean, **kwargs)
+    return entry.fn(gt, hyp, **kwargs)
 
 
 def calculate_all_metrics(
@@ -101,6 +114,8 @@ def calculate_all_metrics(
     *,
     tier: Optional[str] = None,
     metrics: Optional[List[str]] = None,
+    clean: bool = True,
+    filter_nlts: bool = True,
     **kwargs,
 ) -> Dict[str, float]:
     """Calculate multiple metrics for a GT/HYP pair.
@@ -111,6 +126,9 @@ def calculate_all_metrics(
         tier: If given, run all metrics in this tier.
         metrics: If given, run these specific metrics (across any tier).
             Mutually exclusive with *tier*.
+        clean: If ``True`` (default), normalise transcripts before scoring.
+        filter_nlts: If ``True`` (default), remove non-lexical tokens
+            during cleaning.  Ignored when *clean* is ``False``.
         **kwargs: Forwarded to each metric function.
 
     Returns:
@@ -130,14 +148,15 @@ def calculate_all_metrics(
     else:
         names = list(REGISTRY.keys())
 
-    gt_clean = get_clean_transcript(gt)
-    hyp_clean = get_clean_transcript(hyp)
+    if clean:
+        gt = get_clean_transcript(gt, remove_non_lexical_tokens=filter_nlts)
+        hyp = get_clean_transcript(hyp, remove_non_lexical_tokens=filter_nlts)
 
     results: Dict[str, float] = {}
     for name in names:
         if name not in REGISTRY:
             raise KeyError(f"Unknown metric: {name!r}")
         entry = REGISTRY[name]
-        results[name] = entry.fn(gt_clean, hyp_clean, **kwargs)
+        results[name] = entry.fn(gt, hyp, **kwargs)
 
     return results

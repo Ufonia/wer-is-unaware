@@ -13,7 +13,8 @@ import sacrebleu
 
 logger = logging.getLogger(__name__)
 
-warnings.filterwarnings("ignore", message=".*hypothesis contains 0 counts.*")
+# NLTK's BLEU warning message starts with \n, so use [\s\S] to match across newlines.
+warnings.filterwarnings("ignore", message=r"[\s\S]*hypothesis contains 0 counts[\s\S]*")
 
 
 def _calculate_bleu(gt: str, hyp: str, weights: tuple) -> float:

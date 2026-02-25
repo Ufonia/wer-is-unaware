@@ -53,7 +53,7 @@ def get_transformation(remove_non_lexical_tokens: bool):
 
 
 def get_clean_transcript(
-    transcript: str, remove_non_lexical_tokens: bool = False
+    transcript: str, remove_non_lexical_tokens: bool = True
 ) -> str:
     """Clean and normalize a transcript string.
 
