@@ -239,6 +239,25 @@ wheels = [
 ]
 
 [[package]]
+name = "bert-score"
+version = "0.3.13"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "packaging" },
+    { name = "pandas" },
+    { name = "requests" },
+    { name = "torch" },
+    { name = "tqdm" },
+    { name = "transformers" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/1c/93/2c97a85cbb66a8a256a13176e11c9c4508074e2341299fe75ee955c81eff/bert_score-0.3.13.tar.gz", hash = "sha256:8ffe5838eac8cdd988b8b1a896af7f49071188c8c011a1ed160d71a9899a2ba4", size = 48621, upload-time = "2023-02-20T21:07:29.477Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c6/8c/bc5457de4c004b1a623b31f7bc8d0375fb699b7d67df11879098b4b7b7c8/bert_score-0.3.13-py3-none-any.whl", hash = "sha256:bbbb4c7fcdaa46d7681aff49f37f96faa09ed74e1b150e659bdc6b58a66989b9", size = 61135, upload-time = "2023-02-20T21:07:27.226Z" },
+]
+
+[[package]]
 name = "bleurt"
 version = "0.0.2"
 source = { git = "https://github.com/google-research/bleurt.git#cebe7e6f996b40910cfaa520a63db47807e3bf5c" }
@@ -4426,6 +4445,7 @@ dependencies = [
 
 [package.optional-dependencies]
 all-metrics = [
+    { name = "bert-score" },
     { name = "bleurt" },
     { name = "numpy" },
     { name = "sentence-transformers" },
@@ -4445,6 +4465,7 @@ judge = [
     { name = "scikit-learn" },
 ]
 learned-semantic = [
+    { name = "bert-score" },
     { name = "numpy" },
     { name = "sentence-transformers" },
 ]
@@ -4454,6 +4475,7 @@ plot = [
 
 [package.metadata]
 requires-dist = [
+    { name = "bert-score", marker = "extra == 'learned-semantic'", specifier = ">=0.3.13" },
     { name = "bleurt", marker = "extra == 'bleurt'", git = "https://github.com/google-research/bleurt.git" },
     { name = "boto3", marker = "extra == 'judge'", specifier = ">=1.28" },
     { name = "dspy", marker = "extra == 'judge'", specifier = ">=3.0,<3.1" },
