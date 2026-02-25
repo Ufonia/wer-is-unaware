@@ -1,6 +1,6 @@
-"""SimCSE cosine similarity. Model: princeton-nlp/sup-simcse-bert-base-uncased (~440MB, auto-downloaded).
+"""SimCSE cosine similarity via CLS pooling.
 
-Ported from FER/compute_simcse.py. Uses CLS pooling (matches supervised SimCSE official README).
+Model: princeton-nlp/sup-simcse-bert-base-uncased (~440MB, auto-downloaded).
 """
 
 from __future__ import annotations

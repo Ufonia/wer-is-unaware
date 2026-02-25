@@ -1,13 +1,7 @@
-"""BARTScore — negative log-likelihood scoring with ParaBank2-finetuned weights.
+"""BARTScore — negative log-likelihood scoring (ref→hyp).
 
-Base architecture: facebook/bart-large-cnn (~1.6GB, auto-downloaded from HuggingFace).
-Finetuned weights: ParaBank2 checkpoint (.pth), must be downloaded manually and pointed
-to via the BARTSCORE_CHECKPOINT env var.
-
-Download the checkpoint from: https://github.com/neulab/BARTScore
-(Google Drive link in their README → save as e.g. bart_score.pth)
-
-Scores are unidirectional (ref→hyp).
+Base model: facebook/bart-large-cnn (~1.6GB, auto-downloaded).
+Finetuned weights: ParaBank2 checkpoint (.pth) via BARTSCORE_CHECKPOINT env var.
 """
 
 from __future__ import annotations
@@ -26,10 +20,6 @@ _MODEL_KEY = "bart_large_cnn"
 
 
 class BARTScorer:
-    """BARTScore scorer — ported from colleague's bart_score.py.
-
-    Kept largely intact (including internal batching) for faithful reproduction.
-    """
 
     def __init__(self, device: str = "cpu", max_length: int = 1024,
                  checkpoint: str = "facebook/bart-large-cnn") -> None:

@@ -1,9 +1,6 @@
 """Semantic Word Error Rate — DP-based weighted edit distance with semantic similarity.
 
-Model: all-MiniLM-L6-v2 (~80MB, auto-downloaded).
-
-NE/sentiment word
-sets default to empty (configurable via kwargs). Lower is better.
+Model: all-MiniLM-L6-v2 (~80MB, auto-downloaded). Lower is better.
 """
 
 from __future__ import annotations
@@ -94,7 +91,7 @@ def _calculate_swer(
 
             dp[i, j] = min(deletion, insertion, substitution)
 
-    return dp[len(ref_words), len(hyp_words)] / len(hyp_words)
+    return dp[len(ref_words), len(hyp_words)] / len(ref_words)
 
 
 def calculate_semantic_wer(gt: str, hyp: str, **kwargs) -> float:

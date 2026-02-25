@@ -1,9 +1,4 @@
-"""BERTScore utility functions — tokenisation, embedding, greedy matching.
-
-Ported from FER/utils.py. Only the code paths actually used by the score()
-function are included (no IDF computation, no sliding window, no all_layers,
-no multi-ref, no baseline rescaling, no scibert caching).
-"""
+"""BERTScore utility functions — tokenisation, embedding, greedy matching."""
 
 from __future__ import annotations
 

@@ -54,7 +54,7 @@ register(
 register(
     "bart_score", _TIER, calculate_bart_score,
     fallback=0.0, higher_is_better=True,
-    description="BARTScore average bidirectional log-likelihood (bart-large-cnn)",
+    description="BARTScore log-likelihood (bart-large-cnn + ParaBank2)",
     extra=_EXTRA,
 )
 register(
@@ -82,13 +82,13 @@ try:
     register(
         "bleurt", _TIER, calculate_bleurt,
         fallback=0.0, higher_is_better=True,
-        description="BLEURT score (requires manual checkpoint download)",
+        description="BLEURT score (bundled test checkpoint)",
         extra=_BLEURT_EXTRA,
     )
     register(
         "clinical_bleurt", _TIER, calculate_clinical_bleurt,
         fallback=0.0, higher_is_better=True,
-        description="Clinical BLEURT score (requires manual checkpoint download)",
+        description="Clinical BLEURT score (requires checkpoint download)",
         extra=_BLEURT_EXTRA,
     )
 except ImportError:
