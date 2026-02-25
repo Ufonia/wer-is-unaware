@@ -17,7 +17,7 @@ dependencies = [
 
 [project.optional-dependencies]
 learned-semantic = ["sentence-transformers>=2.2", "numpy>=1.24", "bert-score>=0.3.13"]
-bleurt = ["bleurt @ git+https://github.com/google-research/bleurt.git", "tensorflow>=2.10"]
+bleurt = ["bleurt @ git+https://github.com/google-research/bleurt.git", "tensorflow>=2.16,<2.20"]
 judge = ["dspy>=3.0,<3.1", "scikit-learn>=1.0", "google-cloud-aiplatform>=1.38", "boto3>=1.28"]
 plot = ["matplotlib>=3.8"]
 dev = ["pytest>=8.0"]

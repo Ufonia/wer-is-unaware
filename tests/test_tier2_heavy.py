@@ -164,18 +164,53 @@ class TestBLEURT:
     def test_missing_env_var_errors(self, monkeypatch):
         """Clear error when BLEURT_CHECKPOINT env var is not set."""
         monkeypatch.delenv("BLEURT_CHECKPOINT", raising=False)
-        from metrics.learned_semantic_lightweight.bleurt_metric import calculate_bleurt
-        with pytest.raises(Exception, match="(?i)bleurt_checkpoint"):
-            calculate_bleurt("hello", "hello")
+        from metrics.learned_semantic_lightweight.bleurt_metric import _make_loader
+        loader = _make_loader("BLEURT_CHECKPOINT", "BLEURT")
+        with pytest.raises(RuntimeError, match="BLEURT_CHECKPOINT"):
+            loader()
 
     def test_clinical_missing_env_var_errors(self, monkeypatch):
         """Clear error when CLINICAL_BLEURT_CHECKPOINT env var is not set."""
         monkeypatch.delenv("CLINICAL_BLEURT_CHECKPOINT", raising=False)
-        from metrics.learned_semantic_lightweight.bleurt_metric import calculate_clinical_bleurt
-        with pytest.raises(Exception, match="(?i)clinical_bleurt_checkpoint"):
-            calculate_clinical_bleurt("hello", "hello")
+        from metrics.learned_semantic_lightweight.bleurt_metric import _make_loader
+        loader = _make_loader("CLINICAL_BLEURT_CHECKPOINT", "Clinical BLEURT")
+        with pytest.raises(RuntimeError, match="CLINICAL_BLEURT_CHECKPOINT"):
+            loader()
+
+    def test_missing_checkpoint_dir_errors(self, monkeypatch, tmp_path):
+        """Clear error when checkpoint path doesn't exist."""
+        monkeypatch.setenv("BLEURT_CHECKPOINT", str(tmp_path / "nonexistent"))
+        from metrics.learned_semantic_lightweight.bleurt_metric import _make_loader
+        loader = _make_loader("BLEURT_CHECKPOINT", "BLEURT")
+        with pytest.raises(FileNotFoundError, match="nonexistent"):
+            loader()
 
     def test_bleurt_and_clinical_share_code(self):
         """Both BLEURT variants use the same internal function."""
         from metrics.learned_semantic_lightweight import bleurt_metric
         assert hasattr(bleurt_metric, "_score_bleurt")
+
+    def test_scoring_with_mock(self, monkeypatch):
+        """BLEURT scoring works when checkpoint is available (mocked)."""
+        from unittest.mock import MagicMock
+        from metrics.learned_semantic_lightweight import bleurt_metric
+
+        mock_scorer = MagicMock()
+        mock_scorer.score.return_value = [0.75]
+
+        # Bypass model cache — inject mock directly
+        monkeypatch.setattr(
+            bleurt_metric, "_score_bleurt",
+            lambda gt, hyp, model_key: 0.75,
+        )
+        assert bleurt_metric.calculate_bleurt("hello", "hello") == 0.75
+        assert bleurt_metric.calculate_clinical_bleurt("hello", "hello") == 0.75
+
+    def test_empty_string(self):
+        """Empty input returns 0.0 without loading model."""
+        from metrics.learned_semantic_lightweight.bleurt_metric import (
+            calculate_bleurt,
+            calculate_clinical_bleurt,
+        )
+        assert calculate_bleurt("", "hello") == 0.0
+        assert calculate_clinical_bleurt("hello", "") == 0.0
