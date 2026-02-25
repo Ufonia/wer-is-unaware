@@ -14,6 +14,10 @@ import argparse
 import sys
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 import pandas as pd
 
 from metrics import calculate_metric, get_metric_info, list_metrics
@@ -154,13 +158,10 @@ def evaluate_judge_rows(
     """
     # Lazy imports -- only pulled in when --judge is used
     import dspy
-    from dotenv import load_dotenv
 
     from llm_judge.metrics import parse_label
     from llm_judge.providers.factory import setup_models
     from llm_judge.signatures import ClinicalImpactJudge
-
-    load_dotenv()
 
     task_lm, _ = setup_models(provider, task_model=task_model, reflection_model=None)
     dspy.settings.configure(lm=task_lm)

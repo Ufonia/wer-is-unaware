@@ -57,6 +57,9 @@ results/alignment-evaluation/*.json
 *.safetensors
 *.ckpt
 checkpoints/
+BLEURT-20/
+BLEURT-20-D12/
+ClinicalBLEURT/
 
 # Allowlisted data files — only these CSVs are tracked
 !llm_judge/dataset/primock_data_final_outcomes.csv

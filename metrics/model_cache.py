@@ -1,17 +1,30 @@
-"""Lazy-loading model cache for learned-semantic metrics.
+"""Lazy-loading model cache and device helpers for learned-semantic metrics.
 
 Usage:
-    from metrics.model_cache import models
+    from metrics.model_cache import models, get_device
 
     models.register_loader("sbert", lambda: SentenceTransformer("all-MiniLM-L6-v2"))
     model = models.get("sbert")       # loads on first call, cached thereafter
     models.unload("sbert")            # free memory
     models.clear()                    # free all
+
+    device = get_device()             # "cuda", "mps", or "cpu"
 """
 
 from __future__ import annotations
 
 from typing import Any, Callable, Dict, List
+
+
+def get_device() -> str:
+    """Return the best available torch device: cuda > mps > cpu."""
+    import torch
+
+    if torch.cuda.is_available():
+        return "cuda"
+    if torch.backends.mps.is_available():
+        return "mps"
+    return "cpu"
 
 
 class ModelCache:

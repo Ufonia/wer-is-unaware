@@ -12,13 +12,16 @@ dependencies = [
   "rouge-score>=0.1",
   "sacrebleu>=2.3",
   "pandas>=2.0",
+  "python-dotenv>=1.0",
 ]
 
 [project.optional-dependencies]
-learned-semantic = ["sentence-transformers>=2.2", "numpy>=1.24"]
-judge = ["dspy>=3.0,<3.1", "python-dotenv>=1.0", "scikit-learn>=1.0", "google-cloud-aiplatform>=1.38", "boto3>=1.28"]
+learned-semantic = ["sentence-transformers>=2.2", "numpy>=1.24", "bert-score>=0.3.13"]
+bleurt = ["bleurt @ git+https://github.com/google-research/bleurt.git", "tensorflow>=2.16,<2.20"]
+judge = ["dspy>=3.0,<3.1", "scikit-learn>=1.0", "google-cloud-aiplatform>=1.38", "boto3>=1.28"]
 plot = ["matplotlib>=3.8"]
 dev = ["pytest>=8.0"]
+all-metrics = ["wer-is-unaware[learned-semantic,bleurt]"]
 
 [tool.setuptools.packages.find]
 include = ["metrics*", "llm_judge*", "alignment*"]

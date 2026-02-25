@@ -1,7 +1,8 @@
-"""Tier 2: Learned Semantic Lightweight metrics (SBERT, NLI).
+"""Tier 2: Learned Semantic Lightweight metrics (SBERT, NLI, BERTScore, BARTScore, SimCSE, SWER).
 
 Registers all metrics in the global registry on import.
 Requires the ``learned-semantic`` optional dependency group.
+BLEURT requires the separate ``bleurt`` optional dependency group.
 """
 
 from metrics.registry import register
@@ -12,6 +13,10 @@ from metrics.learned_semantic_lightweight.nli import (
     calculate_nli_large,
     calculate_nli_xsmall,
 )
+from metrics.learned_semantic_lightweight.simcse import calculate_simcse
+from metrics.learned_semantic_lightweight.bartscore import calculate_bart_score
+from metrics.learned_semantic_lightweight.semantic_wer import calculate_semantic_wer
+from metrics.learned_semantic_lightweight.bertscore import calculate_bert_score
 
 _TIER = "learned_semantic_lightweight"
 _EXTRA = "learned-semantic"
@@ -40,3 +45,51 @@ register(
     description="NLI mutual entailment (DeBERTa-v3 large)",
     extra=_EXTRA,
 )
+register(
+    "simcse", _TIER, calculate_simcse,
+    fallback=0.0, higher_is_better=True,
+    description="SimCSE cosine similarity (sup-simcse-bert-base-uncased)",
+    extra=_EXTRA,
+)
+register(
+    "bart_score", _TIER, calculate_bart_score,
+    fallback=0.0, higher_is_better=True,
+    description="BARTScore log-likelihood (bart-large-cnn + ParaBank2)",
+    extra=_EXTRA,
+)
+register(
+    "semantic_wer", _TIER, calculate_semantic_wer,
+    fallback=1.0, higher_is_better=False,
+    description="Semantic Word Error Rate — DP weighted edit distance (all-MiniLM-L6-v2)",
+    extra=_EXTRA,
+)
+register(
+    "bert_score", _TIER, calculate_bert_score,
+    fallback=0.0, higher_is_better=True,
+    description="BERTScore F1 (roberta-large, 17 layers, no rescaling)",
+    extra=_EXTRA,
+)
+
+# BLEURT metrics — separate optional dependency group
+try:
+    from metrics.learned_semantic_lightweight.bleurt_metric import (
+        calculate_bleurt,
+        calculate_clinical_bleurt,
+    )
+
+    _BLEURT_EXTRA = "bleurt"
+
+    register(
+        "bleurt", _TIER, calculate_bleurt,
+        fallback=0.0, higher_is_better=True,
+        description="BLEURT score (bundled test checkpoint)",
+        extra=_BLEURT_EXTRA,
+    )
+    register(
+        "clinical_bleurt", _TIER, calculate_clinical_bleurt,
+        fallback=0.0, higher_is_better=True,
+        description="Clinical BLEURT score (requires checkpoint download)",
+        extra=_BLEURT_EXTRA,
+    )
+except ImportError:
+    pass
