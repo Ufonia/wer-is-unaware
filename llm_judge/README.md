@@ -3,7 +3,7 @@
 Steps to run the clinical impact judge with GEPA or MIPROv2.
 
 ## Prereqs
-- Data CSV with columns: `fer_gt_context`, `fer_hyp_context`, `final_outcome` (labels 0/1/2).
+- Data CSV with columns: `gt_context`, `hyp_context`, `final_outcome` (labels 0/1/2).
 - Bundled dataset: `llm_judge/dataset/primock_data_final_outcomes.csv`
 
 ## Included optimized judges
@@ -45,3 +45,51 @@ python -m llm_judge.cli.run_eval \
 
 ## Splits
 Default splits match the original script: test=50, val=30, remaining for train. Override with `--test-size` / `--val-size`. Seed defaults to 42.
+
+## Using the judge via evaluation scripts
+
+The judge can also be invoked through the general-purpose evaluation scripts in `scripts/`. This is useful for running metrics and the judge together in a single pass.
+
+### Single pair
+
+```bash
+# Bare mode (no context — judge sees "Patient: <text>" only)
+python scripts/evaluate_example.py \
+  --gt "it's clearing up" \
+  --hyp "it's clear but" \
+  --metrics wer \
+  --judge
+
+# With preceding conversation context
+python scripts/evaluate_example.py \
+  --gt "it's clearing up" \
+  --hyp "it's clear but" \
+  --metrics wer \
+  --judge \
+  --context-file llm_judge/context_example.txt
+```
+
+The `--context-file` provides preceding conversation turns. The final patient utterance is appended automatically from `--gt`/`--hyp`. See `llm_judge/context_example.txt` for the expected format.
+
+### Dataset
+
+```bash
+python scripts/evaluate_dataset.py \
+  --csv llm_judge/dataset/primock_data_final_outcomes.csv \
+  --tier edit_distance_and_ngram \
+  --judge
+```
+
+The dataset script reads pre-computed `gt_context` and `hyp_context` columns from the CSV. If these columns are missing, the script errors with a clear message. Output CSV will include `judge_clinical_impact` and `judge_reasoning` columns.
+
+### Judge flags (both scripts)
+
+| Flag | Default | Description |
+|------|---------|-------------|
+| `--judge` | off | Enable the LLM judge |
+| `--artifact PATH` | `llm_judge/results/clinical_judge_gepa.json` | Path to saved judge artifact |
+| `--provider` | `openrouter` | LLM provider (openrouter/gemini/bedrock) |
+| `--task-model` | `meta-llama/llama-3.3-70b-instruct:free` | Model ID |
+| `--context-file PATH` | — | Preceding turns file (evaluate_example.py only) |
+
+The judge always receives **uncleaned** text (it was trained on raw utterances, not cleaned ones).

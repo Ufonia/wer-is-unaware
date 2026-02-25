@@ -3,6 +3,7 @@
 Usage:
     python scripts/evaluate_dataset.py --csv data.csv --tier edit_distance_and_ngram
     python scripts/evaluate_dataset.py --csv data.csv --metrics wer,cer --output results.csv
+    python scripts/evaluate_dataset.py --csv data.csv --judge
     python scripts/evaluate_dataset.py --csv data.csv --limit 10
     python scripts/evaluate_dataset.py --list-metrics
 """
@@ -40,7 +41,7 @@ def _print_progress(prefix: str, current: int, total: int) -> None:
 
 
 # ---------------------------------------------------------------------------
-# Core evaluation
+# Core metric evaluation
 # ---------------------------------------------------------------------------
 
 
@@ -67,11 +68,10 @@ def evaluate_rows(
     results = pd.DataFrame(index=df.index, columns=metric_names, dtype=float)
     fallback_counts: dict[str, int] = {}
 
-    # Pre-compute text as plain strings, coercing NaN → empty string.
+    # Pre-compute text as plain strings, coercing NaN -> empty string.
     gt_texts = df[gt_col].fillna("").astype(str)
     hyp_texts = df[hyp_col].fillna("").astype(str)
 
-    # --- Non-model metrics: row-by-row, all at once ---
     if non_model:
         print(
             f"Processing {total} rows, {len(non_model)} Tier 1 metrics (row-by-row)...",
@@ -91,7 +91,6 @@ def evaluate_rows(
 
         print(file=sys.stderr)
 
-    # --- Model-based metrics: metric-by-metric ---
     if model_based:
         print(
             f"Processing {total} rows, {len(model_based)} model-based metrics "
@@ -138,6 +137,150 @@ def _safe_score(
 
 
 # ---------------------------------------------------------------------------
+# Judge evaluation
+# ---------------------------------------------------------------------------
+
+
+def evaluate_judge_rows(
+    df: pd.DataFrame,
+    artifact: str,
+    provider: str,
+    task_model: str,
+) -> tuple[pd.Series, pd.Series, dict[str, int]]:
+    """Run the LLM judge on each row, returning (scores, reasonings, class_counts).
+
+    Requires gt_context and hyp_context columns in the DataFrame.
+    Returns Series aligned with df.index.
+    """
+    # Lazy imports -- only pulled in when --judge is used
+    import dspy
+    from dotenv import load_dotenv
+
+    from llm_judge.metrics import parse_label
+    from llm_judge.providers.factory import setup_models
+    from llm_judge.signatures import ClinicalImpactJudge
+
+    load_dotenv()
+
+    task_lm, _ = setup_models(provider, task_model=task_model, reflection_model=None)
+    dspy.settings.configure(lm=task_lm)
+
+    judge = ClinicalImpactJudge()
+    judge.load(artifact)
+
+    total = len(df)
+    scores = pd.Series(index=df.index, dtype="Int64")  # nullable int
+    reasonings = pd.Series(index=df.index, dtype=str)
+    class_counts: dict[str, int] = {}
+
+    gt_contexts = df["gt_context"].fillna("").astype(str)
+    hyp_contexts = df["hyp_context"].fillna("").astype(str)
+
+    print(f"Running judge on {total} rows...", file=sys.stderr)
+    for i, idx in enumerate(df.index):
+        gt_ctx = gt_contexts.at[idx]
+        hyp_ctx = hyp_contexts.at[idx]
+
+        try:
+            prediction = judge(
+                ground_truth_conversation=gt_ctx,
+                transcription_conversation=hyp_ctx,
+            )
+            score = parse_label(prediction.clinical_impact)
+            reasoning = getattr(prediction, "reasoning", "")
+
+            if score is not None:
+                scores.at[idx] = score
+                key = str(score)
+                class_counts[key] = class_counts.get(key, 0) + 1
+            else:
+                scores.at[idx] = pd.NA
+                class_counts["parse_error"] = class_counts.get("parse_error", 0) + 1
+
+            reasonings.at[idx] = reasoning
+        except Exception as exc:
+            print(f"\n  Warning: judge failed on row {idx}: {exc}", file=sys.stderr)
+            scores.at[idx] = pd.NA
+            reasonings.at[idx] = f"ERROR: {exc}"
+            class_counts["error"] = class_counts.get("error", 0) + 1
+
+        if (i + 1) % 10 == 0 or i + 1 == total:
+            _print_progress("Judge", i + 1, total)
+
+    print(file=sys.stderr)
+    return scores, reasonings, class_counts
+
+
+# ---------------------------------------------------------------------------
+# Display helpers
+# ---------------------------------------------------------------------------
+
+
+def _print_summary(
+    df: pd.DataFrame,
+    metric_names: list[str],
+    fallback_counts: dict[str, int],
+) -> None:
+    """Print summary statistics to stdout."""
+    print(f"\nResults ({len(df)} rows):")
+    stats = df[metric_names].describe().loc[["mean", "std", "min", "max"]]
+    print(f"  {'Metric':<22s} {'Mean':>8s} {'Std':>8s} {'Min':>8s} {'Max':>8s}")
+    for name in metric_names:
+        print(
+            f"  {name:<22s}"
+            f" {stats.at['mean', name]:>8.4f}"
+            f" {stats.at['std', name]:>8.4f}"
+            f" {stats.at['min', name]:>8.4f}"
+            f" {stats.at['max', name]:>8.4f}"
+        )
+
+    total_fallbacks = sum(fallback_counts.values())
+    if total_fallbacks:
+        print(f"\nWarning: {total_fallbacks} fallback(s) used:", file=sys.stderr)
+        for name, count in fallback_counts.items():
+            print(f"  {name}: {count}", file=sys.stderr)
+
+
+def _print_judge_summary(class_counts: dict[str, int], total: int) -> None:
+    """Print judge score distribution."""
+    class_labels = {
+        "0": "No impact",
+        "1": "Minimal impact",
+        "2": "Significant impact",
+    }
+    print("\nJudge results:")
+    for key in ["0", "1", "2"]:
+        count = class_counts.get(key, 0)
+        pct = (count / total * 100) if total > 0 else 0
+        print(f"  Class {key} ({class_labels[key]}): {count:>6d} ({pct:>5.1f}%)")
+
+    for key in ["parse_error", "error"]:
+        count = class_counts.get(key, 0)
+        if count:
+            print(f"  {key}: {count}")
+
+
+def _print_list_metrics() -> None:
+    """Print all registered metrics grouped by tier."""
+    tiers = list_metrics()
+    total = sum(len(names) for names in tiers.values())
+    print(f"Available metrics ({total} total):\n")
+
+    for tier, names in tiers.items():
+        first_entry = REGISTRY[names[0]]
+        extra_hint = ""
+        if first_entry.extra:
+            extra_hint = f"  [requires: uv sync --extra {first_entry.extra}]"
+
+        print(f"  {tier} ({len(names)}):{extra_hint}")
+        for name in names:
+            info = get_metric_info(name)
+            direction = "higher is better" if info.higher_is_better else "lower is better"
+            print(f"    {name:<22s} {info.description:<42s} [{direction}]")
+        print()
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -174,6 +317,27 @@ def main() -> None:
         "--no-filter-nlts",
         action="store_true",
         help="Keep non-lexical tokens (uh, um, etc.) during cleaning",
+    )
+
+    # Judge flags
+    parser.add_argument(
+        "--judge", action="store_true",
+        help="Run the LLM clinical impact judge (requires: uv sync --extra judge)",
+    )
+    parser.add_argument(
+        "--artifact", type=str,
+        default="llm_judge/results/clinical_judge_gepa.json",
+        help="Path to saved judge artifact (default: llm_judge/results/clinical_judge_gepa.json)",
+    )
+    parser.add_argument(
+        "--provider", type=str, default="openrouter",
+        choices=["openrouter", "gemini", "bedrock"],
+        help="LLM provider for the judge (default: openrouter)",
+    )
+    parser.add_argument(
+        "--task-model", type=str,
+        default="meta-llama/llama-3.3-70b-instruct:free",
+        help="Model ID for the judge (default: meta-llama/llama-3.3-70b-instruct:free)",
     )
 
     args = parser.parse_args()
@@ -220,16 +384,30 @@ def main() -> None:
         print(f"Error: column {args.hyp_col!r} not found in CSV.", file=sys.stderr)
         sys.exit(1)
 
+    if args.judge:
+        missing = []
+        if "gt_context" not in df.columns:
+            missing.append("gt_context")
+        if "hyp_context" not in df.columns:
+            missing.append("hyp_context")
+        if missing:
+            print(
+                f"Error: judge requires {', '.join(repr(c) for c in missing)} column(s) "
+                f"in the CSV. These contain the conversation context for each utterance.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
     if args.limit:
         df = df.head(args.limit)
 
+    # --- Metrics ---
     clean = not args.no_clean
     filter_nlts = not args.no_filter_nlts
     results_df, fallback_counts = evaluate_rows(
         df, metric_names, args.gt_col, args.hyp_col, clean, filter_nlts
     )
 
-    # Build cleaned text columns for transparency
     if clean:
         df["clean_ground_truth"] = df[args.gt_col].fillna("").apply(
             lambda t: get_clean_transcript(str(t), remove_non_lexical_tokens=filter_nlts)
@@ -241,56 +419,24 @@ def main() -> None:
     for name in metric_names:
         df[name] = results_df[name]
 
+    _print_summary(df, metric_names, fallback_counts)
+
+    # --- Judge ---
+    if args.judge:
+        scores, reasonings, class_counts = evaluate_judge_rows(
+            df,
+            artifact=args.artifact,
+            provider=args.provider,
+            task_model=args.task_model,
+        )
+        df["judge_clinical_impact"] = scores
+        df["judge_reasoning"] = reasonings
+        _print_judge_summary(class_counts, len(df))
+
+    # --- Output ---
     output_path = args.output or _default_output_path(csv_path)
     df.to_csv(output_path, index=False)
-
-    _print_summary(df, metric_names, fallback_counts)
     print(f"\nOutput: {output_path}")
-
-
-def _print_summary(
-    df: pd.DataFrame,
-    metric_names: list[str],
-    fallback_counts: dict[str, int],
-) -> None:
-    """Print summary statistics to stdout."""
-    print(f"\nResults ({len(df)} rows):")
-    stats = df[metric_names].describe().loc[["mean", "std", "min", "max"]]
-    print(f"  {'Metric':<22s} {'Mean':>8s} {'Std':>8s} {'Min':>8s} {'Max':>8s}")
-    for name in metric_names:
-        print(
-            f"  {name:<22s}"
-            f" {stats.at['mean', name]:>8.4f}"
-            f" {stats.at['std', name]:>8.4f}"
-            f" {stats.at['min', name]:>8.4f}"
-            f" {stats.at['max', name]:>8.4f}"
-        )
-
-    total_fallbacks = sum(fallback_counts.values())
-    if total_fallbacks:
-        print(f"\nWarning: {total_fallbacks} fallback(s) used:", file=sys.stderr)
-        for name, count in fallback_counts.items():
-            print(f"  {name}: {count}", file=sys.stderr)
-
-
-def _print_list_metrics() -> None:
-    """Print all registered metrics grouped by tier."""
-    tiers = list_metrics()
-    total = sum(len(names) for names in tiers.values())
-    print(f"Available metrics ({total} total):\n")
-
-    for tier, names in tiers.items():
-        first_entry = REGISTRY[names[0]]
-        extra_hint = ""
-        if first_entry.extra:
-            extra_hint = f"  [requires: uv sync --extra {first_entry.extra}]"
-
-        print(f"  {tier} ({len(names)}):{extra_hint}")
-        for name in names:
-            info = get_metric_info(name)
-            direction = "higher is better" if info.higher_is_better else "lower is better"
-            print(f"    {name:<22s} {info.description:<42s} [{direction}]")
-        print()
 
 
 if __name__ == "__main__":
