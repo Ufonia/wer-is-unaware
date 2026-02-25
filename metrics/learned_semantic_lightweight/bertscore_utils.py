@@ -16,7 +16,7 @@ from transformers import AutoModel, AutoTokenizer
 
 # Layer counts tuned on WMT16 correlation data — only need the one we use.
 model2layers = {
-    "microsoft/deberta-xlarge-mnli": 40,
+    "roberta-large": 17,
 }
 
 
@@ -25,11 +25,10 @@ def get_tokenizer(model_type: str) -> AutoTokenizer:
 
 
 def get_model(model_type: str, num_layers: int) -> AutoModel:
-    """Load model and truncate to num_layers (used code path only: encoder.layer)."""
+    """Load model and truncate to num_layers."""
     model = AutoModel.from_pretrained(model_type)
     model.eval()
 
-    # DeBERTa has model.encoder.layer
     assert hasattr(model, "encoder") and hasattr(model.encoder, "layer"), (
         f"Expected model.encoder.layer for {model_type}"
     )

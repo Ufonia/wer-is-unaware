@@ -1,8 +1,6 @@
-"""BERTScore — contextual embedding F1. Model: microsoft/deberta-xlarge-mnli (~2.7GB, auto-downloaded).
+"""BERTScore — contextual embedding F1. Model: roberta-large (~1.4GB, auto-downloaded).
 
-Scores are baseline-rescaled: (raw - baseline) / (1 - baseline), matching the
-official bert-score package defaults. Baselines computed on Common Crawl for
-english, sourced from the bert-score 0.3.13 package data.
+No baseline rescaling. Uses 17 layers (tuned on WMT16 correlation data).
 """
 
 from __future__ import annotations
@@ -19,15 +17,9 @@ from metrics.learned_semantic_lightweight.bertscore_utils import (
 )
 from metrics.model_cache import get_device, models
 
-_MODEL_KEY = "bertscore_deberta"
-_MODEL_TYPE = "microsoft/deberta-xlarge-mnli"
+_MODEL_KEY = "bertscore_roberta"
+_MODEL_TYPE = "roberta-large"
 _NUM_LAYERS = model2layers[_MODEL_TYPE]
-
-# Baseline values for layer 40, english, from bert-score 0.3.13 package data.
-# Used for rescaling: (raw - baseline) / (1 - baseline)
-_BASELINE_P = 0.5169066
-_BASELINE_R = 0.5170288
-_BASELINE_F = 0.5150192
 
 
 def _load_bertscore():
@@ -61,17 +53,13 @@ def score(
     device: str,
     batch_size: int = 2,
 ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
-    """Compute BERTScore P, R, F1 for candidate/reference pairs (baseline-rescaled)."""
+    """Compute BERTScore P, R, F1 for candidate/reference pairs (raw, no rescaling)."""
     assert len(cands) == len(refs), "Different number of candidates and references"
 
     all_preds = bert_cos_score_idf(
         model, refs, cands, tokenizer, idf_dict,
         device=device, batch_size=batch_size,
     ).cpu()
-
-    # Baseline rescaling: (raw - baseline) / (1 - baseline)
-    baselines = torch.tensor([_BASELINE_P, _BASELINE_R, _BASELINE_F])
-    all_preds = (all_preds - baselines) / (1 - baselines)
 
     return all_preds[..., 0], all_preds[..., 1], all_preds[..., 2]
 

@@ -143,7 +143,8 @@ class TestBERTScore:
     def test_different(self):
         from metrics import calculate_metric
         score = calculate_metric("bert_score", "the cat sat on the mat", "quantum physics is fascinating")
-        assert score < 0.6
+        # Raw (no rescaling) BERTScores are high even for unrelated strings
+        assert score < 0.9
 
     def test_empty_string(self):
         from metrics import calculate_metric
@@ -153,7 +154,7 @@ class TestBERTScore:
     def test_model_cache_loaded(self):
         from metrics import calculate_metric
         calculate_metric("bert_score", "hello", "hello")
-        assert "bertscore_deberta" in models.loaded()
+        assert "bertscore_roberta" in models.loaded()
 
 
 # ---------------------------------------------------------------------------

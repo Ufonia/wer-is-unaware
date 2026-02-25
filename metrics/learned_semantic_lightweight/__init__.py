@@ -66,7 +66,7 @@ register(
 register(
     "bert_score", _TIER, calculate_bert_score,
     fallback=0.0, higher_is_better=True,
-    description="BERTScore F1 (deberta-xlarge-mnli)",
+    description="BERTScore F1 (roberta-large, 17 layers, no rescaling)",
     extra=_EXTRA,
 )
 
