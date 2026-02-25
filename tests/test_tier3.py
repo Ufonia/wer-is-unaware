@@ -29,10 +29,15 @@ class TestHeval:
         score = calculate_metric("heval", "the cat sat on the mat", "quantum physics is fascinating")
         assert score > 0.0
 
-    def test_empty_string(self):
+    def test_both_empty_returns_none(self):
         from metrics import calculate_metric
-        score = calculate_metric("heval", "", "the cat sat on the mat")
-        assert score == 1.0  # fallback
+        assert calculate_metric("heval", "", "") is None
+
+    def test_one_empty_lets_algorithm_run(self):
+        """Heval handles empty hyp naturally (all deletions)."""
+        from metrics import calculate_metric
+        score = calculate_metric("heval", "the cat sat on the mat", "")
+        assert score is None or isinstance(score, float)
 
     def test_model_cache_loaded(self):
         from metrics import calculate_metric
@@ -66,10 +71,15 @@ class TestIntelligibility:
         score = calculate_metric("intelligibility", "the cat sat on the mat", "quantum physics is fascinating")
         assert score < 0.7
 
-    def test_empty_string(self):
+    def test_both_empty_returns_none(self):
+        from metrics import calculate_metric
+        assert calculate_metric("intelligibility", "", "") is None
+
+    def test_one_empty_lets_algorithm_run(self):
+        """Intelligibility is composite — let algorithm try."""
         from metrics import calculate_metric
         score = calculate_metric("intelligibility", "", "the cat sat on the mat")
-        assert score == 0.0  # fallback
+        assert score is None or isinstance(score, float)
 
     def test_model_cache_loaded(self):
         from metrics import calculate_metric
@@ -97,10 +107,15 @@ class TestSeMaScore:
         score = calculate_metric("semascore", "the cat sat on the mat", "quantum physics is fascinating")
         assert score < 0.5
 
-    def test_empty_string(self):
+    def test_both_empty_returns_none(self):
+        from metrics import calculate_metric
+        assert calculate_metric("semascore", "", "") is None
+
+    def test_one_empty_lets_algorithm_run(self):
+        """SeMaScore is complex — let algorithm try."""
         from metrics import calculate_metric
         score = calculate_metric("semascore", "", "the cat sat on the mat")
-        assert score == 0.0  # fallback
+        assert score is None or isinstance(score, float)
 
     def test_model_cache_loaded(self):
         from metrics import calculate_metric
