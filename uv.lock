@@ -4419,6 +4419,7 @@ dependencies = [
     { name = "num2words" },
     { name = "openai" },
     { name = "pandas" },
+    { name = "python-dotenv" },
     { name = "rouge-score" },
     { name = "sacrebleu" },
 ]
@@ -4441,7 +4442,6 @@ judge = [
     { name = "boto3" },
     { name = "dspy" },
     { name = "google-cloud-aiplatform" },
-    { name = "python-dotenv" },
     { name = "scikit-learn" },
 ]
 learned-semantic = [
@@ -4466,7 +4466,7 @@ requires-dist = [
     { name = "openai", specifier = ">=1.35.0" },
     { name = "pandas", specifier = ">=2.0" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0" },
-    { name = "python-dotenv", marker = "extra == 'judge'", specifier = ">=1.0" },
+    { name = "python-dotenv", specifier = ">=1.0" },
     { name = "rouge-score", specifier = ">=0.1" },
     { name = "sacrebleu", specifier = ">=2.3" },
     { name = "scikit-learn", marker = "extra == 'judge'", specifier = ">=1.0" },

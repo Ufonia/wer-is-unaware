@@ -50,6 +50,13 @@ class TestSimCSE:
 # ---------------------------------------------------------------------------
 
 class TestBARTScore:
+    def test_missing_checkpoint_errors(self, monkeypatch):
+        """Clear error when BARTSCORE_CHECKPOINT env var is not set."""
+        monkeypatch.delenv("BARTSCORE_CHECKPOINT", raising=False)
+        from metrics.learned_semantic_lightweight.bartscore import _load_bart_scorer
+        with pytest.raises(RuntimeError, match="BARTSCORE_CHECKPOINT"):
+            _load_bart_scorer()
+
     def test_identity(self):
         from metrics import calculate_metric
         score = calculate_metric("bart_score", "the cat sat on the mat", "the cat sat on the mat")
