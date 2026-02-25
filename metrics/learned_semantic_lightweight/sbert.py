@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from typing import Optional
+
 from sentence_transformers import SentenceTransformer, util
 
 from metrics.model_cache import models
@@ -13,7 +15,9 @@ models.register_loader(
 )
 
 
-def calculate_sbert_similarity(gt: str, hyp: str, **kwargs) -> float:
+def calculate_sbert_similarity(gt: str, hyp: str, **kwargs) -> Optional[float]:
+    if not gt and not hyp:
+        return None
     if not gt or not hyp:
         return 0.0
 

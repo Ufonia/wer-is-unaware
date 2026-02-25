@@ -25,6 +25,10 @@ class TestSBERTSimilarity:
         score = calculate_metric("sbert_similarity", "the cat sat on the mat", "bananas are yellow fruit")
         assert score < 0.5
 
+    def test_both_empty_returns_none(self):
+        score = calculate_metric("sbert_similarity", "", "")
+        assert score is None
+
     def test_empty_gt_returns_zero(self):
         score = calculate_metric("sbert_similarity", "", "some text")
         assert score == 0.0
@@ -54,6 +58,10 @@ class TestNLIXSmall:
             "the patient is critically ill",
         )
         assert score < 0.3
+
+    def test_both_empty_returns_none(self):
+        score = calculate_metric("nli_xsmall", "", "")
+        assert score is None
 
     def test_empty_returns_zero(self):
         score = calculate_metric("nli_xsmall", "", "some text")

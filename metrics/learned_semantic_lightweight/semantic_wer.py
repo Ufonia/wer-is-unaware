@@ -5,6 +5,8 @@ Model: all-MiniLM-L6-v2 (~80MB, auto-downloaded). Lower is better.
 
 from __future__ import annotations
 
+from typing import Optional
+
 import numpy as np
 import torch
 from sentence_transformers import SentenceTransformer, util
@@ -94,7 +96,7 @@ def _calculate_swer(
     return dp[len(ref_words), len(hyp_words)] / len(ref_words)
 
 
-def calculate_semantic_wer(gt: str, hyp: str, **kwargs) -> float:
+def calculate_semantic_wer(gt: str, hyp: str, **kwargs) -> Optional[float]:
     """Semantic Word Error Rate for a single (gt, hyp) pair.
 
     Kwargs:
@@ -102,19 +104,27 @@ def calculate_semantic_wer(gt: str, hyp: str, **kwargs) -> float:
         sentiment_words: set of sentiment strings (default: empty)
         similarity_threshold: cosine sim threshold (default: 0.6)
     """
-    if not gt or not hyp:
-        return 1.0  # fallback
-
-    bundle = models.get(_MODEL_KEY)
-    model, device = bundle["model"], bundle["device"]
+    if not gt and not hyp:
+        return None
 
     named_entities: set[str] = kwargs.get("named_entities", set())
     sentiment_words: set[str] = kwargs.get("sentiment_words", set())
     ne_and_sent_words = named_entities | sentiment_words
     similarity_threshold = kwargs.get("similarity_threshold", _SIMILARITY_THRESHOLD)
 
-    ref_words = gt.lower().split()
-    hyp_words = hyp.lower().split()
+    ref_words = gt.lower().split() if gt else []
+    hyp_words = hyp.lower().split() if hyp else []
+
+    bundle = models.get(_MODEL_KEY)
+    model, device = bundle["model"], bundle["device"]
+
+    if not gt or not hyp:
+        try:
+            return _calculate_swer(
+                ref_words, hyp_words, model, device, ne_and_sent_words, similarity_threshold
+            )
+        except Exception:
+            return None
 
     return _calculate_swer(
         ref_words, hyp_words, model, device, ne_and_sent_words, similarity_threshold

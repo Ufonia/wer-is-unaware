@@ -23,49 +23,49 @@ _EXTRA = "learned-semantic"
 
 register(
     "sbert_similarity", _TIER, calculate_sbert_similarity,
-    fallback=0.0, higher_is_better=True,
+    higher_is_better=True,
     description="SBERT cosine similarity (all-MiniLM-L6-v2)",
     extra=_EXTRA,
 )
 register(
     "nli_xsmall", _TIER, calculate_nli_xsmall,
-    fallback=0.0, higher_is_better=True,
+    higher_is_better=True,
     description="NLI mutual entailment (DeBERTa-v3 xsmall)",
     extra=_EXTRA,
 )
 register(
     "nli_base", _TIER, calculate_nli_base,
-    fallback=0.0, higher_is_better=True,
+    higher_is_better=True,
     description="NLI mutual entailment (DeBERTa-v3 base)",
     extra=_EXTRA,
 )
 register(
     "nli_large", _TIER, calculate_nli_large,
-    fallback=0.0, higher_is_better=True,
+    higher_is_better=True,
     description="NLI mutual entailment (DeBERTa-v3 large)",
     extra=_EXTRA,
 )
 register(
     "simcse", _TIER, calculate_simcse,
-    fallback=0.0, higher_is_better=True,
+    higher_is_better=True,
     description="SimCSE cosine similarity (sup-simcse-bert-base-uncased)",
     extra=_EXTRA,
 )
 register(
     "bart_score", _TIER, calculate_bart_score,
-    fallback=0.0, higher_is_better=True,
+    higher_is_better=True,
     description="BARTScore log-likelihood (bart-large-cnn + ParaBank2)",
     extra=_EXTRA,
 )
 register(
     "semantic_wer", _TIER, calculate_semantic_wer,
-    fallback=1.0, higher_is_better=False,
+    higher_is_better=False,
     description="Semantic Word Error Rate — DP weighted edit distance (all-MiniLM-L6-v2)",
     extra=_EXTRA,
 )
 register(
     "bert_score", _TIER, calculate_bert_score,
-    fallback=0.0, higher_is_better=True,
+    higher_is_better=True,
     description="BERTScore F1 (roberta-large, 17 layers, no rescaling)",
     extra=_EXTRA,
 )
@@ -81,13 +81,13 @@ try:
 
     register(
         "bleurt", _TIER, calculate_bleurt,
-        fallback=0.0, higher_is_better=True,
+        higher_is_better=True,
         description="BLEURT score (bundled test checkpoint)",
         extra=_BLEURT_EXTRA,
     )
     register(
         "clinical_bleurt", _TIER, calculate_clinical_bleurt,
-        fallback=0.0, higher_is_better=True,
+        higher_is_better=True,
         description="Clinical BLEURT score (requires checkpoint download)",
         extra=_BLEURT_EXTRA,
     )
