@@ -1,0 +1,19 @@
+# Context file for use with: scripts/evaluate_example.py --context-file
+#
+# This file provides the preceding conversation turns for the LLM judge.
+# Lines starting with # are ignored (comments).
+#
+# Format: Each turn is prefixed with (N) Speaker: where N is the interaction
+# index. The final patient utterance is NOT included here -- it is appended
+# automatically from --gt / --hyp.
+#
+# Example: if this file contains turns (6) and (7), and the patient utterance
+# you are evaluating is turn (8), the script will automatically append:
+#   (8) Patient: <your --gt text>   (for ground truth context)
+#   (8) Patient: <your --hyp text>  (for hypothesis context)
+#
+# Copy this file, edit it with your conversation, and pass it with --context-file.
+
+(6) Doctor: No. OK you didn't, you didn't notice any abnormal white spots, redness at the back of your throat?
+(6) Patient: Um No. Um I I didn't think about uh .
+(7) Doctor: that's OK. That's OK. And you mentioned a runny nose. Um again what kind of discharge is coming out? Is it clear, or is it a bit more coloured?

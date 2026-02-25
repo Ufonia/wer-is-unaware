@@ -33,8 +33,8 @@ def split_dataset(
 def create_dspy_example(row) -> dspy.Example:
     """Convert dataframe row to DSPy Example."""
     return dspy.Example(
-        ground_truth_conversation=str(row["fer_gt_context"]),
-        transcription_conversation=str(row["fer_hyp_context"]),
+        ground_truth_conversation=str(row["gt_context"]),
+        transcription_conversation=str(row["hyp_context"]),
         clinical_impact=str(int(row["final_outcome"])),
     ).with_inputs("ground_truth_conversation", "transcription_conversation")
 
