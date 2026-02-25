@@ -162,14 +162,6 @@ class TestBERTScore:
 # ---------------------------------------------------------------------------
 
 class TestBLEURT:
-    def test_missing_env_var_errors(self, monkeypatch):
-        """Clear error when BLEURT_CHECKPOINT env var is not set."""
-        monkeypatch.delenv("BLEURT_CHECKPOINT", raising=False)
-        from metrics.learned_semantic_lightweight.bleurt_metric import _make_loader
-        loader = _make_loader("BLEURT_CHECKPOINT", "BLEURT")
-        with pytest.raises(RuntimeError, match="BLEURT_CHECKPOINT"):
-            loader()
-
     def test_clinical_missing_env_var_errors(self, monkeypatch):
         """Clear error when CLINICAL_BLEURT_CHECKPOINT env var is not set."""
         monkeypatch.delenv("CLINICAL_BLEURT_CHECKPOINT", raising=False)
@@ -180,9 +172,9 @@ class TestBLEURT:
 
     def test_missing_checkpoint_dir_errors(self, monkeypatch, tmp_path):
         """Clear error when checkpoint path doesn't exist."""
-        monkeypatch.setenv("BLEURT_CHECKPOINT", str(tmp_path / "nonexistent"))
+        monkeypatch.setenv("CLINICAL_BLEURT_CHECKPOINT", str(tmp_path / "nonexistent"))
         from metrics.learned_semantic_lightweight.bleurt_metric import _make_loader
-        loader = _make_loader("BLEURT_CHECKPOINT", "BLEURT")
+        loader = _make_loader("CLINICAL_BLEURT_CHECKPOINT", "Clinical BLEURT")
         with pytest.raises(FileNotFoundError, match="nonexistent"):
             loader()
 

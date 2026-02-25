@@ -1,8 +1,7 @@
 """BLEURT and Clinical BLEURT — learned evaluation metric (TensorFlow-based).
 
-Checkpoint paths configured via environment variables:
-- BLEURT_CHECKPOINT: path to standard BLEURT checkpoint directory
-- CLINICAL_BLEURT_CHECKPOINT: path to Clinical BLEURT checkpoint directory
+Standard BLEURT uses the test checkpoint bundled with the bleurt package.
+Clinical BLEURT requires a separate checkpoint via CLINICAL_BLEURT_CHECKPOINT env var.
 
 Requires the ``bleurt`` optional dependency group: uv sync --extra bleurt
 """
@@ -15,6 +14,15 @@ from metrics.model_cache import models
 
 _BLEURT_KEY = "bleurt_scorer"
 _CLINICAL_BLEURT_KEY = "clinical_bleurt_scorer"
+
+
+def _load_bleurt():
+    """Load standard BLEURT using the bundled test checkpoint."""
+    from bleurt import score as bleurt_score
+
+    pkg_dir = os.path.dirname(bleurt_score.__file__)
+    checkpoint = os.path.join(pkg_dir, "test_checkpoint")
+    return bleurt_score.BleurtScorer(checkpoint=checkpoint)
 
 
 def _make_loader(env_var: str, label: str):
@@ -40,7 +48,7 @@ def _make_loader(env_var: str, label: str):
     return _load
 
 
-models.register_loader(_BLEURT_KEY, _make_loader("BLEURT_CHECKPOINT", "BLEURT"))
+models.register_loader(_BLEURT_KEY, _load_bleurt)
 models.register_loader(
     _CLINICAL_BLEURT_KEY,
     _make_loader("CLINICAL_BLEURT_CHECKPOINT", "Clinical BLEURT"),
