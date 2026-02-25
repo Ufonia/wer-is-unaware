@@ -41,7 +41,7 @@ def _calculate_swer(
     ne_and_sent_words: set[str],
     similarity_threshold: float,
 ) -> float:
-    """DP-based weighted edit distance, normalised by reference length."""
+    """DP-based weighted edit distance, normalised by hypothesis length."""
     if not ref_words:
         return len(hyp_words) * (1 / len(hyp_words)) if hyp_words else 0.0
 
@@ -94,7 +94,7 @@ def _calculate_swer(
 
             dp[i, j] = min(deletion, insertion, substitution)
 
-    return dp[len(ref_words), len(hyp_words)] / len(ref_words)
+    return dp[len(ref_words), len(hyp_words)] / len(hyp_words)
 
 
 def calculate_semantic_wer(gt: str, hyp: str, **kwargs) -> float:
