@@ -6,6 +6,7 @@ No baseline rescaling. Uses 17 layers (tuned on WMT16 correlation data).
 from __future__ import annotations
 
 from collections import defaultdict
+from typing import Optional
 
 import torch
 
@@ -64,8 +65,10 @@ def score(
     return all_preds[..., 0], all_preds[..., 1], all_preds[..., 2]
 
 
-def calculate_bert_score(gt: str, hyp: str, **kwargs) -> float:
+def calculate_bert_score(gt: str, hyp: str, **kwargs) -> Optional[float]:
     """BERTScore F1 for a single (gt, hyp) pair."""
+    if not gt and not hyp:
+        return None
     if not gt or not hyp:
         return 0.0
 

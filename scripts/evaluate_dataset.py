@@ -57,7 +57,7 @@ def evaluate_rows(
     clean: bool,
     filter_nlts: bool,
 ) -> tuple[pd.DataFrame, dict[str, int]]:
-    """Evaluate metrics over a DataFrame, returning (results_df, fallback_counts).
+    """Evaluate metrics over a DataFrame, returning (results_df, none_counts).
 
     Uses a hybrid strategy:
     - Non-model metrics: single pass through rows (all metrics per row).
@@ -70,7 +70,7 @@ def evaluate_rows(
     model_based = [n for n in metric_names if _is_model_based(n)]
 
     results = pd.DataFrame(index=df.index, columns=metric_names, dtype=float)
-    fallback_counts: dict[str, int] = {}
+    none_counts: dict[str, int] = {}
 
     # Pre-compute text as plain strings, coercing NaN -> empty string.
     gt_texts = df[gt_col].fillna("").astype(str)
@@ -87,7 +87,7 @@ def evaluate_rows(
 
             for name in non_model:
                 results.at[idx, name] = _safe_score(
-                    name, gt, hyp, clean, filter_nlts, fallback_counts
+                    name, gt, hyp, clean, filter_nlts, none_counts
                 )
 
             if (i + 1) % 50 == 0 or i + 1 == total:
@@ -106,7 +106,7 @@ def evaluate_rows(
                 gt = gt_texts.at[idx]
                 hyp = hyp_texts.at[idx]
                 results.at[idx, name] = _safe_score(
-                    name, gt, hyp, clean, filter_nlts, fallback_counts
+                    name, gt, hyp, clean, filter_nlts, none_counts
                 )
                 if (i + 1) % 50 == 0 or i + 1 == total:
                     _print_progress(name, i + 1, total)
@@ -114,7 +114,7 @@ def evaluate_rows(
             models.clear()
             print(file=sys.stderr)
 
-    return results, fallback_counts
+    return results, none_counts
 
 
 def _safe_score(
@@ -123,21 +123,18 @@ def _safe_score(
     hyp: str,
     clean: bool,
     filter_nlts: bool,
-    fallback_counts: dict[str, int],
-) -> float:
-    """Score a single metric, falling back on error or empty input."""
-    fallback = REGISTRY[name].fallback
-
-    if not gt or not hyp:
-        fallback_counts[name] = fallback_counts.get(name, 0) + 1
-        return fallback
-
+    none_counts: dict[str, int],
+) -> float | None:
+    """Score a single metric. Returns None when the metric can't meaningfully score."""
     try:
-        return calculate_metric(name, gt, hyp, clean=clean, filter_nlts=filter_nlts)
+        result = calculate_metric(name, gt, hyp, clean=clean, filter_nlts=filter_nlts)
     except Exception as exc:
         print(f"\n  Warning: {name} failed on row: {exc}", file=sys.stderr)
-        fallback_counts[name] = fallback_counts.get(name, 0) + 1
-        return fallback
+        result = None
+
+    if result is None:
+        none_counts[name] = none_counts.get(name, 0) + 1
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -220,7 +217,7 @@ def evaluate_judge_rows(
 def _print_summary(
     df: pd.DataFrame,
     metric_names: list[str],
-    fallback_counts: dict[str, int],
+    none_counts: dict[str, int],
 ) -> None:
     """Print summary statistics to stdout."""
     print(f"\nResults ({len(df)} rows):")
@@ -235,10 +232,10 @@ def _print_summary(
             f" {stats.at['max', name]:>8.4f}"
         )
 
-    total_fallbacks = sum(fallback_counts.values())
-    if total_fallbacks:
-        print(f"\nWarning: {total_fallbacks} fallback(s) used:", file=sys.stderr)
-        for name, count in fallback_counts.items():
+    total_nones = sum(none_counts.values())
+    if total_nones:
+        print(f"\nNote: {total_nones} row(s) could not be scored (NaN in output):", file=sys.stderr)
+        for name, count in none_counts.items():
             print(f"  {name}: {count}", file=sys.stderr)
 
 
@@ -405,7 +402,7 @@ def main() -> None:
     # --- Metrics ---
     clean = not args.no_clean
     filter_nlts = not args.no_filter_nlts
-    results_df, fallback_counts = evaluate_rows(
+    results_df, none_counts = evaluate_rows(
         df, metric_names, args.gt_col, args.hyp_col, clean, filter_nlts
     )
 
@@ -420,7 +417,7 @@ def main() -> None:
     for name in metric_names:
         df[name] = results_df[name]
 
-    _print_summary(df, metric_names, fallback_counts)
+    _print_summary(df, metric_names, none_counts)
 
     # --- Judge ---
     if args.judge:

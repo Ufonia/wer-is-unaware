@@ -8,6 +8,8 @@ Models (auto-downloaded from HuggingFace Hub):
 
 from __future__ import annotations
 
+from typing import Optional
+
 import numpy as np
 from sentence_transformers import CrossEncoder
 
@@ -29,8 +31,10 @@ def _softmax_entailment(logits: np.ndarray) -> float:
     return float(probs[0][1])
 
 
-def _mutual_entailment(gt: str, hyp: str, model_key: str) -> float:
+def _mutual_entailment(gt: str, hyp: str, model_key: str) -> Optional[float]:
     """min(P(gt entails hyp), P(hyp entails gt)) — both directions must be high."""
+    if not gt and not hyp:
+        return None
     if not gt or not hyp:
         return 0.0
 
@@ -40,13 +44,13 @@ def _mutual_entailment(gt: str, hyp: str, model_key: str) -> float:
     return min(pe_fwd, pe_bwd)
 
 
-def calculate_nli_xsmall(gt: str, hyp: str, **kwargs) -> float:
+def calculate_nli_xsmall(gt: str, hyp: str, **kwargs) -> Optional[float]:
     return _mutual_entailment(gt, hyp, "nli_xsmall")
 
 
-def calculate_nli_base(gt: str, hyp: str, **kwargs) -> float:
+def calculate_nli_base(gt: str, hyp: str, **kwargs) -> Optional[float]:
     return _mutual_entailment(gt, hyp, "nli_base")
 
 
-def calculate_nli_large(gt: str, hyp: str, **kwargs) -> float:
+def calculate_nli_large(gt: str, hyp: str, **kwargs) -> Optional[float]:
     return _mutual_entailment(gt, hyp, "nli_large")

@@ -48,9 +48,9 @@ def print_list_metrics() -> None:
         print()
 
 
-def print_results(results: dict[str, float]) -> None:
+def print_results(results: dict[str, float | None]) -> None:
     """Print metric results grouped by tier."""
-    tier_results: dict[str, list[tuple[str, float]]] = {}
+    tier_results: dict[str, list[tuple[str, float | None]]] = {}
     for name, score in results.items():
         entry = REGISTRY[name]
         tier_results.setdefault(entry.tier, []).append((name, score))
@@ -58,7 +58,10 @@ def print_results(results: dict[str, float]) -> None:
     for tier, pairs in tier_results.items():
         print(f"\nMetrics ({tier}):")
         for name, score in pairs:
-            print(f"  {name:<22s} {score:.4f}")
+            if score is None:
+                print(f"  {name:<22s} N/A")
+            else:
+                print(f"  {name:<22s} {score:.4f}")
 
 
 # ---------------------------------------------------------------------------
@@ -235,7 +238,7 @@ def main() -> None:
 
     clean = not args.no_clean
     filter_nlts = not args.no_filter_nlts
-    results: dict[str, float] = {}
+    results: dict[str, float | None] = {}
     for name in metric_names:
         results[name] = calculate_metric(
             name, args.gt, args.hyp, clean=clean, filter_nlts=filter_nlts

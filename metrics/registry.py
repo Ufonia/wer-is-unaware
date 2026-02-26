@@ -1,4 +1,12 @@
-"""Metric registry — central catalogue of all available metrics."""
+"""Metric registry — central catalogue of all available metrics.
+
+Empty-input handling is done inside each ``calculate_*`` function:
+
+- Both empty → ``None`` (universal).
+- One empty, clear answer → return it (e.g. WER → 1.0, BLEU → 0.0).
+- One empty, ambiguous → let the algorithm try; ``try/except`` on the
+  one-empty path only, returning ``None`` on failure.
+"""
 
 from __future__ import annotations
 
@@ -13,7 +21,6 @@ class MetricEntry:
     name: str
     tier: str
     fn: Callable[..., float]
-    fallback: float
     higher_is_better: bool
     description: str
     extra: Optional[str] = None  # optional-dependency group required (e.g. "learned-semantic")
@@ -31,7 +38,6 @@ def register(
     name: str,
     tier: str,
     fn: Callable[..., float],
-    fallback: float,
     higher_is_better: bool,
     description: str,
     extra: Optional[str] = None,
@@ -41,7 +47,6 @@ def register(
         name=name,
         tier=tier,
         fn=fn,
-        fallback=fallback,
         higher_is_better=higher_is_better,
         description=description,
         extra=extra,

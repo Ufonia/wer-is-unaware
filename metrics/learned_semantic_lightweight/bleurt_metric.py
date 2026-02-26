@@ -55,20 +55,29 @@ models.register_loader(
 )
 
 
-def _score_bleurt(gt: str, hyp: str, model_key: str) -> float:
+def _score_bleurt(gt: str, hyp: str, model_key: str) -> float | None:
     """Score a single (gt, hyp) pair with a BLEURT checkpoint."""
-    if not gt or not hyp:
-        return 0.0
+    if not gt and not hyp:
+        return None
+
     scorer = models.get(model_key)
+
+    if not gt or not hyp:
+        try:
+            scores = scorer.score(references=[gt], candidates=[hyp])
+            return scores[0]
+        except Exception:
+            return None
+
     scores = scorer.score(references=[gt], candidates=[hyp])
     return scores[0]
 
 
-def calculate_bleurt(gt: str, hyp: str, **kwargs) -> float:
+def calculate_bleurt(gt: str, hyp: str, **kwargs) -> float | None:
     """BLEURT score for a single (gt, hyp) pair."""
     return _score_bleurt(gt, hyp, _BLEURT_KEY)
 
 
-def calculate_clinical_bleurt(gt: str, hyp: str, **kwargs) -> float:
+def calculate_clinical_bleurt(gt: str, hyp: str, **kwargs) -> float | None:
     """Clinical BLEURT score for a single (gt, hyp) pair."""
     return _score_bleurt(gt, hyp, _CLINICAL_BLEURT_KEY)

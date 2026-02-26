@@ -5,6 +5,8 @@ Model: princeton-nlp/sup-simcse-bert-base-uncased (~440MB, auto-downloaded).
 
 from __future__ import annotations
 
+from typing import Optional
+
 import torch
 from transformers import AutoModel, AutoTokenizer
 
@@ -44,8 +46,10 @@ def _embed(text: str, tokenizer, model, device: str) -> torch.Tensor:
     return torch.nn.functional.normalize(emb, p=2, dim=1)
 
 
-def calculate_simcse(gt: str, hyp: str, **kwargs) -> float:
+def calculate_simcse(gt: str, hyp: str, **kwargs) -> Optional[float]:
     """Cosine similarity of SimCSE sentence embeddings."""
+    if not gt and not hyp:
+        return None
     if not gt or not hyp:
         return 0.0
 

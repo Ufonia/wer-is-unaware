@@ -112,11 +112,19 @@ def _load_bart_scorer() -> BARTScorer:
 models.register_loader(_MODEL_KEY, _load_bart_scorer)
 
 
-def calculate_bart_score(gt: str, hyp: str, **kwargs) -> float:
+def calculate_bart_score(gt: str, hyp: str, **kwargs) -> float | None:
     """BARTScore: negative log-likelihood of hyp given gt (unidirectional, ref→hyp)."""
-    if not gt or not hyp:
-        return 0.0
+    if not gt and not hyp:
+        return None
 
     scorer: BARTScorer = models.get(_MODEL_KEY)
+
+    if not gt or not hyp:
+        try:
+            scores = scorer.score([gt], [hyp])
+            return scores[0]
+        except Exception:
+            return None
+
     scores = scorer.score([gt], [hyp])
     return scores[0]

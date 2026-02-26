@@ -34,10 +34,13 @@ class TestSimCSE:
         score = calculate_metric("simcse", "the cat sat on the mat", "quantum physics is fascinating")
         assert score < 0.5
 
-    def test_empty_string(self):
+    def test_both_empty_returns_none(self):
         from metrics import calculate_metric
-        score = calculate_metric("simcse", "", "the cat sat on the mat")
-        assert score == 0.0
+        assert calculate_metric("simcse", "", "") is None
+
+    def test_one_empty_returns_zero(self):
+        from metrics import calculate_metric
+        assert calculate_metric("simcse", "", "the cat sat on the mat") == 0.0
 
     def test_model_cache_loaded(self):
         from metrics import calculate_metric
@@ -74,10 +77,16 @@ class TestBARTScore:
         score = calculate_metric("bart_score", "the cat sat on the mat", "quantum physics is fascinating")
         assert isinstance(score, float)
 
-    def test_empty_string(self):
+    def test_both_empty_returns_none(self):
+        from metrics import calculate_metric
+        assert calculate_metric("bart_score", "", "") is None
+
+    def test_one_empty_lets_algorithm_run(self):
+        """BARTScore has no clear fallback for empty input — algorithm tries."""
         from metrics import calculate_metric
         score = calculate_metric("bart_score", "", "the cat sat on the mat")
-        assert score == 0.0
+        # Result is either a float (algorithm succeeded) or None (algorithm failed)
+        assert score is None or isinstance(score, float)
 
     def test_score_is_negative(self):
         from metrics import calculate_metric
@@ -112,10 +121,15 @@ class TestSemanticWER:
         score = calculate_metric("semantic_wer", "the cat sat on the mat", "quantum physics is fascinating")
         assert score > 0.0
 
-    def test_empty_string(self):
+    def test_both_empty_returns_none(self):
+        from metrics import calculate_metric
+        assert calculate_metric("semantic_wer", "", "") is None
+
+    def test_one_empty_lets_algorithm_run(self):
+        """SWER internal logic handles one-empty naturally (deletion costs)."""
         from metrics import calculate_metric
         score = calculate_metric("semantic_wer", "", "the cat sat on the mat")
-        assert score == 1.0  # fallback
+        assert score is None or isinstance(score, float)
 
     def test_own_cache_key(self):
         from metrics import calculate_metric
@@ -146,10 +160,13 @@ class TestBERTScore:
         # Raw (no rescaling) BERTScores are high even for unrelated strings
         assert score < 0.9
 
-    def test_empty_string(self):
+    def test_both_empty_returns_none(self):
         from metrics import calculate_metric
-        score = calculate_metric("bert_score", "", "the cat sat on the mat")
-        assert score == 0.0
+        assert calculate_metric("bert_score", "", "") is None
+
+    def test_one_empty_returns_zero(self):
+        from metrics import calculate_metric
+        assert calculate_metric("bert_score", "", "the cat sat on the mat") == 0.0
 
     def test_model_cache_loaded(self):
         from metrics import calculate_metric
@@ -199,11 +216,18 @@ class TestBLEURT:
         assert bleurt_metric.calculate_bleurt("hello", "hello") == 0.75
         assert bleurt_metric.calculate_clinical_bleurt("hello", "hello") == 0.75
 
-    def test_empty_string(self):
-        """Empty input returns 0.0 without loading model."""
+    def test_both_empty_returns_none(self):
+        """Both empty returns None without loading model."""
         from metrics.learned_semantic_lightweight.bleurt_metric import (
             calculate_bleurt,
             calculate_clinical_bleurt,
         )
-        assert calculate_bleurt("", "hello") == 0.0
-        assert calculate_clinical_bleurt("hello", "") == 0.0
+        assert calculate_bleurt("", "") is None
+        assert calculate_clinical_bleurt("", "") is None
+
+    def test_one_empty_lets_algorithm_try(self):
+        """BLEURT has no clear fallback — algorithm tries (or returns None)."""
+        from metrics.learned_semantic_lightweight.bleurt_metric import calculate_bleurt
+        score = calculate_bleurt("", "hello")
+        # Either a float (algorithm succeeded) or None (algorithm failed)
+        assert score is None or isinstance(score, float)

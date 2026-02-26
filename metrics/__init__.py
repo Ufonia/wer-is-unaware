@@ -73,7 +73,7 @@ def calculate_metric(
     clean: bool = True,
     filter_nlts: bool = True,
     **kwargs,
-) -> float:
+) -> Optional[float]:
     """Calculate a single metric for a GT/HYP pair.
 
     Text is cleaned via ``get_clean_transcript`` before being passed to the
@@ -90,7 +90,8 @@ def calculate_metric(
         **kwargs: Forwarded to the metric function (e.g. model handles).
 
     Returns:
-        Metric score as a float.
+        Metric score as a float, or ``None`` if the metric cannot
+        meaningfully score this pair (e.g. both inputs are empty).
 
     Raises:
         KeyError: If *name* is not registered.
@@ -117,7 +118,7 @@ def calculate_all_metrics(
     clean: bool = True,
     filter_nlts: bool = True,
     **kwargs,
-) -> Dict[str, float]:
+) -> Dict[str, Optional[float]]:
     """Calculate multiple metrics for a GT/HYP pair.
 
     Args:
@@ -132,7 +133,8 @@ def calculate_all_metrics(
         **kwargs: Forwarded to each metric function.
 
     Returns:
-        Dict mapping metric name → score.
+        Dict mapping metric name → score (or ``None`` if the metric
+        cannot meaningfully score this pair).
     """
     if tier and metrics:
         raise ValueError("Specify 'tier' or 'metrics', not both.")
@@ -152,7 +154,7 @@ def calculate_all_metrics(
         gt = get_clean_transcript(gt, remove_non_lexical_tokens=filter_nlts)
         hyp = get_clean_transcript(hyp, remove_non_lexical_tokens=filter_nlts)
 
-    results: Dict[str, float] = {}
+    results: Dict[str, Optional[float]] = {}
     for name in names:
         if name not in REGISTRY:
             raise KeyError(f"Unknown metric: {name!r}")
