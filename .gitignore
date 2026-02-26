@@ -63,6 +63,7 @@ ClinicalBLEURT/
 
 # Allowlisted data files — only these CSVs are tracked
 !llm_judge/dataset/primock_data_final_outcomes.csv
+!metrics/data/primock_metrics_subset.csv
 
 # Temporary/scratch files
 /tmp/
