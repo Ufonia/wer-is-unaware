@@ -1,0 +1,109 @@
+[00:01] Doctor: Hi there. It's Doctor Smith from Babylon. Can you confirm your name, date of birth, and your home address, please?
+[00:08] Patient: Um, it's .
+[00:16] Doctor: . Um, I can't hear you at the moment actually. Could you turn it up, the, volume up?
+[00:24] Patient: Uh, can you hear me better now?
+[00:24] Doctor: . Yeah, that's better. Thank you.
+[00:27] Patient: Um, OK. Sorry about that.
+[00:29] Doctor: Are you in a private place you can have a consultation?
+[00:32] Patient: Uh, yes.
+[00:33] Doctor: What can I do for you today?
+[00:35] Patient: Um, I've been having this, blinding headache for a few days. Um, and it's like, really bothering me and , I find it very hard to focus or, like I can't even go to work.
+[00:48] Doctor: OK, and any headaches in the past before this?
+[00:52] Patient: Not really just they're, on and off. Um, I recently had a, a one for like two days, um, but it just went away with Ibuprofen, so nothing like, more, longer than two days before.
+[01:04] Doctor: So, how did this start?
+[01:06] Patient: Um, it just started all of a sudden. I woke up one morning with a headache, and that was three days ago, and I just keep having it. Doesn't really go away with Ibuprofen either, I try that, but it just. It gets a little bit better but like, doesn't go away.
+[01:20] Doctor: OK, and whereabouts in your head is the pain?
+[01:24] Patient: Um, it's kind of all over but, I feel like over my right eye, it's um bit, stronger.
+[01:30] Doctor: OK. Any problems with your vision? Or, any problems tolerating the light?
+[01:37] Patient: Um, lights definitely make me more sensitive. Like, um, I don't really, like strong lights. Um, and um, yeah, vision I think, I get this, shooting light sometimes. Um, not sure how to explain it. Just a bit of um, weird kind of vision.
+[02:00] Doctor: OK, and um, any, any nausea or vomiting?
+[02:05] Patient: Uh, no, feeling a bit sick, but no vomiting.
+[02:09] Doctor: Any tingling? Or numbness? Or weakness anywhere?
+[02:13] Patient: Um, no.
+[02:15] Doctor: Any change in your smell or taste?
+[02:19] Patient: No, none at all.
+[02:21] Doctor: Um, and, in the past, when you've had headaches, what have they been like?
+[02:27] Patient: Um, I was sick but I had no more headache, it's just um, a bit of a pressure, in between my eyes, um. But nothing major.
+[02:38] Doctor: OK, and, with, with this, has it been there all the time? Or is it coming and going?
+[02:43] Patient: Kinda all the time. Um, so when I take Ibuprofen it gets a bit better, so it's a bit, like less um, it, it bothered me less, but then I still have it, it's still there.
+[02:55] Doctor: Um, and what would you say, the severity is? If, if ten is the worst pain you've ever had, and zero is nothing, what would you say the pain is like?
+[03:04] Patient: I guess it's mostly, eight, and then it kinda comes down to maybe a five.
+[03:10] Doctor: OK, and what about at night-time, are you able to fall asleep?
+[03:14] Patient: Um, yeah, I'm, sleeping well.
+[03:17] Doctor: Is it waking you up in the night-time?
+[03:19] Patient: No, no, no. But I can wake up with it in the morning.
+[03:22] Doctor: OK. Any worse when you change position, or bend over, or cough, or anything like that?
+[03:27] Patient: Mmm. Sometimes when I stand up, quickly I get a bit of a, stabbing pain. Um, or if I throw my head like, it I kind of feel like something is moving inside.
+[03:41] Doctor: OK. And have you had any, uh, eye checks recently?
+[03:45] Patient: Um, yeah, actually had one recently and, nothing changed my vision.
+[03:50] Doctor: OK. And have you had any cold symptoms, sore throat, sore ears, or pain over the sinuses? Any cough or flem?
+[03:56] Patient: No, no.
+[03:59] Doctor: No. Any, any nose bleeds, or coughing up any blood or anything?
+[04:04] Patient: No.
+[04:05] Doctor: And just recently, have you been well, or have you had any general problems? Any change in your weight? Or, tiredness, lack of energy, anything like that?
+[04:15] Patient: Um, no change of weight, maybe um, lack of energy but it might be because, I'm just having these headaches. so I'm find it quite difficult to go through my daily activities , you know when you have this constant headache.
+[04:27] Doctor: Have you been at work recently?
+[04:29] Patient: Um, I work from home but, couldn't really manage to, do it all the time. So sometimes I just took a day off.
+[04:37] Doctor: So, you've been, you've had a headache for three days. , how many days have you missed off work?
+[04:42] Patient: Um, so I worked from home all these three days and, um. First day I worked from home and then, um, the second I just took the whole day off. And, today I just tried to work from home the first half of the day but, I, I just stopped in the morning 'cause, I couldn't focus.
+[04:58] Doctor: OK. And, any other, medical problems in the past?
+[05:04] Patient: Um, I think I only had a, a pain, um, when I was younger but, no causes found and that went away, but that's, the only thing I know of.
+[05:15] Doctor: OK. Have you been abroad recently at all?
+[05:18] Patient: No.
+[05:19] Doctor: Do you take any medications?
+[05:21] Patient: Um, just the pill.
+[05:23] Doctor: Which one?
+[05:25] Patient: Um, .
+[05:27] Doctor: And when did you start that?
+[05:29] Patient: Um, about a year ago.
+[05:31] Doctor: Any side effects with that?
+[05:33] Patient: Uh, no I don't think so.
+[05:36] Doctor: Have you noticed any, any um, increased frequency of headaches since you started that?
+[05:43] Patient: Um, no, , these headaches just very recently, but nothing um, but nothing really changes.
+[05:52] Doctor: OK. And when you'd , when you've had, when you described your headaches in the past, you said they were just general. Did you have any visual symptoms? Flashing lights? Nausea, vomiting with them?
+[06:01] Patient: No. No, no. No nothing, none of those.
+[06:07] Doctor: Have you had your blood pressure checked recently with your pill?
+[06:10] Patient: Um, yeah, I had it checked in the pharmacy when I got the pill, and they say it was normal.
+[06:15] Doctor: And when was that?
+[06:17] Patient: Uh, a year ago.
+[06:18] Doctor: OK. Um, and any allergies to anything?
+[06:22] Patient: No.
+[06:24] Doctor: And who do you live with at home?
+[06:26] Patient: Sorry?
+[06:27] Doctor: Who do you live with at home?
+[06:28] Patient: Uh, just by myself.
+[06:30] Doctor: OK. And do you smoke?
+[06:32] Patient: Uh, no.
+[06:33] Doctor: Do you drink any alcohol regularly?
+[06:35] Patient: Yeah.
+[06:36] Doctor: How much in a normal week do you think?
+[06:39] Patient: Um, probably like, three , once a week.
+[06:41] Doctor: . OK. And do you take any other drugs at all?
+[06:48] Patient: Um, no apart from the Ibuprofen that I take, sometimes when, the headache gets really bad, nothing else.
+[06:54] Doctor: OK. Um. So, uh, I mean it's obviously the first time you've had such a bad headache. And you said you'd had some altered light in front of your eyes as well?
+[07:05] Patient: Yeah.
+[07:06] Doctor: But you haven't had a high temperature. Have you checked your temperature?
+[07:10] Patient: Uh, no I didn't, I don't really feel, feverish or anything.
+[07:15] Doctor: OK. Um, I mean it, it, it could possibly be a migraine type headache. But, the fact it's still ongoing for three days, we probably should, book you into an appointment to get an examination. Um, obviously , if it settles, in the meantime then, we can cancel that. But we should do a neurological examination, look at the back of your eyes as well.
+[07:37] Patient: OK.
+[07:38] Doctor: Um, in terms of medication, I can prescribe you something, similar to Ibuprofen, but a bit stronger which you can take instead of Ibuprofen. And you can also take Paracetamol at the same time.
+[07:50] Patient: OK.
+[07:51] Doctor: So if you're happy to book a, , appointment with us, with the support line, for us to do a full examination. And start, the medication which I prescribe to you, take it with food. If, if you're, you said that when you go to bed your headache's, OK, and not waking you up in the night-time.
+[08:10] Patient: Yeah it's not, um but, you mentioned migraine and that um, reminded that, my mum, suffers from, like she has migraines, um.
+[08:18] Doctor: OK. Any other family history of medical problems?
+[08:21] Patient: Um, no I think that's it, but I know that my mum like, she has quite bad migraines, she's like, has the vomiting and everything, .
+[08:29] Doctor: OK that's fine. Um, I mean if, if in the meantime before your appointment your, headache is getting unbearable, getting worse or changing. Then , um, if it's that bad, then you should go to A and E and have an examination. Um, , you can call us for further advice on that.
+[08:43] Patient: OK. Mm-hmm, OK.
+[08:48] Doctor: And when, when you have a, an examination with us, we'll check your blood pressure as well. Just to, make sure your pill's still appropriate for you, because sometimes if we, if we do think it's a migraine, then you would have to change your pill. If you've had these flashing lights, and things like that.
+[08:56] Patient: OK, . Is there anything in the pill that can cause it? Or is it?
+[09:08] Doctor: Well , some , so that pill if you were having , regular migraines with um, flashing lights, or , other symptoms. It wouldn't be suitable to stay on that pill, particularly, we'd have to change it to something else.
+[09:21] Patient: All right.
+[09:22] Doctor: But you can carry on with that for the moment.
+[09:24] Patient: OK.
+[09:26] Doctor: Have you got any other questions?
+[09:27] Patient: Um, so will you like, um, send me a referral to a specialist, or do I have to to confirm?
+[09:33] Doctor: Uh. Yeah, if you book an appointment with the support team, then we can do a full examination then.
+[09:40] Patient: OK. Perfect.
+[09:42] Doctor: All right then. Take care.
+[09:43] Patient: Thank you very much.
+[09:44] Doctor: Bye.

@@ -1,0 +1,632 @@
+[
+  {
+    "id": "4a892c2a-5ed8-4114-936a-99b5e277dcd6",
+    "text": "hello",
+    "final": true,
+    "confidence": 0.9946289,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:37:45.925Z",
+    "startedAt": "2025-10-02T12:37:44.194Z",
+    "endedAt": "2025-10-02T12:37:44.594Z"
+  },
+  {
+    "id": "ec2f74f0-2f28-4f84-adc7-15af9a471a2d",
+    "text": "yeah my name is april and i'm fifty",
+    "final": true,
+    "confidence": 0.92907715,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:37:56.875Z",
+    "startedAt": "2025-10-02T12:37:53.204Z",
+    "endedAt": "2025-10-02T12:37:55.883Z"
+  },
+  {
+    "id": "10caf817-6abc-485d-a96d-2de7ae7e0e19",
+    "text": "well i've just been having this like cough for quite a few days and my nose is running",
+    "final": true,
+    "confidence": 0.99951172,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:06.199Z",
+    "startedAt": "2025-10-02T12:38:00.113Z",
+    "endedAt": "2025-10-02T12:38:04.984Z"
+  },
+  {
+    "id": "ae5e13bb-1344-4fb8-82e8-f4183b061e89",
+    "text": "and it's just been super annoying and it's not going away",
+    "final": true,
+    "confidence": 0.9980469,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:09.700Z",
+    "startedAt": "2025-10-02T12:38:06.214Z",
+    "endedAt": "2025-10-02T12:38:08.534Z"
+  },
+  {
+    "id": "43490441-c674-4bbd-9c59-e0594ca19a88",
+    "text": "i think it started like maybe a bit less than a week ago like maybe maybe five or six days ago",
+    "final": true,
+    "confidence": 0.978637695,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:18.457Z",
+    "startedAt": "2025-10-02T12:38:11.914Z",
+    "endedAt": "2025-10-02T12:38:17.274Z"
+  },
+  {
+    "id": "07896556-e599-40f7-a4fe-596b2dc088a8",
+    "text": "no",
+    "final": true,
+    "confidence": 0.86865234,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:25.166Z",
+    "startedAt": "2025-10-02T12:38:23.744Z",
+    "endedAt": "2025-10-02T12:38:24.063Z"
+  },
+  {
+    "id": "c0e9deee-b812-4b2b-b58d-df2a4a2554e3",
+    "text": "it's just so continuous it's really really frustrating it's quite dry and it's just all day like keeps me up at night as well which is really annoying",
+    "final": true,
+    "confidence": 0.99853516,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:37.505Z",
+    "startedAt": "2025-10-02T12:38:28.754Z",
+    "endedAt": "2025-10-02T12:38:36.444Z"
+  },
+  {
+    "id": "198d0edf-e58d-4597-a3a0-c4227868295c",
+    "text": "no",
+    "final": true,
+    "confidence": 0.7001953,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:48.529Z",
+    "startedAt": "2025-10-02T12:38:46.864Z",
+    "endedAt": "2025-10-02T12:38:47.264Z"
+  },
+  {
+    "id": "95159a40-1a82-4bfc-b4c7-ab83460a8bf5",
+    "text": "mean apart from i mean coughing is giving me a sore throat but it's not like you know not more than than that you know just just my throat is irritated from coughing but it's not like",
+    "final": true,
+    "confidence": 0.9769693966666667,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:07.684Z",
+    "startedAt": "2025-10-02T12:38:57.194Z",
+    "endedAt": "2025-10-02T12:39:06.784Z"
+  },
+  {
+    "id": "948acc56-51ec-49b1-a221-c53099018546",
+    "text": "no they feel okay actually yeah",
+    "final": true,
+    "confidence": 0.9674072300000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:18.707Z",
+    "startedAt": "2025-10-02T12:39:14.833Z",
+    "endedAt": "2025-10-02T12:39:17.654Z"
+  },
+  {
+    "id": "55e43579-e736-499a-b1b0-ebdf77c5c5cb",
+    "text": "oh nothing nothing on the ear",
+    "final": true,
+    "confidence": 0.97265625,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:23.619Z",
+    "startedAt": "2025-10-02T12:39:20.034Z",
+    "endedAt": "2025-10-02T12:39:22.434Z"
+  },
+  {
+    "id": "3f45b3b9-9ef3-4ec0-acfb-3db3729dcec5",
+    "text": "i don't think so like i guess like it's labored when i'm coughing and i can't breathe but i not yeah no i i don't think so not really",
+    "final": true,
+    "confidence": 0.9855957,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:44.008Z",
+    "startedAt": "2025-10-02T12:39:35.004Z",
+    "endedAt": "2025-10-02T12:39:43.003Z"
+  },
+  {
+    "id": "d348035c-9f36-4044-b761-e1cc74c2bfcd",
+    "text": "i don't feel reckless",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:48.405Z",
+    "startedAt": "2025-10-02T12:39:45.983Z",
+    "endedAt": "2025-10-02T12:39:47.184Z"
+  },
+  {
+    "id": "9b34dcaf-4efc-41ed-b876-65bdc9a6cc0e",
+    "text": "no i feel you know generally tired",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:51.907Z",
+    "startedAt": "2025-10-02T12:39:47.844Z",
+    "endedAt": "2025-10-02T12:39:50.724Z"
+  },
+  {
+    "id": "e241c958-c451-4bbb-8ee0-5a2a66a05775",
+    "text": "so like yeah but not not anything special with my chest",
+    "final": true,
+    "confidence": 0.99609375,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:56.332Z",
+    "startedAt": "2025-10-02T12:39:51.783Z",
+    "endedAt": "2025-10-02T12:39:55.384Z"
+  },
+  {
+    "id": "e58db051-a17e-410f-bece-97d54945118b",
+    "text": "no not not that either",
+    "final": true,
+    "confidence": 0.98095703,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:00.250Z",
+    "startedAt": "2025-10-02T12:39:57.854Z",
+    "endedAt": "2025-10-02T12:39:59.214Z"
+  },
+  {
+    "id": "db2e172c-ec53-4719-ae70-f0c395ce6614",
+    "text": "i'm having like like shiver even when i'm in when i'm in bed",
+    "final": true,
+    "confidence": 0.984619135,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:11.991Z",
+    "startedAt": "2025-10-02T12:40:06.914Z",
+    "endedAt": "2025-10-02T12:40:10.813Z"
+  },
+  {
+    "id": "fffe1cbf-aeaf-4086-846b-051e1d12b329",
+    "text": "know like when you when you go to sleep and and you feel like i i should be warm but i'm still",
+    "final": true,
+    "confidence": 0.9980469,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:16.926Z",
+    "startedAt": "2025-10-02T12:40:11.434Z",
+    "endedAt": "2025-10-02T12:40:15.754Z"
+  },
+  {
+    "id": "8cc65186-2c44-404d-9b24-b5eaee8da62f",
+    "text": "i haven't seen my temperature so i'm not a hundred percent sure if i had a fever but feels like i probably did because i was just i was next to my boyfriend and he was completely warm and totally fine and i just like couldn't stop shivering kept adding more sweaters on and i was still cold",
+    "final": true,
+    "confidence": 0.99755861,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:34.254Z",
+    "startedAt": "2025-10-02T12:40:18.804Z",
+    "endedAt": "2025-10-02T12:40:33.044Z"
+  },
+  {
+    "id": "cf717d1d-1e63-4936-b44a-bf6a9c442b57",
+    "text": "no no no not yet no vomiting",
+    "final": true,
+    "confidence": 0.99121094,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:45.978Z",
+    "startedAt": "2025-10-02T12:40:42.624Z",
+    "endedAt": "2025-10-02T12:40:44.704Z"
+  },
+  {
+    "id": "f0fd7d80-a85d-45c6-9845-91250383f4a7",
+    "text": "yeah not nothing like that",
+    "final": true,
+    "confidence": 0.9782715,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:49.091Z",
+    "startedAt": "2025-10-02T12:40:46.893Z",
+    "endedAt": "2025-10-02T12:40:48.093Z"
+  },
+  {
+    "id": "08846fd6-f364-40a4-9094-202f028db4c1",
+    "text": "i mean it's okay i at the beginning like when i was starting to have the the the and stuff i had a little bit of diarrhea",
+    "final": true,
+    "confidence": 0.9977213666666667,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:02.360Z",
+    "startedAt": "2025-10-02T12:40:51.604Z",
+    "endedAt": "2025-10-02T12:41:01.114Z"
+  },
+  {
+    "id": "f68cd4ab-689d-4dc9-ae6e-9e308f39ad3d",
+    "text": "but i didn't it didn't cut my appetite or anything",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:07.337Z",
+    "startedAt": "2025-10-02T12:41:03.694Z",
+    "endedAt": "2025-10-02T12:41:05.934Z"
+  },
+  {
+    "id": "0322d063-a004-4ef3-a20f-a49c1e9f059e",
+    "text": "my stomach wasn't feeling great",
+    "final": true,
+    "confidence": 1,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:10.747Z",
+    "startedAt": "2025-10-02T12:41:08.233Z",
+    "endedAt": "2025-10-02T12:41:09.673Z"
+  },
+  {
+    "id": "55c2e1ab-68b3-4622-9199-5edfe2085264",
+    "text": "yeah yeah yeah it got better it was only like the first like it started at the same time as the cough started and then it stopped so i thought everything would be fine",
+    "final": true,
+    "confidence": 0.99853517,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:20.595Z",
+    "startedAt": "2025-10-02T12:41:12.394Z",
+    "endedAt": "2025-10-02T12:41:19.364Z"
+  },
+  {
+    "id": "fd47fd09-13df-42f6-9d9a-1e2ae619ac6a",
+    "text": "with my what",
+    "final": true,
+    "confidence": 0.99316406,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:30.278Z",
+    "startedAt": "2025-10-02T12:41:28.454Z",
+    "endedAt": "2025-10-02T12:41:29.174Z"
+  },
+  {
+    "id": "333a6d20-0f95-498b-9428-475b8f7aef1a",
+    "text": "oh no no no that's fine",
+    "final": true,
+    "confidence": 0.9885254,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:35.207Z",
+    "startedAt": "2025-10-02T12:41:31.984Z",
+    "endedAt": "2025-10-02T12:41:34.143Z"
+  },
+  {
+    "id": "b0fd7490-6d7c-45c8-bf8c-082abc5a306f",
+    "text": "no i i try and close its water when i started having the diarrhea now that it stopped just went back to normal",
+    "final": true,
+    "confidence": 0.97583007,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:44.662Z",
+    "startedAt": "2025-10-02T12:41:38.004Z",
+    "endedAt": "2025-10-02T12:41:43.484Z"
+  },
+  {
+    "id": "9e9d33f6-3375-49d2-8844-0ad96e41860d",
+    "text": "like my you know when i have to when i was telling you had like the i had chills and i was really cold my mom was really hurting",
+    "final": true,
+    "confidence": 0.9794921999999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:02.813Z",
+    "startedAt": "2025-10-02T12:41:55.604Z",
+    "endedAt": "2025-10-02T12:42:01.644Z"
+  },
+  {
+    "id": "dbc9057e-596e-4e48-9d1e-d5d040971f4e",
+    "text": "but like it's hurting me so much at the moment",
+    "final": true,
+    "confidence": 1,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:07.619Z",
+    "startedAt": "2025-10-02T12:42:04.213Z",
+    "endedAt": "2025-10-02T12:42:06.454Z"
+  },
+  {
+    "id": "d60a8714-d4d7-488b-8db6-ff090809be4f",
+    "text": "but to be honest all i feel like doing is just lying in bed",
+    "final": true,
+    "confidence": 0.9873047,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:11.914Z",
+    "startedAt": "2025-10-02T12:42:07.674Z",
+    "endedAt": "2025-10-02T12:42:10.874Z"
+  },
+  {
+    "id": "3d4e4823-b77e-4ced-bb52-2e424ec058c2",
+    "text": "yeah especially like my arms my legs like just everywhere basically",
+    "final": true,
+    "confidence": 0.9550781,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:22.029Z",
+    "startedAt": "2025-10-02T12:42:15.264Z",
+    "endedAt": "2025-10-02T12:42:20.803Z"
+  },
+  {
+    "id": "15b7b8d6-53dd-4709-97fd-e77e653b6d2f",
+    "text": "yeah pretty much",
+    "final": true,
+    "confidence": 0.9909668,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:25.944Z",
+    "startedAt": "2025-10-02T12:42:23.564Z",
+    "endedAt": "2025-10-02T12:42:24.844Z"
+  },
+  {
+    "id": "ea4851a3-e589-4a4a-bfa6-c1b14fc99a06",
+    "text": "am i normally what",
+    "final": true,
+    "confidence": 0.9980469,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:32.847Z",
+    "startedAt": "2025-10-02T12:42:30.914Z",
+    "endedAt": "2025-10-02T12:42:31.954Z"
+  },
+  {
+    "id": "d52bcb4e-3a71-465b-a26d-c13b72b23fdf",
+    "text": "well i have type two diabetes",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:38.476Z",
+    "startedAt": "2025-10-02T12:42:35.463Z",
+    "endedAt": "2025-10-02T12:42:37.303Z"
+  },
+  {
+    "id": "93c25583-b6ae-4126-a6a9-77a22c6ae20d",
+    "text": "i take metformin for the diabetes and i take lisinopril for the high blood pressure",
+    "final": true,
+    "confidence": 0.993652345,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:55.332Z",
+    "startedAt": "2025-10-02T12:42:48.224Z",
+    "endedAt": "2025-10-02T12:42:54.114Z"
+  },
+  {
+    "id": "11093a62-7fda-4d1c-a53e-752b9b2765ed",
+    "text": "no allergies",
+    "final": true,
+    "confidence": 0.7475586,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:59.746Z",
+    "startedAt": "2025-10-02T12:42:57.424Z",
+    "endedAt": "2025-10-02T12:42:58.624Z"
+  },
+  {
+    "id": "ac3391ca-aaf7-4926-8f5f-eb047f1f962f",
+    "text": "my dad also has type two diabetes but i think that's it",
+    "final": true,
+    "confidence": 0.9970703,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:08.277Z",
+    "startedAt": "2025-10-02T12:43:03.914Z",
+    "endedAt": "2025-10-02T12:43:07.354Z"
+  },
+  {
+    "id": "e2238246-84f9-4dc8-9ca9-61694c24b03c",
+    "text": "i just regularly go see a doctor just check up on it same with the high blood pressure like i i have it under control and since i started taking this medication i've just been like regularly",
+    "final": true,
+    "confidence": 0.9951171799999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:26.053Z",
+    "startedAt": "2025-10-02T12:43:14.574Z",
+    "endedAt": "2025-10-02T12:43:24.834Z"
+  },
+  {
+    "id": "a5441617-dc57-4e10-8a1a-1bb1d330646c",
+    "text": "just it's just me and my partner",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:35.147Z",
+    "startedAt": "2025-10-02T12:43:32.673Z",
+    "endedAt": "2025-10-02T12:43:34.034Z"
+  },
+  {
+    "id": "65cb007c-0a6d-4dc9-9e03-7ad39b7fbe3a",
+    "text": "yeah he has none of it like he's just",
+    "final": true,
+    "confidence": 0.9892578,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:41.562Z",
+    "startedAt": "2025-10-02T12:43:38.334Z",
+    "endedAt": "2025-10-02T12:43:40.654Z"
+  },
+  {
+    "id": "ed88e18c-7385-4b56-b0bb-0f1292a1a64a",
+    "text": "going ahead like like nothing like i was a bit worried that i would pass it to him but",
+    "final": true,
+    "confidence": 0.99365234,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:46.299Z",
+    "startedAt": "2025-10-02T12:43:41.004Z",
+    "endedAt": "2025-10-02T12:43:45.324Z"
+  },
+  {
+    "id": "0a50d423-aa23-403b-be12-68c1e78c949c",
+    "text": "not diary nothing he's fine",
+    "final": true,
+    "confidence": 0.779541,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:50.299Z",
+    "startedAt": "2025-10-02T12:43:45.904Z",
+    "endedAt": "2025-10-02T12:43:49.184Z"
+  },
+  {
+    "id": "55df462c-189c-4919-bf5c-59a5ad42900a",
+    "text": "yeah i am working but the the first day i get because because i was feeling just too shit",
+    "final": true,
+    "confidence": 0.9946289,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:02.439Z",
+    "startedAt": "2025-10-02T12:43:55.634Z",
+    "endedAt": "2025-10-02T12:44:01.304Z"
+  },
+  {
+    "id": "890b17b3-b645-4659-bb1d-9aba84d8b025",
+    "text": "but then i just felt like i had to go back because i had so much to do",
+    "final": true,
+    "confidence": 0.9951172,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:07.260Z",
+    "startedAt": "2025-10-02T12:44:02.464Z",
+    "endedAt": "2025-10-02T12:44:06.144Z"
+  },
+  {
+    "id": "96eca22a-19c3-4d18-be12-daac829aeb91",
+    "text": "i've been going in but it's not been fun",
+    "final": true,
+    "confidence": 0.9873047,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:10.364Z",
+    "startedAt": "2025-10-02T12:44:07.224Z",
+    "endedAt": "2025-10-02T12:44:09.304Z"
+  },
+  {
+    "id": "69a3376a-90c9-46d2-9798-7df49853a037",
+    "text": "i am a developer",
+    "final": true,
+    "confidence": 0.96240234,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:16.875Z",
+    "startedAt": "2025-10-02T12:44:13.324Z",
+    "endedAt": "2025-10-02T12:44:15.804Z"
+  },
+  {
+    "id": "74dee061-cb63-408d-950a-164ea6208aa0",
+    "text": "yeah working it",
+    "final": true,
+    "confidence": 0.6386719,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:21.391Z",
+    "startedAt": "2025-10-02T12:44:18.664Z",
+    "endedAt": "2025-10-02T12:44:20.264Z"
+  },
+  {
+    "id": "9903e2cf-53f2-4283-816c-5a5d99814271",
+    "text": "okay how to active a job",
+    "final": true,
+    "confidence": 0.9326172,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:25.605Z",
+    "startedAt": "2025-10-02T12:44:21.944Z",
+    "endedAt": "2025-10-02T12:44:24.504Z"
+  },
+  {
+    "id": "25b246e0-640d-4f82-ba1c-63df5793dbe9",
+    "text": "not more than usual i don't think it's related stress like i i don't feel like i've had a particularly hard time at work currently",
+    "final": true,
+    "confidence": 0.9980468766666667,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:37.868Z",
+    "startedAt": "2025-10-02T12:44:28.994Z",
+    "endedAt": "2025-10-02T12:44:36.023Z"
+  },
+  {
+    "id": "21de972c-8db1-421d-95ae-b7ae093ff1b3",
+    "text": "i've been able to take a day off to try and recover so yeah i don't think stated",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:52.186Z",
+    "startedAt": "2025-10-02T12:44:37.404Z",
+    "endedAt": "2025-10-02T12:44:41.804Z"
+  },
+  {
+    "id": "142b0dea-fbac-4b51-9aff-0be4fab7ffbc",
+    "text": "i used to but i've stopped for about six months now",
+    "final": true,
+    "confidence": 0.989990235,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:57.460Z",
+    "startedAt": "2025-10-02T12:44:53.014Z",
+    "endedAt": "2025-10-02T12:44:56.444Z"
+  },
+  {
+    "id": "f3190cd0-c159-4f63-8b51-6a0f044f5ade",
+    "text": "i mean yeah i i don't think i drink that much i i i don't really know how you count the unit so i guess like i don't drink more than like",
+    "final": true,
+    "confidence": 0.9873046750000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:10.003Z",
+    "startedAt": "2025-10-02T12:45:01.754Z",
+    "endedAt": "2025-10-02T12:45:08.994Z"
+  },
+  {
+    "id": "f49f7213-ec65-4489-bedd-eb7412f0ee0d",
+    "text": "like say three evenings a week and i rarely get like properly drunk or anything",
+    "final": true,
+    "confidence": 0.97973632,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:16.015Z",
+    "startedAt": "2025-10-02T12:45:10.074Z",
+    "endedAt": "2025-10-02T12:45:14.834Z"
+  },
+  {
+    "id": "4bcc6be2-274e-4b19-a245-2bab35c53223",
+    "text": "wine mostly",
+    "final": true,
+    "confidence": 0.9880371,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:19.919Z",
+    "startedAt": "2025-10-02T12:45:17.463Z",
+    "endedAt": "2025-10-02T12:45:18.743Z"
+  },
+  {
+    "id": "9ac95beb-5630-4c58-9f76-88c492aba088",
+    "text": "i'd say like maybe two or three glasses",
+    "final": true,
+    "confidence": 0.9941406,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:26.031Z",
+    "startedAt": "2025-10-02T12:45:22.804Z",
+    "endedAt": "2025-10-02T12:45:24.884Z"
+  },
+  {
+    "id": "bec85da1-fbd3-4d7e-baef-1a9e0862a92c",
+    "text": "yeah think i should cut down on that",
+    "final": true,
+    "confidence": 0.97192385,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:46.408Z",
+    "startedAt": "2025-10-02T12:45:42.364Z",
+    "endedAt": "2025-10-02T12:45:45.463Z"
+  },
+  {
+    "id": "7a0d59e4-f81c-40cb-a6d1-2f3babbd3642",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.98583984,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:46:05.156Z",
+    "startedAt": "2025-10-02T12:46:03.604Z",
+    "endedAt": "2025-10-02T12:46:04.004Z"
+  },
+  {
+    "id": "8ece70ff-168a-4d06-82b5-e8800340687b",
+    "text": "what what should i do if it just keeps going on and like if it's still going on in in say four days",
+    "final": true,
+    "confidence": 0.9980469,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:46:39.381Z",
+    "startedAt": "2025-10-02T12:46:33.533Z",
+    "endedAt": "2025-10-02T12:46:38.254Z"
+  },
+  {
+    "id": "cef9e9b6-1d16-4c22-9d5d-52f72ebcdacb",
+    "text": "do you think i should keep going to work or do you think i should just",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:47:09.275Z",
+    "startedAt": "2025-10-02T12:47:05.834Z",
+    "endedAt": "2025-10-02T12:47:08.394Z"
+  },
+  {
+    "id": "7d5904fb-a5af-468c-aad2-99bb03ddada2",
+    "text": "okay okay",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:47:31.233Z",
+    "startedAt": "2025-10-02T12:47:29.044Z",
+    "endedAt": "2025-10-02T12:47:30.084Z"
+  },
+  {
+    "id": "115c9ee3-d06f-4252-b415-135ca3152232",
+    "text": "okay but otherwise i don't need to worry",
+    "final": true,
+    "confidence": 1,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:47:39.576Z",
+    "startedAt": "2025-10-02T12:47:36.764Z",
+    "endedAt": "2025-10-02T12:47:38.524Z"
+  },
+  {
+    "id": "a1cb6c1c-87fb-43f1-afdf-4ffd7477e863",
+    "text": "okay alright thank you very much",
+    "final": true,
+    "confidence": 1,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:47:44.032Z",
+    "startedAt": "2025-10-02T12:47:41.054Z",
+    "endedAt": "2025-10-02T12:47:42.974Z"
+  }
+]

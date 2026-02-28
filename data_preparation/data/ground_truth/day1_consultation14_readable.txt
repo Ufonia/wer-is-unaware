@@ -1,0 +1,95 @@
+[00:01] Patient: Hello?
+[00:01] Doctor: Hello? Hello. Um, before I go any further, can I confirm your name and your date of birth?
+[00:09] Patient: Uh, yeah. Uh my name is April, and I'm fifty.
+[00:13] Doctor: You're fifty, OK. April, how can I help you this afternoon?
+[00:17] Patient: Well I've just been having this like, cough, for quite a few days. And my nose is running. Um and it's just been super annoying, and it's not going away.
+[00:25] Doctor: , OK. When did it all start?
+[00:28] Patient: Uh I think it started like maybe, a bit less than a week ago. Like maybe, maybe five or six days ago.
+[00:34] Doctor: OK. And you mentioned a couple of things there. You mentioned a cough. You mentioned a bit of a runny nose. Is that right? OK. Let's focus on your cough first. Can you tell me a bit more about your cough?
+[00:45] Patient: Uh, it's just so continuous. It's really, really frustrating. It's quite dry. And it's just all day, it like keeps me up at night as well, which is really annoying.
+[00:53] Doctor: OK. So it's a dry cough. So you're not bringing up any , you're not bringing up any mucky, ohh I can hear that, yeah. Um you're not bringing up any uh, mucky phlegm or anything like that. No, OK. So it keeps you up at night. Um you mentioned uh the cold symptoms as well, the runny nose. Do you have a do you have a sore throat at all?
+[01:14] Patient: I mean, apart from, I mean the coughing is giving me a sore throat. But it's not like, you know not more than, than that. You know just, just my throat is irritated from coughing. But it's not like, it's not that bad when I swallow or anything.
+[01:25] Doctor: Right. Do you have any uh, how are your ears? Do you ears feel blocked or?
+[01:31] Patient: No.They feel OK, actually. Yeah. . Nothing, nothing on the ears.
+[01:34] Doctor: No pain, no discharge coming from your ears. OK, alright. Um fine. In terms of your breathing, how is your , how's your chest? Is your breathing more labored?
+[01:51] Patient: Um, I don't think so. Like, I guess I get laboured when I'm coughing and I can't breathe. But I, not, yeah, not, I, I don't think so. Not really.
+[01:58] Doctor: Day to day when you walk around, uh you don't feel breathless do you?
+[02:03] Patient: I don't feel restless. No, I feel you know, generally tired.
+[02:08] Doctor: OK. OK.
+[02:09] Patient: So like, yeah, but not, not anything special with my chest.
+[02:12] Doctor: Any pain in your chest?
+[02:14] Patient: No not, not that either.
+[02:16] Doctor: OK. You mentioned feeling tired. Um have you felt feverish at all? Have you had a temperature?
+[02:23] Patient: Um I've been having like, like shivers, even when I'm in, when I'm in bed. You know like, when you, when you go to sleep and, and you feel like I I should be warm. But I'm still, still you know, shivering a little bit.
+[02:35] Doctor: OK.
+[02:35] Patient: But I haven't taken my temperature, so I'm not a hundred percent sure if I had a fever. But it feels like I probably did. 'Cause I was just, I was next to my boyfriend. And he was completely warm and totally fine. And I just like couldn't stop shivering. And kept adding more sweaters on, and I was still cold.
+[02:50] Doctor: OK. OK. OK. Alright. Um, fine. And in terms of any other symptoms, so have you had any nausea? Have you had any vomiting?
+[02:59] Patient: No. No, no nausea. No vomiting. Like, um yeah, nothing like that.
+[03:02] Doctor: OK. How's your appetite?
+[03:07] Patient: Um, I mean it's OK. I, at the beginning, like when I was starting to have the , the , the coughing and stuff. Um, I had a little bit of diarrhea. Um but, but it didn't, it didn't cut my appetite or anything. I just like, my stomach wasn't feeling great.
+[03:27] Doctor: OK. Has that got better now, the diarrhea?
+[03:29] Patient: Yeah, yeah. It got better. It was only like the first, like it started at the same time as the cough started. And then it stopped. So I thought everything would be fine. But then the cough just kept going.
+[03:39] Doctor: OK fine. Um, any problems with your waterworks at all?
+[03:45] Patient: With my what?
+[03:46] Doctor: Uh your your waterworks, your urine.
+[03:49] Patient: Ohh. Uh, no. No no, it's fine.
+[03:50] Doctor: you're passing urine OK. You're drinking plenty of fluids, and passing urine OK.
+[03:55] Patient: No. I, I drank loads of water, when I started having the diarrhea. Now that it stopped, I just went back to normal.
+[04:00] Doctor: OK, alright. Um in terms of any other thing, do you notice any, any find any skin rashes, or um problems with your muscles or joints?
+[04:11] Patient: Uh like my, you know when I had the, when I was telling you I had like the, I had chills, and I was really cold. My muscle was really hurting.
+[04:17] Doctor: Yeah. OK.
+[04:19] Patient: Sometimes I do pilates. But like, it's hurting me so much at the moment. Um so, to be honest, all I feel like doing is just lying in bed.
+[04:23] Doctor: Right. Right, OK. OK. I'm sorry. That must be very difficult for you.
+[04:32] Patient: Yeah, right. Especially like in my arms, my legs, like just everywhere basically.
+[04:38] Doctor: quite lethargic and weak, you mentioned. Um, OK. And um, April are you normally otherwise fit and well?
+[04:40] Patient: Yeah, pretty much. Am I normally what?
+[04:48] Doctor: Uh fit and well. So do you have any other medical history?
+[04:52] Patient: Uh, well I have type two diabetes. And I have quite high blood pressure.
+[04:54] Doctor: OK. OK. And what do you take for your blood pressure? Any, or what what medications do you take on a regular basis, if you don't mind saying?
+[05:04] Patient: Um I take Metformin for the diabetes. And I take Lisinopril for the high blood pressure.
+[05:08] Doctor: Yep. Zinopril. OK, fine. Any allergies at all, to medications?
+[05:14] Patient: No. No allergies.
+[05:16] Doctor: No, OK. Regarding any family history, is there anything I should be aware of?
+[05:20] Patient: Uh my dad also has type two diabetes. But I think that's it.
+[05:24] Doctor: OK, alright. Who's looking after your diabetes? Is there anyone, is there a doctor in a hospital, who looks after your diabetes?
+[05:31] Patient: I just regularly go see a doctor. Um, that just checks up on it. Same with the high blood pressure. Like I, I have it under control. And since I've started taking this medication, I've just been like regularly checking that it, it's under control.
+[05:43] Doctor: Right, excellent. And in terms of your social situation, who lives at home with you?
+[05:49] Patient: Uh just, it's just me and my partner.
+[05:51] Doctor: lives OK, um fine. Is your partner well at the moment?
+[05:55] Patient: Yeah he has none of this. Like he's just going ahead like, like nothing. Like I was a bit worried that I would pass it to him but, not uh, diarrhea, nothing, fine.
+[06:02] Doctor: Right, OK. So he Go away, he's got away with it, at the moment. OK. And uh, are you working at the moment, April?
+[06:12] Patient: Uh, yeah I am working. But the, the first day I skipped. because I was feeling just too shit. Um, but then, I just felt like had to go back, 'cause I had so much to do. So I've been going in. But it's not been fun.
+[06:18] Doctor: Yeah. No, I can imagine. What is it that you do for work?
+[06:30] Patient: Uh, I am a developer.
+[06:33] Doctor: Ohh, so you work in the IT field. OK. IT field. Right, OK. Uh
+[06:35] Patient: yeah. Work in IT. not too active a job. Uh, yeah.
+[06:42] Doctor: No. Has it been quite stressful recently?
+[06:46] Patient: Not more than usual. I don't think it's related to stress. Like I, I don't feel like I've had a particularly hard time at work that way. Um
+[06:51] Doctor: OK. The reason I ask is sometimes
+[06:54] Patient: I've been able to take a day off to try and recover. So yeah, I don't think it's related.
+[06:57] Doctor: Sure. reason I ask is because sometimes stress can really affect your immune system. Um but uh it's good to know you're you're you're not feeling stressed. Um, do you smoke at all, April?
+[07:10] Patient: I used to, but I've stopped for about six months now.
+[07:14] Doctor: OK. Um and what about alcohol?
+[07:18] Patient: I mean, yeah I, I don't think I drank that much. Like, I I don't really know how you count the units. So I guess like I don't drink more than like, like, let's say three evenings a week? And I rarely get like properly drunk, or anything.
+[07:32] Doctor: And what is it that you drink?
+[07:34] Patient: Wine, mostly.
+[07:36] Doctor: The wine. How much do you drink on those nights?
+[07:39] Patient: Uh, I'd say like maybe two or three glasses.
+[07:42] Doctor: OK. So um, yeah so you're probably just about under the limit of um, the recommended limit. Something think about, just in terms of your blood pressure and diabetes, maybe something that you can maybe cut down on if you can.
+[07:59] Patient: Yeah? I should cut down on it.
+[08:01] Doctor: really ideally, the the the right answer is to cut down completely. But so in practice I know that's not realistic. So maybe for the first few weeks, why don't you cut down to two glasses a week. And then, one week thereafter Um and if you are coping OK, then you can maybe try and cut down altogether.
+[08:20] Patient: OK.
+[08:21] Doctor: OK? Just something for you to think about. Um, right so uh just as we wrap up really, um April I think based on your story, I think uh essentially I think you're, you're going through a bit of a bit of a viral illness. Um, I don't think there's anything to worry about.
+[08:23] Patient: Yeah.
+[08:35] Doctor: You know you've had a bit of a cough, bit of a runny nose, feeling quite weak and lethargic. I'm hoping that, you know, you're probably over the worst of it now. It's been five days. I'm hoping you're maybe going to get better in the next couple of days. It normally lasts for about a week to ten days.
+[08:50] Patient: What, what should I do if it just keeps going on and on? Like if it's still going on in, in say four days?
+[08:55] Doctor: Yeah, absolutely. So, you know things you can do to help yourself in the meantime is to, you know get some nice, good rest. Drink plenty of fluids. Keep yourself well-hydrated. You can take regular Paracetamol. If you feel like you're still not getting any better in two to three days, it's probably worth coming back to see me again. We can check you over. And if you are still feeling feverish, um and your cough isn't getting any better, then we may look to give you some antibiotics for your chest. some of the uh uh common source of infection. Um
+[09:23] Patient: Do you think I should keep going to work? Or do you think I should just
+[09:25] Doctor: Yeah so I think you know , really I think it depends on you. it's um if you are coughing, then there is a theoretical, you know risk that you're maybe slightly infectious still. So I would say maybe take a day or two off work, if you can. Uh and get some good bed rest. Um and maybe think about work early next week.
+[09:46] Patient: OK. OK. Thank you.
+[09:47] Doctor: But um, if your cough isn't getting any better, or your breathing is getting worse, I want you to come back and see me sooner. OK?
+[09:53] Patient: OK. But otherwise, I don't need to worry.
+[09:55] Doctor: No no no , nothing to worry about otherwise.
+[09:58] Patient: OK. Alright. Thank you very much.
+[09:58] Doctor: OK. Well, have a good day. Appreciate it.
+[10:01] Patient: Thank you. Bye!

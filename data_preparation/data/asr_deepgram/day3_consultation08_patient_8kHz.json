@@ -1,0 +1,332 @@
+[
+  {
+    "id": "06bd53fa-7638-4d7b-8dcc-63b311fc1e74",
+    "text": "hi there",
+    "final": true,
+    "confidence": 0.99316406,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:36:58.880Z",
+    "startedAt": "2025-10-02T16:36:56.980Z",
+    "endedAt": "2025-10-02T16:36:57.460Z"
+  },
+  {
+    "id": "354da150-b8cf-4c4e-b632-2237e82b8e69",
+    "text": "hi",
+    "final": true,
+    "confidence": 0.91259766,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:04.734Z",
+    "startedAt": "2025-10-02T16:37:02.400Z",
+    "endedAt": "2025-10-02T16:37:02.720Z"
+  },
+  {
+    "id": "4e28e08a-2011-4dde-a2e6-aa07ef015889",
+    "text": "that's john jones",
+    "final": true,
+    "confidence": 0.95996094,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:13.648Z",
+    "startedAt": "2025-10-02T16:37:10.290Z",
+    "endedAt": "2025-10-02T16:37:12.290Z"
+  },
+  {
+    "id": "2d14e1ca-c735-4872-ad6b-b1e5cdba662b",
+    "text": "that's the twenty ninth of september nineteen eighty",
+    "final": true,
+    "confidence": 0.981201175,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:22.690Z",
+    "startedAt": "2025-10-02T16:37:16.180Z",
+    "endedAt": "2025-10-02T16:37:21.330Z"
+  },
+  {
+    "id": "686ab4f7-694b-4c4c-9984-8db704a11895",
+    "text": "that's john jones at john jones dot net yep that's absolutely fine",
+    "final": true,
+    "confidence": 0.9851074,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:39.210Z",
+    "startedAt": "2025-10-02T16:37:26.270Z",
+    "endedAt": "2025-10-02T16:37:38.030Z"
+  },
+  {
+    "id": "dbb41a5c-1cda-48ab-b886-69a089b67fa2",
+    "text": "yeah yeah it's just been it's been going on for like a few days now sort of like",
+    "final": true,
+    "confidence": 0.9694824200000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:50.748Z",
+    "startedAt": "2025-10-02T16:37:43.980Z",
+    "endedAt": "2025-10-02T16:37:49.530Z"
+  },
+  {
+    "id": "69e89dc2-7ff1-448c-bc62-6c4141bd244a",
+    "text": "coughing and like general runny nose and stuff and like occasionally just",
+    "final": true,
+    "confidence": 0.84729005,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:56.399Z",
+    "startedAt": "2025-10-02T16:37:50.150Z",
+    "endedAt": "2025-10-02T16:37:54.820Z"
+  },
+  {
+    "id": "061db262-a1de-45fb-a6bf-f7c3dc8aa0df",
+    "text": "but like five days around that yeah started like what day is it today yeah the week started at the start of the weekend so",
+    "final": true,
+    "confidence": 0.9674479100000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:08.810Z",
+    "startedAt": "2025-10-02T16:37:58.130Z",
+    "endedAt": "2025-10-02T16:38:07.420Z"
+  },
+  {
+    "id": "0831f532-d0a7-41b4-b107-4d120b841711",
+    "text": "yeah it's just sort of just like coughing and like runny nose and like kind of muscles aching and stuff like occasionally so i just like",
+    "final": true,
+    "confidence": 0.95837405,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:20.270Z",
+    "startedAt": "2025-10-02T16:38:11.430Z",
+    "endedAt": "2025-10-02T16:38:19.060Z"
+  },
+  {
+    "id": "6b07aad8-cfd6-4239-a688-489cb7547a89",
+    "text": "feeling like you know cold chills and",
+    "final": true,
+    "confidence": 0.9633789,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:23.586Z",
+    "startedAt": "2025-10-02T16:38:19.390Z",
+    "endedAt": "2025-10-02T16:38:22.269Z"
+  },
+  {
+    "id": "fced8f70-f4d5-470d-8a36-4e2b37f57980",
+    "text": "yeah",
+    "final": true,
+    "confidence": 0.99609375,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:27.552Z",
+    "startedAt": "2025-10-02T16:38:25.839Z",
+    "endedAt": "2025-10-02T16:38:26.159Z"
+  },
+  {
+    "id": "79519e21-c346-4003-98ce-b3eee6f633ca",
+    "text": "no no it's like a it's like a dry car it's also like like almost hacking hacking kind of like",
+    "final": true,
+    "confidence": 0.93457032,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:36.797Z",
+    "startedAt": "2025-10-02T16:38:30.390Z",
+    "endedAt": "2025-10-02T16:38:35.519Z"
+  },
+  {
+    "id": "2b64b54e-9f26-4622-ab5f-ab3ca4e97f2f",
+    "text": "yeah",
+    "final": true,
+    "confidence": 0.6767578,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:40.222Z",
+    "startedAt": "2025-10-02T16:38:38.430Z",
+    "endedAt": "2025-10-02T16:38:38.750Z"
+  },
+  {
+    "id": "8e3363e3-0a7e-4b13-852a-a9b2716d0298",
+    "text": "no no no shortness of like yeah breathing fine",
+    "final": true,
+    "confidence": 0.8496094,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:47.825Z",
+    "startedAt": "2025-10-02T16:38:43.269Z",
+    "endedAt": "2025-10-02T16:38:46.549Z"
+  },
+  {
+    "id": "6bcaba9c-08d5-4f0b-bd88-dc483d494075",
+    "text": "no",
+    "final": true,
+    "confidence": 0.96191406,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:52.338Z",
+    "startedAt": "2025-10-02T16:38:50.700Z",
+    "endedAt": "2025-10-02T16:38:51.020Z"
+  },
+  {
+    "id": "f69890d7-e02a-4479-82a0-c240e8c4f3bb",
+    "text": "so just like painkillers and such i mean i i i'm in addition to like my normal medication and such but like",
+    "final": true,
+    "confidence": 0.9732666,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:09.403Z",
+    "startedAt": "2025-10-02T16:38:59.630Z",
+    "endedAt": "2025-10-02T16:39:07.890Z"
+  },
+  {
+    "id": "f97e9e11-f05a-41d7-afa0-5070bd0a6c10",
+    "text": "would just let paracetamol",
+    "final": true,
+    "confidence": 0.9742839,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:17.735Z",
+    "startedAt": "2025-10-02T16:39:15.150Z",
+    "endedAt": "2025-10-02T16:39:16.430Z"
+  },
+  {
+    "id": "d04f9760-9974-404a-8609-90e386473e90",
+    "text": "yeah so i take what's called it's like metformin i i i'm a diabetic so and i'd also like have lisinopril",
+    "final": true,
+    "confidence": 0.8850504466666665,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:46.625Z",
+    "startedAt": "2025-10-02T16:39:35.100Z",
+    "endedAt": "2025-10-02T16:39:45.179Z"
+  },
+  {
+    "id": "70e23b4b-541d-4878-859a-988f046810ee",
+    "text": "yeah for the like it looks like blood pressure",
+    "final": true,
+    "confidence": 0.9440918,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:50.531Z",
+    "startedAt": "2025-10-02T16:39:46.849Z",
+    "endedAt": "2025-10-02T16:39:49.170Z"
+  },
+  {
+    "id": "fcd5d8d6-9399-4e56-b75a-fb9b98e5edea",
+    "text": "like a a few years maybe five or six years",
+    "final": true,
+    "confidence": 0.99121094,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:59.729Z",
+    "startedAt": "2025-10-02T16:39:55.690Z",
+    "endedAt": "2025-10-02T16:39:58.490Z"
+  },
+  {
+    "id": "9a187eb9-7610-43be-9894-4dda1a8614d4",
+    "text": "yes",
+    "final": true,
+    "confidence": 0.9975586,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:40:07.564Z",
+    "startedAt": "2025-10-02T16:40:05.850Z",
+    "endedAt": "2025-10-02T16:40:06.170Z"
+  },
+  {
+    "id": "c5b4ec09-a46e-43d3-8277-cf032fe00a72",
+    "text": "no issues nothing like out of the ordinary there",
+    "final": true,
+    "confidence": 0.9863281,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:40:14.592Z",
+    "startedAt": "2025-10-02T16:40:10.450Z",
+    "endedAt": "2025-10-02T16:40:13.330Z"
+  },
+  {
+    "id": "5b50cdbb-0954-42e0-b581-e3145caa8bdc",
+    "text": "open this morning",
+    "final": true,
+    "confidence": 0.86035156,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:40:27.358Z",
+    "startedAt": "2025-10-02T16:40:24.700Z",
+    "endedAt": "2025-10-02T16:40:25.980Z"
+  },
+  {
+    "id": "d090786d-24b5-42ea-98b4-eb612edfd413",
+    "text": "i can't remember off the top of my head but it was within the normal range",
+    "final": true,
+    "confidence": 0.9951171999999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:40:34.287Z",
+    "startedAt": "2025-10-02T16:40:29.420Z",
+    "endedAt": "2025-10-02T16:40:32.710Z"
+  },
+  {
+    "id": "bec88db0-4f87-4696-acbd-35aa9adcc87b",
+    "text": "sure",
+    "final": true,
+    "confidence": 0.98706055,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:40:50.121Z",
+    "startedAt": "2025-10-02T16:40:48.010Z",
+    "endedAt": "2025-10-02T16:40:48.410Z"
+  },
+  {
+    "id": "cd51fcaa-bfe6-44d6-8efd-6a16cc26a3f2",
+    "text": "yep",
+    "final": true,
+    "confidence": 0.94140625,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:40:53.228Z",
+    "startedAt": "2025-10-02T16:40:51.650Z",
+    "endedAt": "2025-10-02T16:40:51.970Z"
+  },
+  {
+    "id": "69430ac5-6be2-414b-9bb4-0533c504dd17",
+    "text": "no i haven't had anything like that",
+    "final": true,
+    "confidence": 0.9543457,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:41:10.565Z",
+    "startedAt": "2025-10-02T16:41:06.990Z",
+    "endedAt": "2025-10-02T16:41:09.230Z"
+  },
+  {
+    "id": "b7fb7ac1-b2b8-4192-9a31-0c141979844d",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.9641113,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:41:38.632Z",
+    "startedAt": "2025-10-02T16:41:36.690Z",
+    "endedAt": "2025-10-02T16:41:37.170Z"
+  },
+  {
+    "id": "cd496c4f-faf6-40eb-affd-6da8c12253bc",
+    "text": "mhmm",
+    "final": true,
+    "confidence": 0.78564453,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:41:47.482Z",
+    "startedAt": "2025-10-02T16:41:45.779Z",
+    "endedAt": "2025-10-02T16:41:46.179Z"
+  },
+  {
+    "id": "8cf259d8-2f92-4b65-b0c9-700ddc612abe",
+    "text": "okay that sounds good",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:10.133Z",
+    "startedAt": "2025-10-02T16:42:07.709Z",
+    "endedAt": "2025-10-02T16:42:08.910Z"
+  },
+  {
+    "id": "aeb3de94-8847-4fcc-a307-ebd560be8153",
+    "text": "no i i i think that's that's been very helpful thank you",
+    "final": true,
+    "confidence": 0.990356445,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:16.887Z",
+    "startedAt": "2025-10-02T16:42:12.750Z",
+    "endedAt": "2025-10-02T16:42:15.519Z"
+  },
+  {
+    "id": "3354cdfd-01df-4351-91d5-5f72da5d62a9",
+    "text": "okay so i don't need any prescription or anything like that",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:32.505Z",
+    "startedAt": "2025-10-02T16:42:28.700Z",
+    "endedAt": "2025-10-02T16:42:31.260Z"
+  },
+  {
+    "id": "8cdebd20-b3fd-44d1-b790-172fd7969431",
+    "text": "thank you very much bye",
+    "final": true,
+    "confidence": 1,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:38.496Z",
+    "startedAt": "2025-10-02T16:42:35.430Z",
+    "endedAt": "2025-10-02T16:42:36.790Z"
+  }
+]

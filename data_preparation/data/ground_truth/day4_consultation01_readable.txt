@@ -1,0 +1,102 @@
+[00:04] Doctor: Hello.
+[00:05] Patient: Hello. Can you hear me?
+[00:07] Doctor: Yeah, I can. Can you hear me? Hi, my name is Doctor Gohill. I'm one of, Hi, I'm one of the physicians that works at Babylon. Are you in a quiet and private space to talk?
+[00:25] Patient: I am, yes.
+[00:26] Doctor: Good, and can I confirm your name and date of birth please?
+[00:30] Patient: Uh, it's Joe Bloggs. It's the seventh, of June, nineteen seventy four.
+[00:38] Doctor: Seventy four, and how old does that make you?
+[00:40] Patient: Sorry, fifty four . I'm, suppose I'd be fifty three, well, yeah.
+[00:42] Doctor: Perfect. Great, and it says here, um, it says you're having chest discomfort. Is that correct?
+[00:50] Patient: That, that is correct, yes. I'm experiencing discomfort in my chest.
+[00:55] Doctor: OK, can you tell me a little bit more about your chest discomfort? When it started, and how you're feeling at the moment?
+[01:01] Patient: Sure, um, it's been ongoing for, a couple of hours now. Um, I'd say that it's come on, quite suddenly. I was, digging in the garden. And it, if I had to describe where it is, it's somewhere in the middle of my chest. And it's more, it feels like it's pressure, discomfort, than more, than a pain. Um, if I, had to . If I, if I had to describe what discomfort feeling, it's, it's like someone's sitting on my chest. .
+[01:33] Doctor: OK.
+[01:35] Patient: And. Yeah.
+[01:39] Doctor: Great. So, you've talked about your chest. Are you still in, discomfort at the moment?
+[01:44] Patient: Uh, yes I do smoke, yeah.
+[01:46] Doctor: OK, and when it started, how would you rate it out, out of ten?
+[01:51] Patient: Say about, say, seven out of ten.
+[01:56] Doctor: OK, .
+[01:56] Patient: Ten being, very sort of, unbearable and severe pain. Seven is. Quite manageable, well, it's quite .
+[02:04] Doctor: OK, and how about now?
+[02:06] Patient: Um, it's still the same.
+[02:09] Doctor: OK, and tell me before this happened, what were you doing?
+[02:13] Patient: Yeah. Um, I was, relaxing. My wife, and, we're watching Jeremy Kyle.
+[02:23] Doctor: OK.
+[02:24] Patient: still go out into the garden.
+[02:26] Doctor: OK, and how often do you do gardening?
+[02:29] Patient: Um, every other week. So, fortnightly.
+[02:32] Doctor: OK, and are you normally fit and well? So, are you normally OK to garden as you would?
+[02:37] Patient: Uh, yes.
+[02:39] Doctor: Great, and apart from this, do you have any other medical problems?
+[02:47] Patient: Um, high cholesterol, and, I've had hypertension, hypertension.
+[02:53] Doctor: OK, so that's high blood pressure, and high cholesterol. Do you take any medicines for that?
+[03:03] Patient: No, I don't take any medicine.
+[03:05] Doctor: OK, and are you allergic to anything?
+[03:07] Patient: Uh, .
+[03:10] Doctor: OK. So, let me summarise what you've told me already. You were gardening a few hours ago, and you experienced chest discomfort, which was roughly seven out of ten. And it feels more like someone's sitting on your chest, as opposed to pain.
+[03:21] Patient: Yeah. Yes, that's great.
+[03:28] Doctor: And apart from this, have you noticed anything else unusual, specifically with your breathing?
+[03:36] Patient: Uh, yes I have. Um, I've got shortness of breath. And I feel slightly, light-headed.
+[03:46] Doctor: OK, and is that getting worse or better?
+[03:51] Patient: Um, it's remained the same. Although, I would say recently I've noticed, in terms of sort of breathing, I've had, some difficulty climbing the stairs. And, if I have to sort of walk uphill, there's that sort of challenge as well.
+[04:06] Doctor: And when you get short of breath, when you're walking up the stairs, have you noticed any pain?
+[04:15] Patient: Um, no pain as such, but there's often calf pain and, leg swellings.
+[04:22] Doctor: OK. So, let me confirm. You have the pressure at the moment, and you have shortness of breath, is that correct?
+[04:28] Patient: That is correct, yes.
+[04:29] Doctor: . So, given what you've told me about your past medical history. I think it might be worth, you calling an ambulance.
+[04:36] Patient: OK.
+[04:37] Doctor: get you to the hospital as soon as possible. Because, my concern is, it might be something to do with your heart. So, While to you, I will ring an ambulance. Who, should come to your address.
+[04:45] Patient: Ohh, OK. Ohh right.
+[04:52] Doctor: But in the meantime, I think we should stay on the phone. So I can gather some more information, that we can give to the paramedics. Is that OK?
+[04:57] Patient: OK. Um, should I, be concerned about anything?
+[05:04] Doctor: It's nothing to worry about at the moment, but, given that you've got high blood pressure and high cholesterol, and you've got some chest pain. I'm always worried about the heart first, before anything else.
+[05:14] Patient: , OK, .
+[05:15] Doctor: , and we, and we need to look after your heart before anything else. So, apart from this light-headedness, and this chest discomfort, have you noticed anything else unusual?
+[05:31] Patient: Um, nothing, else unusual. Um, I'm not sure if I spoke to you about nausea? I've noticed nausea, but no vomiting, yet.
+[05:40] Doctor: Did you have anything to eat or drink this morning?
+[05:42] Patient: Um, no.
+[05:44] Doctor: And you feel, still feel nauseous at the moment?
+[05:47] Patient: I have, yeah. I am, yeah.
+[05:50] Doctor: So, I have a couple of other questions to ask you, and I'm gonna reel them off. So, apologies for not letting you talk very much.
+[05:54] Patient: OK. No, that's fine.
+[05:57] Doctor: Have you noticed this pressure, radiating to your head?
+[06:01] Patient: Uh, not to my head, no.
+[06:03] Doctor: And how about to your left, or right arm?
+[06:06] Patient: Uh, yes. There is some pain in my left shoulder and arm.
+[06:12] Doctor: And does that pain go anywhere else? To your left arm, or to your back?
+[06:16] Patient: Uh, no.
+[06:18] Doctor: And, have you noticed any problems swallowing, or drinking water?
+[06:24] Patient: Uh, no.
+[06:26] Doctor: Good. And have you noticed any problems going to the loo?
+[06:31] Patient: Uh, no problems going to the loo.
+[06:34] Doctor: And you're normally fit and well, apart from the two things you told me about?
+[06:38] Patient: Um. Yes, however, there's some problems just, performing daily activities. Um, like I said, with the difficulties climbing up the stairs and going uphill. Um, I try to limit my daily activity to just moving around the house, nothing too strenuous.
+[06:57] Doctor: And, do you live at home with your wife at the moment?
+[07:00] Patient: Uh, yes.
+[07:00] Doctor: OK. I would suggest, if she's there, you let her know that, you'll both be having an adventure to the hospital today. So, she might need to get your things together.
+[07:08] Patient: OK. Got it, OK.
+[07:11] Doctor: The ambulance should be there very soon. In the meantime, I would suggest that you stay calm, and have some water if you need to.
+[07:14] Patient: OK.
+[07:19] Doctor: Don't take any of those medications.
+[07:19] Patient: Right. OK.
+[07:22] Doctor: And the paramedics should be with you, very shortly.
+[07:26] Patient: All right.
+[07:26] Doctor: So, when they do come, there are two things they will be worried about.
+[07:30] Patient: OK.
+[07:31] Doctor: The one is your chest, so, your heart. And the second is your breathing, which is your lungs.
+[07:33] Patient: Yes. OK.
+[07:36] Doctor: So, they will give you lots of things to breathe through, and attach things to your arms. Just to check, things like your blood pressure, and your heart rate. So, don't be worried.
+[07:46] Patient: OK.
+[07:47] Doctor: And, when you get to the hospital, you'll be seen by a consultant, pretty, pretty much immediately.
+[07:54] Patient: Yeah, . Reassuring, I'm getting .
+[07:59] Doctor: Sure. So, I will let the paramedics do their job. And when, you're at the hospital, the consultant would normally call me within a couple of minutes, to let me know how everything's going.
+[08:09] Patient: Ohh, that's great.
+[08:11] Doctor: Great. I'll um, book another appointment, to see you soon. Uh, , once you've had your adventure.
+[08:14] Patient: OK. That is perfect. Thank you so much.
+[08:18] Doctor: No problems. Do you have any questions for me?
+[08:20] Patient: Uh, no questions. I'll just await the ambulance.
+[08:24] Doctor: Great, thank you very much.
+[08:26] Patient: No problems. I'll speak to you soon.
+[08:27] Doctor: Bye bye.
+[08:28] Patient: Thank you so much. Bye.

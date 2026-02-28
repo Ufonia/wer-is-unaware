@@ -1,0 +1,109 @@
+[00:00] Doctor: There's no . , hello?
+[00:02] Patient: . Hi there.
+[00:06] Doctor: Hello there. Um, thanks for, thanks for, being here. Um, before I go any further, can I uh, confirm your name and your age please?
+[00:14] Patient: Yes, it's um Adriana Katherine . And I'm twenty six year old.
+[00:20] Doctor: OK, Adriana, and how can I help you this afternoon?
+[00:21] Patient: Well, I have this like really crazy headache that's been going on for a few days. And it really annoys me.
+[00:30] Doctor: Ohh dear, OK. , when, when did it exactly start, this headache?
+[00:35] Patient: Eh, around three days ago, maybe.
+[00:38] Doctor: Three days ago, OK. And whereabout in your head, is this pain?
+[00:42] Patient: Um, it's basically like, it kind of feels all over my head, but like mainly, um, around my right eye. Um
+[00:52] Doctor: , OK. Um, and is the, headache there all the time, or does it come and go?
+[00:58] Patient: Um it's, it kind of comes and goes. Um but, I mean it is there all the time, but like sometimes it's stronger.
+[01:08] Doctor: OK, so it comes and, fine, OK. And if I was to ask you on a scale of one to ten, um, ten being the worst type of pain you ever had. How would you rate this headache?
+[01:18] Patient: Ohh it's probably a eight.
+[01:20] Doctor: Eight. And if I was to ask you describe the headache to me, um, in terms of the nature of the pain. Is it sharp? Is it dull? Is it crampy? Is it throbbing?
+[01:30] Patient: Um, it's kind of, it's dull but sometimes it gets a bit sharper. So basically it like, it developed gradually, I guess. It's like the first day it just started when I was at work.
+[01:44] Doctor: Mm-hmm.
+[01:44] Patient: And by the end of the day it was like pretty, pretty, like it was a lot, basically. And then I was thinking OK, maybe I'll just go to sleep. And when I woke up the next morning like, it was even, even worse basically. So
+[01:52] Doctor: Mm-hmm. So, you think the headache is getting worse over the last three days?
+[02:00] Patient: Yeah.
+[02:01] Doctor: OK. Have you tried anything which has made the headache better?
+[02:05] Patient: Um so I tried uh Ibuprofen. Um so I took, like a few. Um for the last two days, basically.
+[02:15] Doctor: Did that help?
+[02:15] Patient: But it doesn't really help, no. In in the past it did help me, which is why I decided to try it. But
+[02:21] Doctor: OK, all right. And except for the headaches, any other symptoms at all?
+[02:26] Patient: Um
+[02:26] Doctor: So, example any, problems your eyesight or your vision?
+[02:32] Patient: Not really, but just when it started, I I got this like weird shooting lights. And like now like light is quite annoying, my eyes.
+[02:44] Doctor: So when you say annoying, does it hurt to look, uh, look at bright lights?
+[02:47] Patient: Yeah, yeah. It hurts. So
+[02:49] Doctor: , OK. And um, have you had any loss of vision or blurry vision?
+[02:55] Patient: Not loss of vision, I wouldn't say. It's just like some lights from, shooting lights .
+[03:00] Doctor: Mmm, , OK. Any nausea or any vomiting?
+[03:06] Patient: Um, well I'm like basically, I I'm sick with the headache. But I, no vomiting.
+[03:13] Doctor: When you say sick, you mean you feel sick? OK. Yeah, no vomiting, OK. Any neck pain or neck stiffness?
+[03:15] Patient: Yeah. No.
+[03:23] Doctor: OK. And any difficulty with speaking or, um, speech?
+[03:27] Patient: No.
+[03:29] Doctor: Any difficulty , with weakness in your arms and legs?
+[03:34] Patient: No, it's hard to focus though. So, I I had to take a couple of days off work, actually.
+[03:39] Doctor: Ohh really? OK. OK, yeah probably, well I'll, I'll ask you a bit more about your work later on. Um, any recent head injuries at all?
+[03:49] Patient: Uh, no.
+[03:52] Doctor: OK. And have you had anything like this before in the past?
+[03:56] Patient: Yeah I mean, headaches, you mean.
+[03:58] Doctor: Or, uh, or similar, similar to, similar to this kind of headache, ?
+[04:01] Patient: Yeah. I mean I had. But, usually after I I take uh Ibuprofen it kind of goes away. So, but this time it's just not. .
+[04:10] Doctor: not, OK. All right. Um, any temperatures, or fevers?
+[04:16] Patient: No.
+[04:17] Doctor: Any rashes at all, on your skin?
+[04:20] Patient: Mm, no not that I've noticed.
+[04:22] Doctor: OK. And just moving forwards. Are you otherwise fit and well, Adriana?
+[04:27] Patient: Am I what, sorry?
+[04:28] Doctor: You fit and well? , do you have any other medical history?
+[04:30] Patient: Yeah, I think so. It's just the headache.
+[04:33] Doctor: Any history of migraines at all?
+[04:36] Patient: Not myself, I've never had a migraine. But my sister and my mom have them quite frequently.
+[04:42] Doctor: OK. Um, fine. I'll ask you a bit more about that in just a second. Before I go any further, can I ask, do you take any regular medication?
+[04:51] Patient: Uh, no no.
+[04:54] Doctor: Are you on the pill? OK. Do you have any allergies to any medications?
+[04:59] Patient: Mm not that I know of.
+[05:02] Doctor: OK. So you mentioned your mother and sister both have migraines.
+[05:06] Patient: Yeah.
+[05:07] Doctor: Are they, is that normally well-controlled or are they um, having difficulty, controlling their symptoms?
+[05:12] Patient: Um so my sister's, like better. Like it's kind of, it's very rare. But my mom's is like quite bad, um usually when there's like a season changing and stuff like that. It's, yeah.
+[05:26] Doctor: Mm-hmm, OK.
+[05:26] Patient: Takes her out for a few days, basically.
+[05:29] Doctor: Ohh right, OK, fine. Um, socially, tell me a bit more about your life, outside of, um, outside of, work. So , who lives at home with you?
+[05:39] Patient: Uh I live with housemates. So, three of them. So we're four .
+[05:42] Doctor: OK. Excellent. And are you working at the moment? You mentioned this , impacting on your work.
+[05:48] Patient: Yeah so I work, well I work in IT. So I work with computers a lot. So it kind of is difficult to focus. Um I had to like reduce the uh, brightness of my screen.
+[06:00] Doctor: Mmm. OK. Do you wear glasses?
+[06:03] Patient: Yes, I do.
+[06:04] Doctor: Have you had any, uh, have you had any recent eye check, done? Eye test?
+[06:08] Patient: No, uh I've been wearing them since I was five , five year old. So, it's quite a long time.
+[06:13] Doctor: OK, all right. Something for you to bear in mind if you feel that you are, your eyes are straining. Um I would always recommend having a repeat eye test done. Um, have you been feeling more stressed or anxious at work recently?
+[06:28] Patient: Well, it's been a bit stressful, kicking off a new project. But um, yeah nothing out of the ordinary, really.
+[06:34] Doctor: OK, all right. Great. Um, regarding smoking or alcohol. Do you drink or smoke at all?
+[06:43] Patient: I socially smoke. And I drink only socially.
+[06:49] Doctor: But only socially? OK. Right. Now um, Adriana, do you have any ideas as to what could be causing your symptoms? Have you, have you read anything online, or spoken to people?
+[07:02] Patient: Um Not really. Um at first I thought it's stress, or maybe I didn't drink enough water. Because sometimes when I don't drink enough water, I I like get headaches. Um
+[07:16] Doctor: Mm-hmm.
+[07:17] Patient: But, I don't think that's it. And I'm like worried, it's, I don't want it to be a migraine. Because I know what it's like, from my mom and my sister.
+[07:26] Doctor: Mmm.
+[07:26] Patient: And it's really annoying. So I I really don't want to have that. And I know it's genetic. So I've researched that. Um but I don't know if that is the case. So, yeah.
+[07:35] Doctor: OK. Is it anything in particular you were hoping I could do for you today?
+[07:40] Patient: Yeah maybe just kinda, if you have any recommendations of that I can take something stronger. Because apparently, Ibuprofen doesn't help me. Uh
+[07:48] Doctor: OK.
+[07:49] Patient: Usually it gets resolved if I have headache in like, after like one or two days. But currently it, it didn't help me.
+[07:56] Doctor: How many tablets did you take of Ibuprofen?
+[07:59] Patient: Uh, three a day.
+[08:02] Doctor: Three a day, OK. All right. Um, so uh, Adriana, so um, really what I think is going on here. I , uh, unfortunately I do think this could be, a headache very similar to a migraine. Um, the reason I say that is because the history is very suggestive of it, given your mum and your sister also migraines. I think it's something for us to think about. Um, now I'm not saying it's gonna, keep happening, but, it may just be a one-off. But it's certainly worth treating it today stronger analgesia or painkillers. Um, now moving forward, we have some options which we can discuss. Uh, you tried the Ibuprofen. Now, my only worry is, I'm not sure whether you're taking, the correct dose. You can take up to two tablets, three times a day.
+[08:50] Patient: Ohh right.
+[08:50] Doctor: So, so , there's definitely room for, improvement there. Or, I can prescribe you something stronger, like Naproxen, which is another anti-inflammatory, which can be helpful.
+[09:01] Patient: Mm-hmm.
+[09:01] Doctor: Um, we can also add in other, painkillers like, Paracetamol, or Codeine. Which might be helpful as well.
+[09:09] Patient: Mm, yeah. I think is what my mom takes for when she has um, um migraines.
+[09:16] Doctor: OK. And I think it's , certainly worth looking into that, so I can give you a , prescription for that today. Um, with regards to um, the next few days. It may be worth keeping a headache diary so we can try and work out what's, you know, if there's any triggers which could be causing your headaches to become worse.
+[09:33] Patient: Mm-hmm.
+[09:33] Doctor: And, and, you know I'd like you to come back and see me, in about uh, a week's time, week to two weeks' time. If you are having , more frequent episodes of these type of headaches. We can think about giving you medications as, prophylactic. Which basically means, medications to stop you from having these headaches on a regular basis. But we can have that discussion next time.
+[09:55] Patient: Mm, OK.
+[09:57] Doctor: OK. In the meantime if your headaches aren't getting any better, or they're getting worse. Um, you know, I want you to give me a call, or come back and see me sooner. OK?
+[10:07] Patient: OK. Yeah.
+[10:08] Doctor: So, if you're having any problems with your vision, or weakness in your arms and legs, or you're just not feeling very well. Just give me a call, and come back and see me.
+[10:15] Patient: OK.
+[10:16] Doctor: All right?
+[10:18] Patient: Great.
+[10:19] Doctor: Great. Well, have a good day.
+[10:20] Patient: Thank you. You too. Bye!
+[10:22] Doctor: Bye.

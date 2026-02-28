@@ -1,0 +1,532 @@
+[
+  {
+    "id": "784d6cb9-63a5-4329-b071-78a02292a3ae",
+    "text": "hi",
+    "final": true,
+    "confidence": 0.9506836,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:37:48.036Z",
+    "startedAt": "2025-10-02T12:37:46.111Z",
+    "endedAt": "2025-10-02T12:37:46.510Z"
+  },
+  {
+    "id": "876c381f-3bb5-41eb-a570-839377feb08b",
+    "text": "yes it's adriana catherine giva i'm twenty six year old",
+    "final": true,
+    "confidence": 0.845581065,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:03.788Z",
+    "startedAt": "2025-10-02T12:37:57.821Z",
+    "endedAt": "2025-10-02T12:38:02.731Z"
+  },
+  {
+    "id": "2ba339aa-10c2-4f20-97f2-07363e84af5a",
+    "text": "well i have this like really crazy headache that's been going on for a few days and it really annoys me",
+    "final": true,
+    "confidence": 0.98852539,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:14.325Z",
+    "startedAt": "2025-10-02T12:38:06.481Z",
+    "endedAt": "2025-10-02T12:38:13.291Z"
+  },
+  {
+    "id": "a36b0e0d-9852-469a-b371-8277fc35730f",
+    "text": "around three days ago maybe",
+    "final": true,
+    "confidence": 0.9008789,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:22.447Z",
+    "startedAt": "2025-10-02T12:38:19.630Z",
+    "endedAt": "2025-10-02T12:38:21.310Z"
+  },
+  {
+    "id": "c3673484-ab30-4462-a32d-7302640170b2",
+    "text": "it's basically like it kinda feels all over my head but like mainly around my right eye",
+    "final": true,
+    "confidence": 0.91711426,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:36.997Z",
+    "startedAt": "2025-10-02T12:38:27.251Z",
+    "endedAt": "2025-10-02T12:38:34.191Z"
+  },
+  {
+    "id": "c2b3bd3b-36d1-46cd-8eec-99d55e566c46",
+    "text": "it's it kinda comes and goes but i mean it is there all the time but like sometimes it's stronger",
+    "final": true,
+    "confidence": 0.99576823,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:52.715Z",
+    "startedAt": "2025-10-02T12:38:42.741Z",
+    "endedAt": "2025-10-02T12:38:51.290Z"
+  },
+  {
+    "id": "516f86b0-d120-4e12-88df-2f8dec9d60fc",
+    "text": "it's probably a eight",
+    "final": true,
+    "confidence": 0.9580078,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:04.518Z",
+    "startedAt": "2025-10-02T12:39:01.930Z",
+    "endedAt": "2025-10-02T12:39:03.370Z"
+  },
+  {
+    "id": "fa6a869e-2c52-4a0b-9513-1373cb27f710",
+    "text": "it's kinda",
+    "final": true,
+    "confidence": 0.8935547,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:17.258Z",
+    "startedAt": "2025-10-02T12:39:14.491Z",
+    "endedAt": "2025-10-02T12:39:16.171Z"
+  },
+  {
+    "id": "71a6561a-a3a5-4246-90cf-c181f8aee570",
+    "text": "it's dull but sometimes it gets a bit sharper so basically it like it developed gradually i guess it's like the first day it just started when i was at work and by the end of the day it was like pretty pretty like it was a lot basically and then i was thinking okay maybe i'll just go to sleep then i woke up the next morning like it was even even worse basically so yeah",
+    "final": true,
+    "confidence": 0.9783063657142856,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:44.977Z",
+    "startedAt": "2025-10-02T12:39:16.980Z",
+    "endedAt": "2025-10-02T12:39:43.851Z"
+  },
+  {
+    "id": "79314a21-9513-4f96-a26b-1c5417618b92",
+    "text": "so i tried ibuprofen so i took like a few",
+    "final": true,
+    "confidence": 0.99304199,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:56.587Z",
+    "startedAt": "2025-10-02T12:39:48.641Z",
+    "endedAt": "2025-10-02T12:39:54.431Z"
+  },
+  {
+    "id": "0a0d8012-4782-4a63-a731-b7c5c17c08af",
+    "text": "but it doesn't really help no and in the past it did help me which is why i just decided to try it but",
+    "final": true,
+    "confidence": 0.98828125,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:05.634Z",
+    "startedAt": "2025-10-02T12:39:58.911Z",
+    "endedAt": "2025-10-02T12:40:04.601Z"
+  },
+  {
+    "id": "e1ef66cd-6ab8-434f-94b9-32bcfbe11a05",
+    "text": "and",
+    "final": true,
+    "confidence": 0.54296875,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:11.948Z",
+    "startedAt": "2025-10-02T12:40:10.181Z",
+    "endedAt": "2025-10-02T12:40:10.661Z"
+  },
+  {
+    "id": "9f81f438-9ceb-4d63-8ecc-eac8279a17f9",
+    "text": "not really but just when it started i i got this like weird shooting lights and like now like light is quite annoying my eyes",
+    "final": true,
+    "confidence": 0.9820963333333333,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:27.413Z",
+    "startedAt": "2025-10-02T12:40:15.171Z",
+    "endedAt": "2025-10-02T12:40:26.191Z"
+  },
+  {
+    "id": "916940df-0418-492a-b123-3caaba314e92",
+    "text": "yeah yeah it hurts",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:33.302Z",
+    "startedAt": "2025-10-02T12:40:30.371Z",
+    "endedAt": "2025-10-02T12:40:32.211Z"
+  },
+  {
+    "id": "02b94c84-0764-4832-966b-8a49b9c34be1",
+    "text": "not loss vision i wouldn't say it's just like some",
+    "final": true,
+    "confidence": 0.983398435,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:43.044Z",
+    "startedAt": "2025-10-02T12:40:39.101Z",
+    "endedAt": "2025-10-02T12:40:41.991Z"
+  },
+  {
+    "id": "ed7533fc-3eae-4fee-9356-b9b12ec2d429",
+    "text": "shooting light each way",
+    "final": true,
+    "confidence": 0.7792969,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:46.956Z",
+    "startedAt": "2025-10-02T12:40:44.631Z",
+    "endedAt": "2025-10-02T12:40:45.831Z"
+  },
+  {
+    "id": "46ca940f-678c-4d2d-b9c0-9cbd0bb7bbbc",
+    "text": "well i'm like basically i'm i'm sick with the headache but i no vomiting",
+    "final": true,
+    "confidence": 0.9927978550000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:56.411Z",
+    "startedAt": "2025-10-02T12:40:50.691Z",
+    "endedAt": "2025-10-02T12:40:55.201Z"
+  },
+  {
+    "id": "7136f0c7-545b-4cfb-bb59-bfb3f0e335e5",
+    "text": "yeah",
+    "final": true,
+    "confidence": 0.9736328,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:59.787Z",
+    "startedAt": "2025-10-02T12:40:58.251Z",
+    "endedAt": "2025-10-02T12:40:58.491Z"
+  },
+  {
+    "id": "8cf20513-4554-420b-bd54-e140fc40f3b5",
+    "text": "no",
+    "final": true,
+    "confidence": 0.9970703,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:05.893Z",
+    "startedAt": "2025-10-02T12:41:04.161Z",
+    "endedAt": "2025-10-02T12:41:04.641Z"
+  },
+  {
+    "id": "27e439ec-31a7-4d03-a182-8c5e2652658d",
+    "text": "no",
+    "final": true,
+    "confidence": 0.9875488,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:12.964Z",
+    "startedAt": "2025-10-02T12:41:11.241Z",
+    "endedAt": "2025-10-02T12:41:11.641Z"
+  },
+  {
+    "id": "8a964edb-caba-45a0-ac52-b4c8219d20bf",
+    "text": "no it's hard to focus though",
+    "final": true,
+    "confidence": 0.9995117,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:19.956Z",
+    "startedAt": "2025-10-02T12:41:17.011Z",
+    "endedAt": "2025-10-02T12:41:18.931Z"
+  },
+  {
+    "id": "47ab76ce-a05c-4779-a03b-1bec96386259",
+    "text": "so i i had to take a couple of days off work actually",
+    "final": true,
+    "confidence": 0.9770508,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:23.484Z",
+    "startedAt": "2025-10-02T12:41:19.501Z",
+    "endedAt": "2025-10-02T12:41:22.301Z"
+  },
+  {
+    "id": "7374ad2b-ccc6-4e74-b25e-ddd27dff580d",
+    "text": "no",
+    "final": true,
+    "confidence": 0.951416,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:35.285Z",
+    "startedAt": "2025-10-02T12:41:33.981Z",
+    "endedAt": "2025-10-02T12:41:34.301Z"
+  },
+  {
+    "id": "9204ee82-08b3-4e43-a681-cf63043d812a",
+    "text": "yeah i mean headaches you mean",
+    "final": true,
+    "confidence": 0.9819336,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:42.318Z",
+    "startedAt": "2025-10-02T12:41:39.311Z",
+    "endedAt": "2025-10-02T12:41:41.151Z"
+  },
+  {
+    "id": "1bc3290b-85e3-4e52-a575-0a111e3bcfb8",
+    "text": "yeah i mean i had but usually after i i take ibuprofen it's kinda goes away so but this time it's just not",
+    "final": true,
+    "confidence": 0.9970703249999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:54.968Z",
+    "startedAt": "2025-10-02T12:41:44.941Z",
+    "endedAt": "2025-10-02T12:41:53.751Z"
+  },
+  {
+    "id": "1f279cff-000c-4769-be86-33162e9bdfd7",
+    "text": "no",
+    "final": true,
+    "confidence": 0.99853516,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:00.856Z",
+    "startedAt": "2025-10-02T12:41:59.631Z",
+    "endedAt": "2025-10-02T12:41:59.871Z"
+  },
+  {
+    "id": "96e6e4d6-7f84-4cac-8b75-1f8f3f16354e",
+    "text": "no not that i've noticed",
+    "final": true,
+    "confidence": 0.86621094,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:06.789Z",
+    "startedAt": "2025-10-02T12:42:04.111Z",
+    "endedAt": "2025-10-02T12:42:05.551Z"
+  },
+  {
+    "id": "55c8ba70-5cab-4756-82c6-cd81d736f422",
+    "text": "am i what sorry",
+    "final": true,
+    "confidence": 0.96972656,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:12.590Z",
+    "startedAt": "2025-10-02T12:42:10.651Z",
+    "endedAt": "2025-10-02T12:42:11.531Z"
+  },
+  {
+    "id": "f00a6e12-f417-481a-b8a7-fcc48dadd085",
+    "text": "i think so it's just the headache",
+    "final": true,
+    "confidence": 0.9770508,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:17.213Z",
+    "startedAt": "2025-10-02T12:42:13.381Z",
+    "endedAt": "2025-10-02T12:42:16.181Z"
+  },
+  {
+    "id": "719cc721-da00-432b-a700-0f6c2c0329fa",
+    "text": "not myself i've never had it in migraine but my sister and my mom have them quite frequently",
+    "final": true,
+    "confidence": 0.9858398500000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:26.148Z",
+    "startedAt": "2025-10-02T12:42:19.420Z",
+    "endedAt": "2025-10-02T12:42:24.861Z"
+  },
+  {
+    "id": "426e25e4-ddbc-4289-aca3-fef4eec2b81e",
+    "text": "no",
+    "final": true,
+    "confidence": 0.94921875,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:37.445Z",
+    "startedAt": "2025-10-02T12:42:35.881Z",
+    "endedAt": "2025-10-02T12:42:36.281Z"
+  },
+  {
+    "id": "61f87ebc-7064-4d8b-8775-61978f361b94",
+    "text": "not that i know of",
+    "final": true,
+    "confidence": 0.9951172,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:45.786Z",
+    "startedAt": "2025-10-02T12:42:43.701Z",
+    "endedAt": "2025-10-02T12:42:44.741Z"
+  },
+  {
+    "id": "3e74a9ca-fbfa-4bf2-a603-507bc27b887c",
+    "text": "yeah",
+    "final": true,
+    "confidence": 0.9951172,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:50.494Z",
+    "startedAt": "2025-10-02T12:42:49.071Z",
+    "endedAt": "2025-10-02T12:42:49.391Z"
+  },
+  {
+    "id": "541108e4-81b6-40cf-9685-ecabe7888a9c",
+    "text": "and so my sister's like better like it's kinda it's very rare but my mom's is like quite bad usually when there's like a season changing and stuff like that yeah takes her out for a few days basically",
+    "final": true,
+    "confidence": 0.9730834975,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:12.617Z",
+    "startedAt": "2025-10-02T12:42:56.831Z",
+    "endedAt": "2025-10-02T12:43:11.391Z"
+  },
+  {
+    "id": "0842b3ae-7189-49dd-b5bd-f3f49f61d039",
+    "text": "i live with housemates so three of them so we're four",
+    "final": true,
+    "confidence": 0.9692383,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:27.939Z",
+    "startedAt": "2025-10-02T12:43:22.800Z",
+    "endedAt": "2025-10-02T12:43:26.321Z"
+  },
+  {
+    "id": "86e4222c-b7db-4ce0-9a43-11dd8b4f0b34",
+    "text": "yeah so i work well i work in so i work with computers a lot so it kinda is difficult to focus",
+    "final": true,
+    "confidence": 0.9983724,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:39.964Z",
+    "startedAt": "2025-10-02T12:43:31.631Z",
+    "endedAt": "2025-10-02T12:43:38.671Z"
+  },
+  {
+    "id": "ae748de0-b924-47e5-a6ba-4e96e6755af1",
+    "text": "i had to like reduce the brightness of my screen",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:44.495Z",
+    "startedAt": "2025-10-02T12:43:39.691Z",
+    "endedAt": "2025-10-02T12:43:43.210Z"
+  },
+  {
+    "id": "87670e4d-421b-43e5-893d-041f52eec829",
+    "text": "yes i do",
+    "final": true,
+    "confidence": 0.99853516,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:48.293Z",
+    "startedAt": "2025-10-02T12:43:45.960Z",
+    "endedAt": "2025-10-02T12:43:47.240Z"
+  },
+  {
+    "id": "1fc78ebb-2948-4923-8e19-c73a60b40d8d",
+    "text": "no i've been wearing them since i was five five year old",
+    "final": true,
+    "confidence": 1,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:57.420Z",
+    "startedAt": "2025-10-02T12:43:51.721Z",
+    "endedAt": "2025-10-02T12:43:55.480Z"
+  },
+  {
+    "id": "7446fbf4-d56d-4f51-9de3-aee71fc43680",
+    "text": "well it's been a bit stressful kicking off a new project but",
+    "final": true,
+    "confidence": 0.9946288999999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:15.704Z",
+    "startedAt": "2025-10-02T12:44:11.101Z",
+    "endedAt": "2025-10-02T12:44:14.210Z"
+  },
+  {
+    "id": "326e7721-26eb-4553-bd2b-f2ac7ea14cda",
+    "text": "i socially smoke and i drink nonsocially",
+    "final": true,
+    "confidence": 0.99707032,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:32.513Z",
+    "startedAt": "2025-10-02T12:44:26.171Z",
+    "endedAt": "2025-10-02T12:44:31.391Z"
+  },
+  {
+    "id": "e97bc503-4faf-43c3-8c03-44b2615c16f4",
+    "text": "not really i for the first i thought it's stress or maybe i didn't drink enough water because sometimes when i don't drink enough water i i i get headaches",
+    "final": true,
+    "confidence": 0.9677734466666666,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:01.192Z",
+    "startedAt": "2025-10-02T12:44:48.401Z",
+    "endedAt": "2025-10-02T12:44:58.751Z"
+  },
+  {
+    "id": "ef6ab41f-ed7f-4f41-a298-94c57d018acb",
+    "text": "but i don't think that's it and i'm like worried it's i don't want it to be a migraine because i know what it's like from my mom and my sister and it's really annoying so i i really don't wanna have that and i know it's genetic so i've researched that but i don't know if that is the case so",
+    "final": true,
+    "confidence": 0.9966796939999998,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:19.137Z",
+    "startedAt": "2025-10-02T12:45:00.771Z",
+    "endedAt": "2025-10-02T12:45:18.031Z"
+  },
+  {
+    "id": "15d1c9f9-31eb-43a8-b185-aed04982e039",
+    "text": "yeah maybe just kinda if you have any recommendations of i can take something stronger because apparently ibuprofen doesn't help me",
+    "final": true,
+    "confidence": 0.9958496,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:33.282Z",
+    "startedAt": "2025-10-02T12:45:23.861Z",
+    "endedAt": "2025-10-02T12:45:31.020Z"
+  },
+  {
+    "id": "4d192952-e1df-48bb-bc79-fbc5d074b75d",
+    "text": "usually it gets resolved if i have headache in like after like one or two days but currently it it didn't help me",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:39.509Z",
+    "startedAt": "2025-10-02T12:45:32.671Z",
+    "endedAt": "2025-10-02T12:45:38.411Z"
+  },
+  {
+    "id": "523344f3-eb25-4635-9092-ebed809ff689",
+    "text": "three a day",
+    "final": true,
+    "confidence": 0.82128906,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:45.715Z",
+    "startedAt": "2025-10-02T12:45:43.821Z",
+    "endedAt": "2025-10-02T12:45:44.541Z"
+  },
+  {
+    "id": "72c3c2eb-4b7d-43cf-a359-a0a6ae023cfe",
+    "text": "oh right",
+    "final": true,
+    "confidence": 0.99560547,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:46:35.064Z",
+    "startedAt": "2025-10-02T12:46:33.081Z",
+    "endedAt": "2025-10-02T12:46:33.721Z"
+  },
+  {
+    "id": "f23f6d81-0bec-4284-a73c-2d91be2ab133",
+    "text": "mhmm",
+    "final": true,
+    "confidence": 0.9797363,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:46:45.909Z",
+    "startedAt": "2025-10-02T12:46:44.381Z",
+    "endedAt": "2025-10-02T12:46:44.780Z"
+  },
+  {
+    "id": "1f21e029-5956-423c-a22c-6f3410f8505f",
+    "text": "yeah i think cuisine is what my mom takes for when she has migraines",
+    "final": true,
+    "confidence": 0.96386719,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:46:59.974Z",
+    "startedAt": "2025-10-02T12:46:53.811Z",
+    "endedAt": "2025-10-02T12:46:58.841Z"
+  },
+  {
+    "id": "dfe62e17-9513-4687-af9e-b32cab74131c",
+    "text": "mhmm",
+    "final": true,
+    "confidence": 0.9194336,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:47:18.029Z",
+    "startedAt": "2025-10-02T12:47:16.491Z",
+    "endedAt": "2025-10-02T12:47:16.891Z"
+  },
+  {
+    "id": "5e6415da-a5d8-495e-8b21-4ccfaff240cf",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.9604492,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:47:41.430Z",
+    "startedAt": "2025-10-02T12:47:39.811Z",
+    "endedAt": "2025-10-02T12:47:40.211Z"
+  },
+  {
+    "id": "8291cfcc-451a-414d-a372-1a58d394cc4c",
+    "text": "okay yep okay",
+    "final": true,
+    "confidence": 0.99157715,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:48:00.369Z",
+    "startedAt": "2025-10-02T12:47:50.331Z",
+    "endedAt": "2025-10-02T12:47:59.210Z"
+  },
+  {
+    "id": "5bc9d803-5913-4021-9281-5086dbdc3137",
+    "text": "thank you you too bye",
+    "final": true,
+    "confidence": 0.9995117,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:48:06.127Z",
+    "startedAt": "2025-10-02T12:48:03.641Z",
+    "endedAt": "2025-10-02T12:48:04.921Z"
+  }
+]
