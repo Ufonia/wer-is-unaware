@@ -47,6 +47,7 @@ We introduce (available here):
 - `metrics/` — ASR evaluation metrics toolkit (15 edit-distance and n-gram metrics, with learned semantic metrics coming soon).
 - `alignment/` — semantic alignment toolkit (aligner code, scripts, sample data, sample results).
 - `llm_judge/` — clinical impact judge (signatures, metrics, providers, optimizers, CLI, bundled dataset, saved judges).
+- `data_preparation/` — data pipeline scripts and PriMock57 transcript data (see [`data_preparation/README.md`](data_preparation/README.md)).
 
 ### Important Files
 - `metrics/` — metric calculation API (`from metrics import calculate_metric, list_metrics`).
@@ -55,9 +56,19 @@ We introduce (available here):
 - `llm_judge/dataset/` — clinical-impact dataset.
 - `llm_judge/results/` — optimized judges (GEPA, MIPROv2).
 
+## 📊 Dataset
+
+Our evaluation uses 21 consultations from the
+[PriMock57](https://github.com/babylonhealth/primock57) dataset of simulated
+primary-care consultations (CC BY 4.0). Ground-truth transcripts, ASR
+hypotheses, and preparation scripts are in
+[`data_preparation/`](data_preparation/README.md).
+
+> Papadopoulos Korfiatis, A., Moramarco, F., Sarac, R. & Savkov, A. (2022).
+> *PriMock57: A Dataset Of Primary Care Mock Consultations.* ACL 2022.
+
 ## 📦 Coming Soon
 
-- Additional dataset metadata and documentation
 - Evaluations of 20+ ASR metrics, showing their poor correlation with clinical safety
 
 ## 📄 Paper
