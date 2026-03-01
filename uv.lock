@@ -4612,6 +4612,21 @@ dependencies = [
 ]
 
 [package.optional-dependencies]
+all = [
+    { name = "bert-score" },
+    { name = "bleurt" },
+    { name = "boto3" },
+    { name = "dspy" },
+    { name = "google-cloud-aiplatform" },
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pytest" },
+    { name = "scikit-learn" },
+    { name = "sentence-transformers" },
+    { name = "soxr" },
+    { name = "tensorflow" },
+    { name = "textgrid" },
+]
 all-metrics = [
     { name = "bert-score" },
     { name = "bleurt" },
@@ -4670,9 +4685,10 @@ requires-dist = [
     { name = "soxr", marker = "extra == 'data-prep'", specifier = ">=0.3" },
     { name = "tensorflow", marker = "extra == 'bleurt'", specifier = ">=2.16,<2.20" },
     { name = "textgrid", marker = "extra == 'data-prep'", specifier = ">=1.5" },
+    { name = "wer-is-unaware", extras = ["all-metrics", "judge", "data-prep", "plot", "dev"], marker = "extra == 'all'" },
     { name = "wer-is-unaware", extras = ["learned-semantic", "bleurt"], marker = "extra == 'all-metrics'" },
 ]
-provides-extras = ["learned-semantic", "bleurt", "judge", "data-prep", "plot", "dev", "all-metrics"]
+provides-extras = ["learned-semantic", "bleurt", "judge", "data-prep", "plot", "dev", "all-metrics", "all"]
 
 [[package]]
 name = "werkzeug"

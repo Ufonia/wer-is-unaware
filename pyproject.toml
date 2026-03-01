@@ -23,6 +23,7 @@ data-prep = ["textgrid>=1.5", "soxr>=0.3", "numpy>=1.24"]
 plot = ["matplotlib>=3.8"]
 dev = ["pytest>=8.0"]
 all-metrics = ["wer-is-unaware[learned-semantic,bleurt]"]
+all = ["wer-is-unaware[all-metrics,judge,data-prep,plot,dev]"]
 
 [tool.setuptools.packages.find]
 include = ["metrics*", "llm_judge*", "alignment*"]
