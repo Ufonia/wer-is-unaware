@@ -271,7 +271,7 @@ def _segment_mean_embeddings(segments, full_embeddings, token_strs):
 # Public API
 # ---------------------------------------------------------------------------
 
-def calculate_semascore(gt: str, hyp: str, **kwargs) -> float | None:
+def calculate_sema_score(gt: str, hyp: str, **kwargs) -> float | None:
     """Compute SeMaScore. Higher is better."""
     if not gt and not hyp:
         return None

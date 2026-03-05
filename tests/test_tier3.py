@@ -94,30 +94,30 @@ class TestIntelligibility:
 class TestSeMaScore:
     def test_identity(self):
         from metrics import calculate_metric
-        score = calculate_metric("semascore", "the cat sat on the mat", "the cat sat on the mat")
+        score = calculate_metric("sema_score", "the cat sat on the mat", "the cat sat on the mat")
         assert score > 0.9
 
     def test_similar(self):
         from metrics import calculate_metric
-        score = calculate_metric("semascore", "the cat sat on the mat", "the cat sat on a mat")
+        score = calculate_metric("sema_score", "the cat sat on the mat", "the cat sat on a mat")
         assert score > 0.5
 
     def test_different(self):
         from metrics import calculate_metric
-        score = calculate_metric("semascore", "the cat sat on the mat", "quantum physics is fascinating")
+        score = calculate_metric("sema_score", "the cat sat on the mat", "quantum physics is fascinating")
         assert score < 0.5
 
     def test_both_empty_returns_none(self):
         from metrics import calculate_metric
-        assert calculate_metric("semascore", "", "") is None
+        assert calculate_metric("sema_score", "", "") is None
 
     def test_one_empty_lets_algorithm_run(self):
         """SeMaScore is complex — let algorithm try."""
         from metrics import calculate_metric
-        score = calculate_metric("semascore", "", "the cat sat on the mat")
+        score = calculate_metric("sema_score", "", "the cat sat on the mat")
         assert score is None or isinstance(score, float)
 
     def test_model_cache_loaded(self):
         from metrics import calculate_metric
-        calculate_metric("semascore", "hello world", "hello world")
+        calculate_metric("sema_score", "hello world", "hello world")
         assert "semascore_deberta" in models.loaded()
