@@ -1,0 +1,232 @@
+[
+  {
+    "id": "45428397-3607-43a3-8fcb-6dff202a61d6",
+    "text": "hi i've been",
+    "final": true,
+    "confidence": 0.87841797,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:18:48.103Z",
+    "startedAt": "2025-10-02T13:18:45.715Z",
+    "endedAt": "2025-10-02T13:18:46.675Z"
+  },
+  {
+    "id": "b1115696-38db-45f8-af97-e54d842476bc",
+    "text": "not ready",
+    "final": true,
+    "confidence": 0.85253906,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:18:52.019Z",
+    "startedAt": "2025-10-02T13:18:50.126Z",
+    "endedAt": "2025-10-02T13:18:50.766Z"
+  },
+  {
+    "id": "c4c61a03-7cdf-45b5-bf4e-f66b64e590b2",
+    "text": "my name is jonathan irving",
+    "final": true,
+    "confidence": 0.92578125,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:19:00.875Z",
+    "startedAt": "2025-10-02T13:18:58.126Z",
+    "endedAt": "2025-10-02T13:18:59.806Z"
+  },
+  {
+    "id": "c66e5586-4f21-40ce-a5d0-a149644fa9c0",
+    "text": "six twelve eighty",
+    "final": true,
+    "confidence": 0.9633789,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:19:06.752Z",
+    "startedAt": "2025-10-02T13:19:03.626Z",
+    "endedAt": "2025-10-02T13:19:05.626Z"
+  },
+  {
+    "id": "9290d071-d38c-47e7-b591-f74b600b49b7",
+    "text": "sixty two lewin road streatham sw sixteen six j t",
+    "final": true,
+    "confidence": 0.9375,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:19:17.000Z",
+    "startedAt": "2025-10-02T13:19:11.156Z",
+    "endedAt": "2025-10-02T13:19:15.896Z"
+  },
+  {
+    "id": "c89218c7-acb7-4b9f-bb7d-1e27e2d0c022",
+    "text": "yes",
+    "final": true,
+    "confidence": 0.99365234,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:19:23.889Z",
+    "startedAt": "2025-10-02T13:19:22.046Z",
+    "endedAt": "2025-10-02T13:19:22.446Z"
+  },
+  {
+    "id": "2c7475ac-8262-4dc6-98ac-1ee30b3894b8",
+    "text": "yeah so about fifteen minutes ago i was gardening and i was stung by a wasp ran inside",
+    "final": true,
+    "confidence": 0.9833984250000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:19:37.752Z",
+    "startedAt": "2025-10-02T13:19:29.685Z",
+    "endedAt": "2025-10-02T13:19:36.595Z"
+  },
+  {
+    "id": "51b9bb72-1c30-4317-8169-6fcfbcdd39bf",
+    "text": "and now i'm just starting to notice a few things yeah i'm having quite shallow",
+    "final": true,
+    "confidence": 0.95043945,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:19:43.452Z",
+    "startedAt": "2025-10-02T13:19:37.126Z",
+    "endedAt": "2025-10-02T13:19:42.286Z"
+  },
+  {
+    "id": "065336a5-a48c-484a-8879-23df71569ad9",
+    "text": "yep",
+    "final": true,
+    "confidence": 0.80615234,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:19:48.647Z",
+    "startedAt": "2025-10-02T13:19:46.876Z",
+    "endedAt": "2025-10-02T13:19:47.196Z"
+  },
+  {
+    "id": "0bd48a6a-d5a3-416d-86a1-850c46133711",
+    "text": "not so but i can i yeah i can i can definitely feel something in the lips yeah",
+    "final": true,
+    "confidence": 0.99609375,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:19:58.933Z",
+    "startedAt": "2025-10-02T13:19:54.246Z",
+    "endedAt": "2025-10-02T13:19:57.916Z"
+  },
+  {
+    "id": "c4eb3186-a5df-4d5e-adfc-91c372f92b38",
+    "text": "yes yeah",
+    "final": true,
+    "confidence": 0.9995117,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:20:02.399Z",
+    "startedAt": "2025-10-02T13:20:00.466Z",
+    "endedAt": "2025-10-02T13:20:01.266Z"
+  },
+  {
+    "id": "9e92e059-e0c2-43ba-96fd-91d080578ba7",
+    "text": "i mean i've you know to be honest i'm just doing this to establish whether i should go to hospital",
+    "final": true,
+    "confidence": 0.9953613299999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:20:08.908Z",
+    "startedAt": "2025-10-02T13:20:03.136Z",
+    "endedAt": "2025-10-02T13:20:07.816Z"
+  },
+  {
+    "id": "775a5239-064e-4c42-8cde-af9d8e1f3c54",
+    "text": "no",
+    "final": true,
+    "confidence": 0.9875488,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:20:14.713Z",
+    "startedAt": "2025-10-02T13:20:13.155Z",
+    "endedAt": "2025-10-02T13:20:13.475Z"
+  },
+  {
+    "id": "64afde1b-40b9-42b3-bd52-f4477ed41bb6",
+    "text": "yeah a bit of tightness yeah a bit of tightness yeah",
+    "final": true,
+    "confidence": 0.99560547,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:20:26.742Z",
+    "startedAt": "2025-10-02T13:20:22.335Z",
+    "endedAt": "2025-10-02T13:20:25.776Z"
+  },
+  {
+    "id": "1bb76252-e34f-4fc7-bdbc-a0fa04fe5567",
+    "text": "no not really a bit of eczema and i'm allergic to penicillin",
+    "final": true,
+    "confidence": 0.9953613299999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:20:43.182Z",
+    "startedAt": "2025-10-02T13:20:37.085Z",
+    "endedAt": "2025-10-02T13:20:42.026Z"
+  },
+  {
+    "id": "32aff7ea-2001-4ce7-a262-491fa07138c5",
+    "text": "no i'm not even there",
+    "final": true,
+    "confidence": 0.7128906,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:20:49.108Z",
+    "startedAt": "2025-10-02T13:20:47.036Z",
+    "endedAt": "2025-10-02T13:20:47.996Z"
+  },
+  {
+    "id": "e08f7630-0cc8-425a-94aa-a7b7611b20aa",
+    "text": "yes there's a bit of blocking down here",
+    "final": true,
+    "confidence": 0.984375,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:21:00.203Z",
+    "startedAt": "2025-10-02T13:20:55.726Z",
+    "endedAt": "2025-10-02T13:20:57.566Z"
+  },
+  {
+    "id": "731f142b-0e1e-4785-8a3e-6a704f6a9711",
+    "text": "i wouldn't even know what to take now",
+    "final": true,
+    "confidence": 0.9980469,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:21:05.648Z",
+    "startedAt": "2025-10-02T13:21:02.796Z",
+    "endedAt": "2025-10-02T13:21:04.636Z"
+  },
+  {
+    "id": "e0893fe9-292a-4eca-bbad-35f1a8c85995",
+    "text": "yes i've used them for flying i have aerocinocytosis so yes i do somewhere",
+    "final": true,
+    "confidence": 0.865722655,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:21:26.616Z",
+    "startedAt": "2025-10-02T13:21:19.756Z",
+    "endedAt": "2025-10-02T13:21:24.856Z"
+  },
+  {
+    "id": "8c2bf6bb-06ff-4576-be6f-3085bad5de8f",
+    "text": "yes my wife can take me to the emergency room yeah",
+    "final": true,
+    "confidence": 0.9902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:21:48.114Z",
+    "startedAt": "2025-10-02T13:21:34.486Z",
+    "endedAt": "2025-10-02T13:21:36.966Z"
+  },
+  {
+    "id": "5f82c3b6-e181-41b0-b571-26faca50ea1b",
+    "text": "okay she's listening i'll get her to call now yep",
+    "final": true,
+    "confidence": 0.98828125,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:21:54.629Z",
+    "startedAt": "2025-10-02T13:21:51.345Z",
+    "endedAt": "2025-10-02T13:21:53.666Z"
+  },
+  {
+    "id": "37499bae-f6c5-4c89-967a-0ec2477a1636",
+    "text": "yeah alright thank you she's on it now yeah she's on the phone yeah",
+    "final": true,
+    "confidence": 0.9970703,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:22:22.395Z",
+    "startedAt": "2025-10-02T13:22:17.686Z",
+    "endedAt": "2025-10-02T13:22:21.286Z"
+  },
+  {
+    "id": "c23a49d3-91de-4e98-b727-0d3239ccf473",
+    "text": "alright thank you yeah right yeah",
+    "final": true,
+    "confidence": 0.9680176,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T13:22:26.606Z",
+    "startedAt": "2025-10-02T13:22:23.586Z",
+    "endedAt": "2025-10-02T13:22:25.186Z"
+  }
+]

@@ -1,0 +1,83 @@
+[00:02] Doctor: Hello? . Good morning, Tim. Um, how can I help you this morning?
+[00:11] Patient: Um, so I'm Having some, some pain, uh, in my tummy, like the lower part of my tummy. Um and I've just been feeling, quite, hot and sweaty.
+[00:19] Doctor: OK. Right, I'm sorry to hear that. When, when did your symptoms all start?
+[00:29] Patient: About two days ago.
+[00:30] Doctor: OK. And whereabouts in your tummy is the pain, exactly?
+[00:36] Patient: Uh, like below my belly button, it's like quite, sore when I press on it.
+[00:41] Doctor: OK. Did the pain come on quite suddenly, or was it more gradual?
+[00:47] Patient: , it hasn't been, it's more gradual and it's just, it is getting a bit worse now.
+[00:52] Doctor: OK, OK. And can you describe the pain to me?
+[00:57] Patient: Uh, it's kind of like a, a, I guess a burning pain. Uh, and it's just right there yeah, in that spot, like uh, that's mostly where I'm feeling it. It hasn't spread anywhere else.
+[01:10] Doctor: Just in, just below your belly button you uh, mentioned.
+[01:13] Patient: Yeah.
+[01:13] Doctor: OK. Um, and is the pain constant, or does it come and go?
+[01:19] Patient: It's pretty constant, it's like getting worse. Um, it's not like, I , I can still move and walk around. Uh, I mean I'm still kind of functioning, it's just uh, I'm aware of it time.
+[01:29] Doctor: . Mm-hmm. OK. Um, and with the pain have you noticed any other symptoms, at all? So, for example, let's, let's focus first on your bowels. Are your bowels working OK?
+[01:39] Patient: Yeah, I had a bit of constipation, but that's better, now. That was like, since last week.
+[01:44] Doctor: OK. So you've got no other symptoms, like diarrhea or loose stools?
+[01:49] Patient: No, I'm , I'm, my bowel movements are normal now.
+[01:50] Doctor: No. OK. And, what about your waterworks? Are you passing urine OK?
+[01:57] Patient: Yeah, I'm fine, that's fine, that's. I did notice that I was a little, the urine was a little pink, in colour. But I haven't like, it hasn't really been burning, specifically or hurting when I pee and uh. And I did notice I was going to the, I was peeing more, regularly, but I have been drinking lots of fluids. So I wasn't sure, um, I wasn't sure, um, like you know, if that was related to the pain.
+[02:19] Doctor: Mm. And when you mentioned pink urine, do you, was there any blood at all in your urine? Or was it difficult to say?
+[02:28] Patient: I can't say, I mean maybe.
+[02:31] Doctor: OK, alright. But otherwise, it doesn't hurt, uh, or or or sting, when you pass urine?
+[02:36] Patient: And I haven't noticed that it really burns or anything like that. Um, just that I'm, peeing more than , more regularly.
+[02:39] Doctor: OK. OK. Um, OK. And um, moving on to other symptoms, have you noticed any vomiting, or feeling nauseous at all?
+[02:53] Patient: Just a little nauseous, um, but no vomiting.
+[02:56] Doctor: No vomiting. Any temperatures or fevers?
+[03:00] Patient: I haven't , I felt a bit hot and sweaty, but I haven't really measured it, so I can't really say.
+[03:05] Doctor: OK, fine. Um, uh, uh, and Kim, have to ask um, uh all all all patients. This this question is about your cycle, if you don't mind me asking. Um, are you currently um, are you currently sexually active?
+[03:15] Patient: Yes. Uh, yeah I've, I have had the same partner, I am, we were last sexually active about four days ago. Um, my last STD screen was normal, which was about six months ago.
+[03:31] Doctor: OK. So you've had no other partner since then.
+[03:34] Patient: No, the .
+[03:35] Doctor: OK. Um, uh, and do you use any contraception at all?
+[03:41] Patient: Uh, I'm, on the Implanon. I had the Implanon inserted about a year ago.
+[03:45] Doctor: At the moment, OK, fine. Um, are you still having periods?
+[03:50] Patient: Yes.
+[03:51] Doctor: When was your last period?
+[03:53] Patient: Uh, my last period was about, three weeks ago. I mean, two weeks ago.
+[03:58] Doctor: Two week scare, OK. So, is there any chance you could be pregnant? I know you've got an implement in there, but is there any chance you could potentially be pregnant? It's something for us to think about
+[04:06] Patient: Well, we don't use any other barrier, method so, we just use the , I just have the Implanon and the same partner. Um. Theoretically, if the Implanon, hasn't been working then I could be pregnant, but I don't suspect .
+[04:18] Doctor: Yeah, OK. Well it's something for us to think about. Um, uh, maybe worth taking a pregnancy test later on, just to confirm that. Um OK. And, and so, just to summarize so far, if you don't mind, it's really for the last couple of days, it's tummy pain that's really affected you, mainly lower down towards your belly button. It's quite burning, you said. It's getting worse. Um, you noticed some pink urine. Um, but no burning or stinging pain when you pass urine. Your bowels are working OK. You've felt a little bit nauseous, um, and feeling hot and sweaty. Have I got that all right?
+[04:50] Patient: Yeah, that sounds, very accurate.
+[04:52] Doctor: Is there anything else, perhaps, that you feel like you should share with me at this stage, anything that might be important?
+[04:57] Patient: I don't think so, I think I've, you , we've covered everything that's really bothering me.
+[05:01] Doctor: Yeah, OK. Um, tell me, tell me a bit more about your um, medical history otherwise. Are you normally fit and well?
+[05:09] Patient: Yeah, , well, I haven't had any, surgical, I don't have any surgical history. I don't have any previous, I haven't had any operations before, or, and I'm not on any other medication, I just have the Implanon.
+[05:23] Doctor: OK. Um, have you had anything like this before in the past? Any similar symptoms?
+[05:28] Patient: I've never , I've never had these symptoms before.
+[05:31] Doctor: No, OK. Um Fine. Um, any other family history I should be aware of? Anything relevant, family, uh related to bowels, maybe related to history?
+[05:44] Patient: No, not that , not that I'm aware of, no.
+[05:46] Doctor: OK. Alright. Um, and socially, just tell me a bit more about your home situation. Who's at home with you?
+[05:52] Patient: Uh, I live in a share house, and with two other, two other room-mates.
+[05:59] Doctor: OK. Um, and uh, are you currently working?
+[06:04] Patient: Yeah, I currently, I am currently .
+[06:07] Doctor: What do you do for work?
+[06:10] Patient: I am an accountant.
+[06:11] Doctor: OK. Um OK. Um, Do you smoke at all, Kim?
+[06:19] Patient: No.
+[06:20] Doctor: No. And do you drink much in the way of alcohol?
+[06:24] Patient: Uh , socially I drink, but uh, I don't think more, more than normal. .
+[06:29] Doctor: No, OK. OK. Um, just before I go to the examination, I just want to go through just some few screening questions if that's OK, yes or no. Uh, we've, we've covered the majority of them already. Uh, but I just want to make sure I'm not missing anything else.
+[06:39] Patient: All right.
+[06:43] Doctor: Um, how's your, how's your chest? How's your breathing? Um, any
+[06:48] Patient: I don't feel short of breath uh, or, I'm not having any problems, or I don't have a cough or anything that's , worrying me.
+[06:54] Doctor: OK. Any uh, funny heartbeats or rhythms, palpitations?
+[07:01] Patient: Not that it, no.
+[07:02] Doctor: OK. Any headaches? Any problems with your vision?
+[07:06] Patient: No.
+[07:07] Doctor: No, OK. Alright. Um, Fine, OK. Um, So really just uh, moving on, um, And so based, based on your story really, uh, uh Kim it's, it's it's difficult. it's it's um, you know you've got some tummy pain. You don't exactly know what's causing it. It could be a few different things that could be causing your pain. Could just be a, you know, could just be a urine infection, for example. Could just be something related to your gut. Um, could just be something related to your, you know, a pregnancy-related cause. Um, and so it's probably worth doing some tests initially. to try and rule out um, what's going on here. Um, which I can organize for you today.
+[07:51] Patient: OK.
+[07:51] Doctor: Um, and basically those tests, we, we'll have a better idea in terms of how we should proceed. But certainly, it if it's been going on for the last couple of days, um, Uh, you know, it's probably maybe worth empirically treating you for a maybe urine infection. And, so it's an
+[08:11] Patient: . Yeah, I , can we do that instead of me, going for tests, and then seeing how that goes?
+[08:17] Doctor: Yeah, absolutely. So, um I think it's certainly worth, you know covering you with some antibiotics today. Uh, but i still want you to bear in mind, you know, have a pregnancy test done to make sure we're not missing anything else here. And, um, and I want you to kind of really come back and see me in a few days time, if your symptoms are not getting any better, or indeed if they're getting worse. So, things to look out for would be, you know, worsening tummy pain, um, if you're feeling really hot or sweaty, your temperature's not coming down um, vomiting et cetera. Does that make sense?
+[08:50] Patient: Yeah, I think I'm happy with that plan.
+[08:52] Doctor: OK. Um, you can try just regular painkillers, uh, Paracetamol would be advisable. Um, make sure you drink plenty of fluids. You can try some cranberry juice as well, which uh, can sometimes help with your urine symptoms. Um, take the antibiotics, uh, and give me a call, you know, if you are worried about anything else.
+[09:13] Patient: Uh, sure. That sounds great. Thank you very much. Um, should I just collect the script at my pharmacy?
+[09:19] Doctor: Yeah, if I send it straight to your pharmacy, start the antibiotics today, something called Trimethoprim. Um, you can take two tablets, uh, one tablet twice a day for three days.
+[09:23] Patient: OK. OK, , that sounds great.
+[09:28] Doctor: Uh, , let's see how you get on.
+[09:31] Patient: OK. Thank you very much.
+[09:32] Doctor: Great. All the best!
+[09:34] Patient: Bye.
+[09:35] Doctor: Bye bye.

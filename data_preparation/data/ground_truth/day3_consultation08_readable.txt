@@ -1,0 +1,58 @@
+[00:02] Doctor: Hello?
+[00:03] Patient: Hi there!
+[00:04] Doctor: Hi, hi, I'm doctor Jacob and welcome to Babylon. Hello.
+[00:08] Patient: I, uh
+[00:09] Doctor: Hi. So just before we start, is it alright if you could confirm your full name for me please?
+[00:15] Patient: Uh, , that's, uh, John Jones.
+[00:19] Doctor: And your date of birth.
+[00:21] Patient: Uh, that's, uh, the, twenty ninth of September, nineteen eighty.
+[00:28] Doctor: K. And your email address for me please?
+[00:32] Patient: Uh, that's, uh, John Jones, at, John Jones dot net.
+[00:37] Doctor: OK. And just to confirm that you're in a secure location, and we can have a confidential conversation.
+[00:43] Patient: Yep. That's absolutely fine.
+[00:44] Doctor: OK. So, you've mentioned on our notes that you're having a bit of a cough and a cold. Is that correct?
+[00:50] Patient: Yeah, yeah, it's just it's been going on for, like a few days now. Um, sort of like, coughing, and like, general runny nose, and stuff, and, like
+[01:00] Doctor: is it two to three days, or longer?
+[01:04] Patient: Little bit, uh about like five days around that, uh, yeah it started like, what day is it today? Uh, yeah the week, it started with the start of the weekend, so.
+[01:07] Doctor: Fine. OK. So, so it started off with a cold, did it?
+[01:17] Patient: Yeah just like coughing, and like running nose, and like kind of muscles aching and stuff, like occasional feeling like headache, cold, chills, and things like that.
+[01:28] Doctor: OK. Important cold, yeah? And, so about your cough, are you bringing up any phlegm at all?
+[01:32] Patient: Yeah. No, no, it's like a, it's like a dry cough Sort of like like, almost hacking, hacking kind of like .
+[01:40] Doctor: OK. You're not bringing up any blood, are you? OK. Are you feeling short of breath at all?
+[01:49] Patient: No, no, no shortness , like yeah, I'm breathing fine.
+[01:53] Doctor: Yeah. So you're not wheezy or rattly noises in your chest.
+[01:57] Patient: No.
+[01:57] Doctor: OK. Um, right. So what have you taken so far?
+[02:04] Patient: Uh, so, uh, just like pain killers and such. I mean that I, I, um, in addition to like my normal medication and such. Um, but like
+[02:13] Doctor: Well you mentioned, uh, you've come to your normal medications but you've mentioned you've taken some painkillers like, would you tell me the names please?
+[02:21] Patient: I'll just like pass it along.
+[02:23] Doctor: Paracetamol, OK. Any Ibuprofen at all?
+[02:26] Patient: No
+[02:26] Doctor: No, OK. And also um you mentioned some regular medication. Unfortunately I don't have your medical, complete medical history. So if you could tell me what your medications are, and what you use them for?
+[02:41] Patient: Yeah, so I take, um, uh, what's it called, it's like metformin. I'm a diabetic, so. And, um, I also, like have, uh, lisinopril .
+[02:51] Doctor: Lisonopril, OK.
+[02:53] Patient: Yeah, but the like slight blood pressure.
+[02:55] Doctor: Yeah, OK. And, how long have you been a diabetic for?
+[03:00] Patient: Um, like a, a few years, maybe five or six years.
+[03:05] Doctor: Five six years, OK. OK. Do you monitor your blood sugars at home?
+[03:12] Patient: Yes.
+[03:13] Doctor: OK. And how have they been doing at the moment?
+[03:16] Patient: Uh, no issues nothing like out of the ordinary there.
+[03:19] Doctor: OK. So there's no problems with your blood pressure control at the moment, even though you're not, OK so that's fine. That's absolutely fine. And when was the last time you took your blood pressure?
+[03:30] Patient: Uh, I've been this morning.
+[03:32] Doctor: This morning. And what was it? What was the readings like?
+[03:35] Patient: I can't remember off the top of my head, but it was within the normal range.
+[03:39] Doctor: Cool, 'cause there's nothing alarming yeah? No more. OK. That's fine. OK. So that seems all right. OK. So, um, can I, hypothetically, look into your mouth here?
+[03:54] Patient: Sure.
+[03:54] Doctor: Yeah? Yeah, so, uh, looking into your mouth Um, you know, there's just a bit mild redness at the back of your throat. Um, there's no enlarged tonsils. Can you feel any glands around your neck, at all? No. No.
+[04:13] Patient: No, I haven't had anything like that.
+[04:16] Doctor: OK. So, it looks like, it's just a viral infection. Um, because it's just a cold and a cough. There's nothing there. And generally if you have things like a chest infection, you would have a bit like a wheeze or shortness of breath. So, um, things that we would recommend is you can use the, you know, Night Nurse, Day Nurse. It's still OK with your medications, yeah. So I'm, I'm sure that you are a bit wary to use them. But it's still OK with your current medication. You can still use that. Might be able to make you feel a bit more better quickly.
+[04:43] Patient: OK.
+[04:52] Doctor: If there's any change, like you're feeling short of breath or be your symptoms are lasting more than three weeks or something Or you're becoming poorly, uh, things like that, then you need to get in touch with us, then probably we might need to examine you and especially your chest. But I don't think so, that's necessary at this point in time
+[05:14] Patient: OK, that sounds good.
+[05:15] Doctor: OK. Any questions at all ?
+[05:18] Patient: Uh, no, I I think that's been very helpful thank you.
+[05:22] Doctor: OK. So just to round up, just use the night, Night Nurse, Day Nurse, if any change in your symptoms, like shortness of breath, wheezy, or symptoms are lasting more than three weeks, then get in touch with us.
+[05:35] Patient: OK, so I don't need any prescription, or anything like that.
+[05:37] Doctor: No, no you don't need anything at the moment. OK. Take care, then. Bye. Bye bye.
+[05:39] Patient: OK. Thank you very much, bye!

@@ -1,0 +1,89 @@
+[00:00] Patient: Hi.
+[00:02] Doctor: Hi there. It's Doctor Smith from Babylon.
+[00:04] Patient: Hey. How are you?
+[00:04] Doctor: How are you doing? . Good thank you. Can you confirm your name, date of birth, and your, home address please?
+[00:10] Patient: Um, yes I can. Uh, it's, Mary Smith. Um, I'm twenty eight, and I live at apartment four oh five, nine C, Clerkenwell Road.
+[00:24] Doctor: OK that's fine. Are you in a private place so you can have a consultation today?
+[00:27] Patient: Yes I am.
+[00:29] Doctor: What can I do for you?
+[00:30] Patient: Um, I keep having a headache.
+[00:33] Doctor: OK, and when did it start?
+[00:36] Patient: It started yesterday, um. Uh, it's unusual for me, to have a headache.
+[00:42] Doctor: OK. Can you just tell me whereabouts in your head it is?
+[00:44] Patient: It's on the left side at the back, sort of here.
+[00:47] Doctor: . OK. Just on the left side.
+[00:51] Patient: Yes.
+[00:51] Doctor: And, when did it start? What time of day did it start yesterday?
+[00:55] Patient: About mid-morning.
+[00:57] Doctor: And how did it feel when it first started?
+[01:00] Patient: Um, just quite, intense, and kinda quite throbbing. It kind of built up gradually after, over. A short period of time.
+[01:11] Doctor: OK. And did you get uh, have you got any other symptoms along with that? Any nausea, vomiting, tingling, numbness, weakness, anywhere?
+[01:18] Patient: No, nothing.
+[01:20] Doctor: OK, and, uh. Sorry . Um, any blurred vision, or any pain over your eyes?
+[01:28] Patient: Um. No.
+[01:32] Doctor: Any , any funny lights or, anything like that in your vision area? Any problems when you look into the light?
+[01:32] Patient: No, . No.
+[01:42] Doctor: Um, and have you been eating and drinking OK?
+[01:44] Patient: Yes, yes, like normal.
+[01:46] Doctor: . Are you feeling sick, or vomiting, or anything?
+[01:49] Patient: No, nothing like that, .
+[01:50] Doctor: Any high fevers? Are you feeling shivery? Sweaty?
+[01:54] Patient: No, no fever, no .
+[01:55] Doctor: Any , any rashes at all?
+[01:57] Patient: No.
+[01:59] Doctor: And, in the past, have you had any headache before?
+[02:02] Patient: Not really.
+[02:04] Doctor: OK. How bad would you say the headache is from, zero to ten, if ten is the worst pain that you could have, and zero is nothing?
+[02:11] Patient: I'd say about eight.
+[02:13] Doctor: OK. And have you taken any pain killers?
+[02:17] Patient: Um, I took some, um, um, Nurofen, yesterday.
+[02:25] Doctor: OK, and did that make any difference?
+[02:28] Patient: Not really.
+[02:29] Doctor: And last night, did you manage to sleep through the night OK?
+[02:33] Patient: Uh, yes I did.
+[02:35] Doctor: Has it been worse at any particular time of the day?
+[02:38] Patient: No, it hasn't made any difference, the time of the day.
+[02:41] Doctor: Any difference if you lie down, stand up, bend over, cough or sneeze, or anything like that?
+[02:48] Patient: Um, no.
+[02:49] Doctor: And, have you got any other medical problems?
+[02:53] Patient: Um, no I haven't.
+[02:56] Doctor: Anything you take medication for?
+[02:58] Patient: No I don't.
+[03:00] Doctor: Um, any over-the-counter medications or allergies?
+[03:04] Patient: No, only the, Nurofen I took yesterday, Ibuprofen.
+[03:09] Doctor: That's fine. And any stomach problems, or asthma at all?
+[03:11] Patient: No.
+[03:12] Doctor: Anyone in your family got any medical problems?
+[03:15] Patient: Uh, my mother's had hypertension, and she does get migraines.
+[03:20] Doctor: . And, have you had your blood pressure checked ?
+[03:24] Patient: Um, no, not recently.
+[03:27] Doctor: And who do you live with at home?
+[03:29] Patient: Sorry?
+[03:30] Doctor: Who do you live with at home?
+[03:32] Patient: My partner.
+[03:33] Doctor: And what's your job, day-to-day?
+[03:35] Patient: I'm a designer.
+[03:37] Doctor: Have you had to miss any work at all?
+[03:39] Patient: Uh, no, but I don't feel that, I'm finding it really hard to , to do any of, my work, or, normal things.
+[03:48] Doctor: OK. Um, and do you smoke at all normally?
+[03:51] Patient: No I don't.
+[03:52] Doctor: Do you drink any alcohol regularly?
+[03:54] Patient: No.
+[03:56] Doctor: Um, and any other drugs?
+[03:58] Patient: No.
+[03:59] Doctor: No, OK. Um, I mean the fact that you haven't had headaches before, um, is, is unusual the fact that they've developed. Is there anything you think's changed? Any increased stress, , change in your diet or lifestyle?
+[04:14] Patient: Not that I can, not that I can think of.
+[04:19] Doctor: OK. So, what we would suggest is, trying a slightly stronger, pain relief. Uh, so, similar to Ibuprofen, but taking instead of Ibuprofen not at the same time, and taking that regularly with food.
+[04:25] Patient: OK.
+[04:32] Doctor: Um, hopefully that will settle it down. You can take Paracetamol along with that.
+[04:32] Patient: Yes.
+[04:38] Doctor: Try and um, take rest, have lots of good hydration.Um, but if the pain's getting worse, or you get new symptoms, fever, rash, vomiting, neck stiffness. Um, or you keep getting episodes of the same type of thing, then we need to speak to you, and, and make a plan for, for what we can do next.
+[04:59] Patient: OK. Thank you.
+[05:01] Doctor: Have you got any other questions?
+[05:03] Patient: How long do you think it will last for?
+[05:06] Doctor: Well I should think it should down, if it's getting worse or not settling in the next day or two. Then certainly give us a call back, if, when you've tried the medication that I've prescribed from the pharmacy.
+[05:18] Patient: OK.
+[05:19] Doctor: OK?
+[05:20] Patient: Thank you.
+[05:21] Doctor: All right then. Thanks a lot. Bye.
+[05:22] Patient: , bye.

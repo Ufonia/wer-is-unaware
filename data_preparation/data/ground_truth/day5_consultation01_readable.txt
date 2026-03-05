@@ -1,0 +1,98 @@
+[00:00] Doctor: Ohh, hello. Hello. I'm Doctor Geraghty. Ohh, sorry. . Can I take your, full name, date of birth, and, your home address please?
+[00:14] Patient: Uh, yeah it's uh, . Um, and, five, um, Kings Place.
+[00:23] Doctor: And are you in a, uh, and your date of birth?
+[00:26] Patient: Uh, it's the twentieth, of the fourth, nineteen ninety.
+[00:30] Doctor: OK. And are you in a private place you can have a confidential consultation today?
+[00:34] Patient: Yes, I am.
+[00:35] Doctor: What can I do for you today?
+[00:37] Patient: Um, I've got a really bad headache, had it for about a day now.
+[00:41] Doctor: OK, and can you just tell me about, how it started? What were you doing when it came on?
+[00:46] Patient: Um, yeah, just ever since yesterday morning, since I woke up really. Um, just yeah, kind of throbbing headache, haven't really wanted to leave the house much since then.
+[00:56] Doctor: OK, and whereabouts in your head is the pain?
+[00:59] Patient: Uh, mainly on the left side.
+[01:01] Doctor: OK. What does it feel like?
+[01:03] Patient: Um, it just, kind of feels like it's throbbing, it's quite intense, sort of comes and goes. Um, yeah, quite sensitive to light, um, but yeah, quite painful.
+[01:13] Doctor: K and . When, when you say it comes and goes, does it completely go away?
+[01:18] Patient: Uh, just kind of fades, so it's still there a little bit but, it kind of gets more or less, severe.
+[01:24] Doctor: OK. And any, any other symptoms that you've had, any problems with your eyes, or your eyesight?
+[01:30] Patient: Uh, no, not at all.
+[01:32] Doctor: Any abnormal smells or tastes?
+[01:36] Patient: No.
+[01:37] Doctor: Any, any nausea, vomiting?
+[01:40] Patient: Uh, no, no, been feeling fine actually.
+[01:42] Doctor: And have you been eating and drinking OK?
+[01:45] Patient: Yeah, yeah, .
+[01:47] Doctor: OK. And, normally, do you get any headaches?
+[01:51] Patient: Uh, no not really, it's not something I've, ever had before.
+[01:55] Doctor: OK. And, has it occurred at a particular term in your menstrual cycle?
+[02:01] Patient: Um, no, not particularly, and my period was about a week ago.
+[02:06] Doctor: Right, OK. And how we're you the before it came on? Have you had any other symptoms, like feeling feverish, , runny nose, sore ears?
+[02:17] Patient: No, not really any sort of, cold symptoms, I seemed OK the day before.
+[02:22] Doctor: OK. And, at the moment, how are you feeling?
+[02:25] Patient: Um, it's still pretty bad. Um, yeah, still the kind of throbbing, yeah.
+[02:30] Doctor: Have you had any changes in your skin?
+[02:34] Patient: No, skin feeling fine.
+[02:36] Doctor: Have you checked your temperature at all? Have you got a thermometer at home?
+[02:39] Patient: Um, I haven't. Um, I don't feel like I'm feverish, but I haven't checked.
+[02:44] Doctor: And any problems with weakness, tingling, numbness in your arms or legs?
+[02:49] Patient: No, not at all.
+[02:50] Doctor: And what have you been doing since it came on? Have you been able to go to work, or have you been at home?
+[02:55] Patient: Um, taken some painkillers, mainly been at home. Um, yeah just kind of, kind of seems to be worse, when I'm in a light room or like sunlight. So I've kind of just been staying in as much as possible.
+[03:06] Doctor: OK. Does it get worse with any position that you're on? Is it worse when you lie flat, or when you bend forward?
+[03:13] Patient: Um, no, think I've generally been lying down, seems to be better that way.
+[03:18] Doctor: Any problems if you cough or sneeze?
+[03:21] Patient: Uh, no, but I haven't really got a cough or anything.
+[03:24] Doctor: OK. And can you just tell me a bit about, your medical history in the past? Have you had any significant medical problems? Any hospital admissions, operations, something like that?
+[03:34] Patient: Uh, no, not recently, nothing.
+[03:37] Doctor: Do you take any medication?
+[03:39] Patient: Uh, no, just contraception.
+[03:42] Doctor: And which contraception do you take?
+[03:44] Patient: Uh, Microgynon, pill.
+[03:45] Doctor: When did you start that one?
+[03:47] Patient: Uh, about six years ago.
+[03:49] Doctor: Do you get any side effects from it?
+[03:51] Patient: Um, not really, um, no, not too much.
+[03:56] Doctor: OK. And, anyone in your family had any medical problems?
+[04:00] Patient: Uh, my mum had, uh, high blood pressure, and she's got a history of migraines. Um, but it's not really affected me before.
+[04:05] Doctor: OK. And have you had your blood pressure checked recently?
+[04:11] Patient: Uh, I haven't actually, no.
+[04:12] Doctor: Have you had it checked, when you've had the , repeat prescription done?
+[04:17] Patient: Yeah, yeah, so uh, probably about six months ago.
+[04:19] Doctor: Do you know if there's been any problems with it?
+[04:22] Patient: Um, it's always been fine I think.
+[04:23] Doctor: OK. Um, and whereabouts, whereabouts do you live at the moment? You've given me your, address. Do, who do you live with at home?
+[04:31] Patient: Uh, just with housemates, um, just friends.
+[04:33] Doctor: OK. And do you drink much alcohol day-to-day?
+[04:36] Patient: Um, I'd say a normal amount, um, probably, you know, a few drinks at the weekend.
+[04:41] Doctor: OK. And do you smoke?
+[04:43] Patient: No.
+[04:44] Doctor: Do you take any other drugs of any sort?
+[04:46] Patient: No.
+[04:47] Doctor: Um. So, , what, what tablets did you say you've been taking already? Yeah.
+[04:53] Patient: Sorry?
+[04:54] Doctor: What tablets have you been taking already, for it?
+[04:56] Patient: Uh, just Paracetamol. Um, I'm allergic to Aspirin, so I haven't been taking that.
+[05:00] Doctor: What happens when you get a, when you take Aspirin?
+[05:03] Patient: Um, I just feel really sick.
+[05:05] Doctor: OK. And have you ever, taken any, non-steroidal anti-inflammatories, like Ibuprofen, Naproxen, anything like that?
+[05:12] Patient: Um, I have in the past, I haven't been taking it, last few days.
+[05:17] Doctor: OK. Um, so, this headache is new to you, and you've, you've not had regular headaches before?
+[05:24] Patient: Yeah.
+[05:25] Doctor: What I would, suggest is, taking, uh, um, some anti-inflammatories, along with the Paracetamol.
+[05:34] Patient: OK.
+[05:35] Doctor: Um, as a. Uh, you said you're eating OK?
+[05:39] Patient: Yeah, yeah, fine.
+[05:40] Doctor: I mean it, from the sounds of it, it does, sound quite like a migraine, but obviously if you had no history of that, in the past. Um, and is anything changed recently, or any, anything you've done recently might've, triggered it?
+[05:55] Patient: Uh, not that I can think of, um, may have been a bit stressed out at work, that kind of thing, but .
+[05:59] Doctor: Yeah. Um, well that would be the first thing to do, is to take some anti-inflammatories along with the Paracetamol. Make sure you're really well hydrated. Um, and, see how that goes, and if it, if it isn't settling, or it's getting worse, or you get any other change in your headache. Um, or you're unwell with it, with a high temperature, then we would certainly need to speak to you. Straight away about that. The other thing is if you, if you're getting persistent, um, headaches, or headaches associated with your menstrual cycle, or certain things seem to trigger these headaches. Then, it, it would be worth, having a further discussion about it, to see whether we can, work out if we can help the, that longer-term.
+[06:48] Patient: OK, brilliant, thank you.
+[06:49] Doctor: Um, I would, try and arrange to get your blood pressure checked, if you haven't had it checked for a while. Uh, and, thing to do is to have a thermometer at home, so you can make sure that your temperature's OK.
+[06:55] Patient: OK, sure. Yep.
+[07:03] Doctor: If you have a raised temperature or, your headache's just getting worse, or you develop any rashes or anything like that. Then we'd need to speak to you straight away.
+[07:11] Patient: Yep, OK, that's brilliant. OK, so I'll take some Ibuprofen and I'll um, hopefully, be a bit better in a day or two then, so yeah.
+[07:18] Doctor: OK, so, have you got any other questions?
+[07:21] Patient: Uh, no, that was it today.
+[07:23] Doctor: OK. OK then, we'll, we'll, we'll, um, speak to you again.
+[07:29] Patient: OK, brilliant. Thanks so much.
+[07:30] Doctor: , very much. Bye.
+[07:32] Patient: Bye.

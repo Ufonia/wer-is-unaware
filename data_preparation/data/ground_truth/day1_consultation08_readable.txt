@@ -1,0 +1,98 @@
+[00:01] Patient: OK. Ohh, OK.
+[00:04] Doctor: Hello?
+[00:05] Patient: Hello, can you hear me?
+[00:07] Doctor: Hello. Uh, just before we go any further, can I confirm your name and, age please?
+[00:12] Patient: Uh, my name's Itha, and I'm twenty six.
+[00:16] Doctor: Twenty six, OK. And how can I help you this afternoon?
+[00:19] Patient: Um, so basically, I've been really stressed at work for the past few days. And, I've realised that I've got, really dry itchy skin.
+[00:29] Doctor: OK. Um, sorry to hear work's been so stressful. Um. Tell me more about your skin first, Lou. Tell me uh, you mentioned it's been dry and itchy. Um, whereabouts on your skin?
+[00:41] Patient: All over my arms, um, and my hands mainly.
+[00:45] Doctor: OK. Um, and is this something you've had before?
+[00:49] Patient: Uh, no. Never had .
+[00:52] Doctor: So, uh, did it, did it come about quite suddenly, or was it more, kind of a gradual thing?
+[00:57] Patient: I think it started a few days ago.
+[00:59] Doctor: OK. And, has this spread anywhere else? Has it spread to your, to your chest, your legs, your face? No, OK. So apart from being dry and itchy, um, any other symptoms? Has it been sore? Has it been, uh, have you noticed any cracked skin?
+[01:20] Patient: Um, so my skin's quite red, um, and I'm using coconut butter for the past few days.
+[01:27] Doctor: OK. Has that.
+[01:28] Patient: I don't have any spots, and no fever , and I'm not sweating either.
+[01:30] Doctor: OK. Thank you, for mentioning all those. Um, OK. Uh, so the coconut butter hasn't helped, with the itch?
+[01:41] Patient: No, .
+[01:42] Doctor: OK. And, uh, you mentioned work's been quite stressful. What do you do for work?
+[01:48] Patient: Um, I work as a teacher.
+[01:51] Doctor: OK. And, uh, in what way has work been stressful?
+[01:57] Patient: I think the kids have been really annoying these days.
+[02:00] Doctor: OK. .
+[02:01] Patient: And, I've been working really long hours.
+[02:04] Doctor: OK, all right. Well I'm sorry to hear that, and I hope it gets better. Um, going back to your skin. I mean is it anything you've done perhaps, uh, which may have triggered your symptoms? Anything you've touched or, you know, for example shower gels, soaps, fabric , fabric cleaners?
+[02:20] Patient: , I went swimming a few days ago.
+[02:24] Doctor: OK. Is that the first time in your life or have you been before?
+[02:28] Patient: Uh, no, I've been before.
+[02:30] Doctor: OK. And did your symptoms start after you went swimming?
+[02:35] Patient: Uh, yes, .
+[02:36] Doctor: OK, all right. Um, you mentioned you've had no other fevers, is that right? No fevers? No vomiting?
+[02:43] Patient: No.
+[02:44] Doctor: No. How's your health otherwise?
+[02:47] Patient: It's pretty good, yeah. I'm not on any medication.
+[02:51] Doctor: And all , we'll get to medication in just a second. Um, , do you, do you feel generally run-down? Do you feel tired?
+[02:59] Patient: Uh, yeah, I think I have been, quite tired.
+[03:02] Doctor: OK, OK. Are you eating and drinking OK?
+[03:08] Patient: Yeah, I've been drinking, and eating as normal.
+[03:10] Doctor: Your appetite's fine is it? OK. And your bowels, are your bowels working OK?
+[03:15] Patient: Yeah.
+[03:16] Doctor: Uh, no, no problems with vomiting, or loose stools?
+[03:20] Patient: No.
+[03:21] Doctor: OK. And your waterworks are uh, all OK? You're passing urine OK?
+[03:25] Patient: Yep.
+[03:26] Doctor: OK, all right. Um, so just moving on. In terms of your other medical history, is there anything else I should be aware of?
+[03:34] Patient: I'm currently taking .
+[03:37] Doctor: Microgynon.
+[03:39] Patient: Yeah.
+[03:40] Doctor: OK. Do you know what that is?
+[03:41] Patient: Uh, no.
+[03:42] Doctor: OK. , it's a contraceptive pill Does that make sense? Is that something you're, is that, does that ring a bell now?
+[03:50] Patient: Ohh yeah.
+[03:51] Doctor: OK. Is there, any other medications that you take?
+[03:56] Patient: Uh, no.
+[03:56] Doctor: No. So, in terms of your medical history, there's no, problems of skin problems in the past, things like eczema or, um, dermatitis?
+[04:06] Patient: Uh, no, I think it might just be the weather.
+[04:11] Doctor: Sorry what was that? You think it's. The .
+[04:14] Patient: I think it might just be the weather.
+[04:17] Doctor: The weather?
+[04:18] Patient: Yeah, .
+[04:19] Doctor: Ohh, you think the , OK. You think the weather, OK. OK. No that's OK, no, no problems. Well um, uh, move . Do you, do you suffer from allergies? Are you someone who suffers from allergies?
+[04:30] Patient: Um.
+[04:30] Doctor: Food allergies? Medication allergies?
+[04:33] Patient: I think, um, I might be lactose intolerant.
+[04:37] Doctor: Lactose intolerant, OK, that could be helpful to know. Um, fine. And tell me of family history, is there anything in the family that you're aware of?
+[04:47] Patient: Um, yeah, so um, my dad has asthma, and, my mum has hayfever.
+[04:53] Doctor: Hayfever, OK. Um, fine, but any, again, any skin problems that you're aware of?
+[04:55] Patient: Yep. Uh, no.
+[05:03] Doctor: No, OK, all right. Socially, who do you live with at home?
+[05:08] Patient: Ohh, it's just me.
+[05:09] Doctor: Live alone?
+[05:11] Patient: Yep.
+[05:11] Doctor: And, uh, do you smoke at all? Do you, can I ask? Do you smoke? Are you a smoker?
+[05:15] Patient: Uh, no, I don't smoke.
+[05:17] Doctor: Do you drink much in the way of alcohol?
+[05:20] Patient: Uh, no.
+[05:21] Doctor: Recreational drugs?
+[05:23] Patient: No.
+[05:24] Doctor: OK. And you said you , you work as a primary school teacher?
+[05:28] Patient: Yes, that's right.
+[05:28] Doctor: Uh , the reason I ask is sometimes stress can be a , contributing factor. Um, you felt, you noticed yourself, find, uh, , life's been more stressful recently. Is that right? Do you think that might have any correlation to your symptoms?
+[05:44] Patient: I don't. I certainly think so.
+[05:46] Doctor: OK, all right. Um, fine. Um. OK, well, normally at this stage I like to proceed to examination, but um, based on your uh, story. Um, it's difficult. I think that, you know, , you've, essentially the story is you've got a dry itchy rash on your, mainly your hands. you mentioned. Um and your arms which started, perhaps after swimming a few days ago. Um, but no other symptoms, you're feeling otherwise, well, no fevers, no bleeding or discharge from skin.
+[06:15] Patient: Yep.
+[06:22] Doctor: I wonder whether you may have something called dermatitis. Um, have you heard of that condition before?
+[06:28] Patient: I have, yeah.
+[06:30] Doctor: OK. Um, great. Well I can give you a patient information leaflet about that, which gives a bit more information about the disease, but, um, it, it's something that we can readily treated. Um. With couple options, we have steroid creams I can give you, um, which will help with the inflammation. And, uh, something called emollients, which can help with the dry, dry skin. And that's something you just need to kind of paste on, uh, on to your skin, uh, , throughout the day for the next few days. Um, and hopefully that helps your symptoms.
+[07:02] Patient: OK, it's cool. Thank you very much.
+[07:04] Doctor: Um, , you can also try antihistamines, so you can get things over the counter, Piriton, Loratadine, they can sometimes help with the itchiness.
+[07:16] Patient: Yeah, that sounds good.
+[07:17] Doctor: OK. And um, that's probably what I recommend. Paracetamol on this occasion, wouldn't be helpful. Um, uh, uh, painkillers wouldn't be helpful , on this occasion, but let's, let's, let's see how the next few days go. And if it's still not getting better, come back and see me next week, and we can have another look again, at your symptoms.
+[07:34] Patient: OK, perfect. Thank you very much.
+[07:36] Doctor: Right. Do you have any questions for me?
+[07:38] Patient: Uh, no.
+[07:39] Doctor: OK. Well, I wish you all the best. Have a good day.
+[07:42] Patient: Well, thank you very much. Bye.
+[07:43] Doctor: Thank you. Bye bye.

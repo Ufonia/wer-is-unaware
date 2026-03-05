@@ -1,0 +1,742 @@
+[
+  {
+    "id": "de3b9e39-6b67-40d0-818c-b941bbccdc43",
+    "text": "hello can you hear me",
+    "final": true,
+    "confidence": 0.9892578,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:01.708Z",
+    "startedAt": "2025-10-02T16:36:59.314Z",
+    "endedAt": "2025-10-02T16:37:00.433Z"
+  },
+  {
+    "id": "cdb12e14-4271-49f3-ae8b-8ecda96fd28a",
+    "text": "i can't i'm sorry can you hear me",
+    "final": true,
+    "confidence": 0.90283203,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:05.253Z",
+    "startedAt": "2025-10-02T16:37:02.604Z",
+    "endedAt": "2025-10-02T16:37:04.043Z"
+  },
+  {
+    "id": "9a71bdf2-99fe-4f95-8d24-e44f1e33c50a",
+    "text": "hi",
+    "final": true,
+    "confidence": 0.78686523,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:13.051Z",
+    "startedAt": "2025-10-02T16:37:11.424Z",
+    "endedAt": "2025-10-02T16:37:11.664Z"
+  },
+  {
+    "id": "02b44b55-b159-481f-93f6-8a948619e2b2",
+    "text": "oh yeah yeah",
+    "final": true,
+    "confidence": 0.845459,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:21.063Z",
+    "startedAt": "2025-10-02T16:37:18.824Z",
+    "endedAt": "2025-10-02T16:37:19.704Z"
+  },
+  {
+    "id": "9d087769-b8b5-4525-8770-1edfc10580fb",
+    "text": "it's joy block it's the seventh of june",
+    "final": true,
+    "confidence": 0.668029785,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:28.846Z",
+    "startedAt": "2025-10-02T16:37:23.614Z",
+    "endedAt": "2025-10-02T16:37:27.294Z"
+  },
+  {
+    "id": "7b50d31f-0610-405a-b312-702da69543c9",
+    "text": "seventy four",
+    "final": true,
+    "confidence": 0.9343262,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:31.934Z",
+    "startedAt": "2025-10-02T16:37:29.884Z",
+    "endedAt": "2025-10-02T16:37:30.524Z"
+  },
+  {
+    "id": "34ed971e-4c97-48a6-9c25-821e71f43cff",
+    "text": "sorry fifty four",
+    "final": true,
+    "confidence": 0.9921875,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:36.628Z",
+    "startedAt": "2025-10-02T16:37:34.124Z",
+    "endedAt": "2025-10-02T16:37:35.164Z"
+  },
+  {
+    "id": "ea619062-1f29-4d6d-823c-679502c96e22",
+    "text": "i'm supposedly fifty three so yeah",
+    "final": true,
+    "confidence": 0.9812012,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:39.645Z",
+    "startedAt": "2025-10-02T16:37:36.174Z",
+    "endedAt": "2025-10-02T16:37:38.414Z"
+  },
+  {
+    "id": "990d0a02-f65d-4236-a7e4-78a5454d3699",
+    "text": "that that is correct yes i'm experiencing some discomfort in my chest",
+    "final": true,
+    "confidence": 0.791259775,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:49.789Z",
+    "startedAt": "2025-10-02T16:37:43.883Z",
+    "endedAt": "2025-10-02T16:37:48.443Z"
+  },
+  {
+    "id": "d36de0db-c3e6-452a-bace-a8a243686111",
+    "text": "sure it's been ongoing for a couple of hours now",
+    "final": true,
+    "confidence": 0.98950195,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:37:59.952Z",
+    "startedAt": "2025-10-02T16:37:54.844Z",
+    "endedAt": "2025-10-02T16:37:58.634Z"
+  },
+  {
+    "id": "1d90b036-80c9-40bc-9a51-6c719c4f3130",
+    "text": "quite suddenly i was digging in the garden",
+    "final": true,
+    "confidence": 0.9873047,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:05.654Z",
+    "startedAt": "2025-10-02T16:38:01.684Z",
+    "endedAt": "2025-10-02T16:38:04.483Z"
+  },
+  {
+    "id": "da079adc-8b8d-4fb6-b2b2-3a9b0a54d409",
+    "text": "i had to describe where it is somewhere in the middle of my chest",
+    "final": true,
+    "confidence": 0.99609375,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:11.026Z",
+    "startedAt": "2025-10-02T16:38:06.124Z",
+    "endedAt": "2025-10-02T16:38:09.804Z"
+  },
+  {
+    "id": "7c453b48-221b-4866-9062-c16de9d76b47",
+    "text": "and it's more it feels more like a pressure",
+    "final": true,
+    "confidence": 0.9267578,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:14.719Z",
+    "startedAt": "2025-10-02T16:38:10.544Z",
+    "endedAt": "2025-10-02T16:38:13.343Z"
+  },
+  {
+    "id": "a9c74bfd-1d89-40f2-a319-090036fecd94",
+    "text": "if i had to",
+    "final": true,
+    "confidence": 0.99316406,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:20.436Z",
+    "startedAt": "2025-10-02T16:38:17.614Z",
+    "endedAt": "2025-10-02T16:38:18.974Z"
+  },
+  {
+    "id": "929954da-d2af-4888-ad4d-eb9f3cbbb58f",
+    "text": "if i if i had to describe what that would comfort feeling it's it's like someone sitting on my chest",
+    "final": true,
+    "confidence": 0.7760009800000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:29.138Z",
+    "startedAt": "2025-10-02T16:38:21.134Z",
+    "endedAt": "2025-10-02T16:38:26.913Z"
+  },
+  {
+    "id": "6bfc7332-2a86-4af9-8ef8-3e739a3a821a",
+    "text": "yeah",
+    "final": true,
+    "confidence": 0.9104004,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:34.511Z",
+    "startedAt": "2025-10-02T16:38:32.574Z",
+    "endedAt": "2025-10-02T16:38:32.974Z"
+  },
+  {
+    "id": "23ffe931-c0b0-463e-8202-66503ce63f5b",
+    "text": "yes",
+    "final": true,
+    "confidence": 0.72021484,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:40.958Z",
+    "startedAt": "2025-10-02T16:38:38.244Z",
+    "endedAt": "2025-10-02T16:38:38.564Z"
+  },
+  {
+    "id": "ac888cf3-d00e-410d-9538-10433bc7398b",
+    "text": "okay about",
+    "final": true,
+    "confidence": 0.9645996,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:47.717Z",
+    "startedAt": "2025-10-02T16:38:44.934Z",
+    "endedAt": "2025-10-02T16:38:46.134Z"
+  },
+  {
+    "id": "c2ce224d-8872-41b6-97eb-55c43e31061b",
+    "text": "a seven out of ten",
+    "final": true,
+    "confidence": 0.99316406,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:50.799Z",
+    "startedAt": "2025-10-02T16:38:46.974Z",
+    "endedAt": "2025-10-02T16:38:49.534Z"
+  },
+  {
+    "id": "4028aaea-c437-477d-8443-4497d88b8038",
+    "text": "ten being very severely terrible and immediate pain seven is",
+    "final": true,
+    "confidence": 0.8432617,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:55.257Z",
+    "startedAt": "2025-10-02T16:38:50.104Z",
+    "endedAt": "2025-10-02T16:38:53.784Z"
+  },
+  {
+    "id": "fc16547c-3a1e-4328-8e91-e5640394588c",
+    "text": "quite manageable it's quite dis or comfortable",
+    "final": true,
+    "confidence": 0.8432617,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:38:58.732Z",
+    "startedAt": "2025-10-02T16:38:54.664Z",
+    "endedAt": "2025-10-02T16:38:57.304Z"
+  },
+  {
+    "id": "26f8b138-04e0-4a3c-ad9e-f9679aa15bb5",
+    "text": "it's still the same",
+    "final": true,
+    "confidence": 0.9453125,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:02.434Z",
+    "startedAt": "2025-10-02T16:39:00.324Z",
+    "endedAt": "2025-10-02T16:39:01.284Z"
+  },
+  {
+    "id": "ec596f3f-fd12-47a8-aa2f-e0d27951a50f",
+    "text": "yeah",
+    "final": true,
+    "confidence": 0.87597656,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:08.148Z",
+    "startedAt": "2025-10-02T16:39:06.604Z",
+    "endedAt": "2025-10-02T16:39:06.924Z"
+  },
+  {
+    "id": "5dd45de9-2019-4da0-ae03-a46a516a68d8",
+    "text": "i was",
+    "final": true,
+    "confidence": 0.9633789,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:11.457Z",
+    "startedAt": "2025-10-02T16:39:08.993Z",
+    "endedAt": "2025-10-02T16:39:09.713Z"
+  },
+  {
+    "id": "63ee89bf-6850-4b63-a595-ae765193b000",
+    "text": "my wife and we're watching jeremy kyle",
+    "final": true,
+    "confidence": 0.80908203,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:18.078Z",
+    "startedAt": "2025-10-02T16:39:13.614Z",
+    "endedAt": "2025-10-02T16:39:16.734Z"
+  },
+  {
+    "id": "c25b2502-7976-4850-a460-76383fdf3c3d",
+    "text": "every other week so fortnightly",
+    "final": true,
+    "confidence": 0.9790039,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:27.033Z",
+    "startedAt": "2025-10-02T16:39:23.974Z",
+    "endedAt": "2025-10-02T16:39:25.574Z"
+  },
+  {
+    "id": "6006ac4e-fcc9-4bba-995c-2823139d8c1f",
+    "text": "yeah",
+    "final": true,
+    "confidence": 0.85961914,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:33.260Z",
+    "startedAt": "2025-10-02T16:39:31.414Z",
+    "endedAt": "2025-10-02T16:39:31.734Z"
+  },
+  {
+    "id": "defbb889-e4a6-4a53-a557-46ab0af5863c",
+    "text": "hi cholesterol and they've had hypertension no they hypertension",
+    "final": true,
+    "confidence": 0.73736573,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:47.878Z",
+    "startedAt": "2025-10-02T16:39:41.384Z",
+    "endedAt": "2025-10-02T16:39:46.534Z"
+  },
+  {
+    "id": "591466b7-236a-4173-bc19-4fec302a15b3",
+    "text": "no i need to get a medicine",
+    "final": true,
+    "confidence": 0.9489746,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:39:59.526Z",
+    "startedAt": "2025-10-02T16:39:56.664Z",
+    "endedAt": "2025-10-02T16:39:58.184Z"
+  },
+  {
+    "id": "978113fd-154f-4f2d-8259-449560dd83d5",
+    "text": "as as three",
+    "final": true,
+    "confidence": 0.5541992,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:40:03.601Z",
+    "startedAt": "2025-10-02T16:40:01.274Z",
+    "endedAt": "2025-10-02T16:40:02.314Z"
+  },
+  {
+    "id": "6a6bfac2-20cb-4dfb-a58a-928dc72a8b4c",
+    "text": "yeah",
+    "final": true,
+    "confidence": 0.86621094,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:40:16.830Z",
+    "startedAt": "2025-10-02T16:40:15.144Z",
+    "endedAt": "2025-10-02T16:40:15.464Z"
+  },
+  {
+    "id": "e7e94113-a66e-4249-b4f9-c3a47c1de51c",
+    "text": "yep that's fair",
+    "final": true,
+    "confidence": 0.70861816,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:40:22.399Z",
+    "startedAt": "2025-10-02T16:40:19.743Z",
+    "endedAt": "2025-10-02T16:40:21.023Z"
+  },
+  {
+    "id": "8fd5e70e-8734-4ab8-85b3-2c1da4bf3908",
+    "text": "yes i have i've got shortness of breath i feel slightly light headed",
+    "final": true,
+    "confidence": 0.959960935,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:40:39.336Z",
+    "startedAt": "2025-10-02T16:40:30.614Z",
+    "endedAt": "2025-10-02T16:40:37.883Z"
+  },
+  {
+    "id": "01936477-6102-4fd0-9349-ca8302a39c03",
+    "text": "it's remained the same although i'll say recently i've noticed in terms of sort of breathing i've had",
+    "final": true,
+    "confidence": 0.9875488299999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:40:53.690Z",
+    "startedAt": "2025-10-02T16:40:45.674Z",
+    "endedAt": "2025-10-02T16:40:52.134Z"
+  },
+  {
+    "id": "7a9c3453-772f-4b51-ae7d-5da47d5c43e9",
+    "text": "in stairs and if i have to sort of walk uphill there's that sort of challenge as well",
+    "final": true,
+    "confidence": 0.96972656,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:41:00.515Z",
+    "startedAt": "2025-10-02T16:40:54.944Z",
+    "endedAt": "2025-10-02T16:40:59.184Z"
+  },
+  {
+    "id": "1b4790d5-3816-4a53-aa0f-f7e1efcd01cc",
+    "text": "no pain as such",
+    "final": true,
+    "confidence": 0.8601074200000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:41:12.625Z",
+    "startedAt": "2025-10-02T16:41:09.594Z",
+    "endedAt": "2025-10-02T16:41:11.064Z"
+  },
+  {
+    "id": "63a33b4f-dddb-4fbc-83b2-6cfbe8004b80",
+    "text": "but there's often calf pain and leg swelling sometimes",
+    "final": true,
+    "confidence": 0.9892578,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:41:17.248Z",
+    "startedAt": "2025-10-02T16:41:11.764Z",
+    "endedAt": "2025-10-02T16:41:15.844Z"
+  },
+  {
+    "id": "5b107070-b899-4f4b-94f3-27dfe9dc0c47",
+    "text": "that is correct yeah",
+    "final": true,
+    "confidence": 0.9941406,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:41:24.291Z",
+    "startedAt": "2025-10-02T16:41:22.054Z",
+    "endedAt": "2025-10-02T16:41:23.014Z"
+  },
+  {
+    "id": "e01b44ac-cb79-4247-b325-b2ac8a48a520",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.9941406,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:41:32.058Z",
+    "startedAt": "2025-10-02T16:41:30.174Z",
+    "endedAt": "2025-10-02T16:41:30.654Z"
+  },
+  {
+    "id": "78e1b6ac-7669-4774-8a31-c6e7e091587e",
+    "text": "oh okay",
+    "final": true,
+    "confidence": 0.9995117,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:41:41.292Z",
+    "startedAt": "2025-10-02T16:41:38.764Z",
+    "endedAt": "2025-10-02T16:41:39.884Z"
+  },
+  {
+    "id": "62b28510-fdf6-4b8f-b3e4-4b7fbb669767",
+    "text": "you're right",
+    "final": true,
+    "confidence": 0.9267578,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:41:47.428Z",
+    "startedAt": "2025-10-02T16:41:45.384Z",
+    "endedAt": "2025-10-02T16:41:46.024Z"
+  },
+  {
+    "id": "90df470c-a6e6-42db-82b6-1b3571344225",
+    "text": "thank you",
+    "final": true,
+    "confidence": 0.7751465,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:41:52.426Z",
+    "startedAt": "2025-10-02T16:41:50.674Z",
+    "endedAt": "2025-10-02T16:41:51.234Z"
+  },
+  {
+    "id": "10d7b0b1-d4ef-4dcb-8c67-7e732c665381",
+    "text": "should i be concerned about anything",
+    "final": true,
+    "confidence": 1,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:41:58.045Z",
+    "startedAt": "2025-10-02T16:41:54.784Z",
+    "endedAt": "2025-10-02T16:41:56.704Z"
+  },
+  {
+    "id": "8334e528-a42d-4c84-a2eb-9cf45e5d7597",
+    "text": "like",
+    "final": true,
+    "confidence": 0.8166504,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:09.095Z",
+    "startedAt": "2025-10-02T16:42:07.444Z",
+    "endedAt": "2025-10-02T16:42:07.764Z"
+  },
+  {
+    "id": "4d079a12-612f-41e6-9d99-3bbe88a5a19f",
+    "text": "yeah",
+    "final": true,
+    "confidence": 0.890625,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:14.518Z",
+    "startedAt": "2025-10-02T16:42:12.904Z",
+    "endedAt": "2025-10-02T16:42:13.224Z"
+  },
+  {
+    "id": "82ec6abe-bae5-4b6b-a785-70d6a60c86c0",
+    "text": "nothing",
+    "final": true,
+    "confidence": 0.65234375,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:27.854Z",
+    "startedAt": "2025-10-02T16:42:25.593Z",
+    "endedAt": "2025-10-02T16:42:26.074Z"
+  },
+  {
+    "id": "55bbbf34-66a3-48f3-991c-aa0f5a7bf79f",
+    "text": "else unusual i'm not sure if i spoke to you about nausea",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:31.343Z",
+    "startedAt": "2025-10-02T16:42:26.924Z",
+    "endedAt": "2025-10-02T16:42:30.124Z"
+  },
+  {
+    "id": "1ae375ab-a62a-43c5-b580-40a8d9376990",
+    "text": "yet",
+    "final": true,
+    "confidence": 0.9855957,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:34.969Z",
+    "startedAt": "2025-10-02T16:42:33.284Z",
+    "endedAt": "2025-10-02T16:42:33.684Z"
+  },
+  {
+    "id": "ac3518d7-6832-4556-9e4c-d8a3e7b7b9be",
+    "text": "no",
+    "final": true,
+    "confidence": 0.96606445,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:38.178Z",
+    "startedAt": "2025-10-02T16:42:36.224Z",
+    "endedAt": "2025-10-02T16:42:36.624Z"
+  },
+  {
+    "id": "60fefb2b-cb14-4a81-a15d-b132733c9c64",
+    "text": "i have yeah i am yes",
+    "final": true,
+    "confidence": 0.98291016,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:44.196Z",
+    "startedAt": "2025-10-02T16:42:41.414Z",
+    "endedAt": "2025-10-02T16:42:42.934Z"
+  },
+  {
+    "id": "4635b66a-4daf-4e6a-868f-72dc1e32f3c4",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.713501,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:48.097Z",
+    "startedAt": "2025-10-02T16:42:46.004Z",
+    "endedAt": "2025-10-02T16:42:46.404Z"
+  },
+  {
+    "id": "e115601c-d53f-4927-80e3-df84098b9ace",
+    "text": "yeah that's fine",
+    "final": true,
+    "confidence": 0.9880371,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:52.303Z",
+    "startedAt": "2025-10-02T16:42:50.324Z",
+    "endedAt": "2025-10-02T16:42:51.044Z"
+  },
+  {
+    "id": "ee037ac0-44f8-4b42-bc1e-e66848bd11f9",
+    "text": "not to my head no",
+    "final": true,
+    "confidence": 0.9926758,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:42:58.015Z",
+    "startedAt": "2025-10-02T16:42:55.764Z",
+    "endedAt": "2025-10-02T16:42:56.804Z"
+  },
+  {
+    "id": "e5a4bebc-495f-4bf1-bbdd-2ee302ecd849",
+    "text": "yes there is some pain in my left shoulder right now",
+    "final": true,
+    "confidence": 0.9302978550000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:43:05.857Z",
+    "startedAt": "2025-10-02T16:43:00.584Z",
+    "endedAt": "2025-10-02T16:43:04.604Z"
+  },
+  {
+    "id": "dd00a37f-0204-40ba-a6ca-7aaba8edb5e9",
+    "text": "no",
+    "final": true,
+    "confidence": 0.87060547,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:43:11.862Z",
+    "startedAt": "2025-10-02T16:43:10.294Z",
+    "endedAt": "2025-10-02T16:43:10.533Z"
+  },
+  {
+    "id": "c8142cae-299f-446e-b5b6-2f299f6f574f",
+    "text": "no",
+    "final": true,
+    "confidence": 0.84350586,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:43:20.337Z",
+    "startedAt": "2025-10-02T16:43:18.724Z",
+    "endedAt": "2025-10-02T16:43:18.964Z"
+  },
+  {
+    "id": "c43b61a1-0443-443f-a716-45a86e36bfec",
+    "text": "no problems going to leak",
+    "final": true,
+    "confidence": 0.7324219,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:43:27.351Z",
+    "startedAt": "2025-10-02T16:43:24.934Z",
+    "endedAt": "2025-10-02T16:43:26.134Z"
+  },
+  {
+    "id": "d5265a7e-45d1-4f51-b182-a252469f9320",
+    "text": "yes however there are some problems just",
+    "final": true,
+    "confidence": 0.97509766,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:43:38.460Z",
+    "startedAt": "2025-10-02T16:43:33.974Z",
+    "endedAt": "2025-10-02T16:43:36.934Z"
+  },
+  {
+    "id": "180ef260-90c3-4842-b4fa-0f4b64cb2fa3",
+    "text": "performing daily activities like i said with the difficulty of climbing up stairs and going uphill i tried to limit my daily activity to just moving around the house nothing to stretch",
+    "final": true,
+    "confidence": 0.9230143100000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:43:49.769Z",
+    "startedAt": "2025-10-02T16:43:37.474Z",
+    "endedAt": "2025-10-02T16:43:48.424Z"
+  },
+  {
+    "id": "7248ae9a-a93d-4dd2-a10b-0b189d5de592",
+    "text": "yes",
+    "final": true,
+    "confidence": 0.7548828,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:43:56.491Z",
+    "startedAt": "2025-10-02T16:43:53.674Z",
+    "endedAt": "2025-10-02T16:43:54.074Z"
+  },
+  {
+    "id": "4ca78f45-b533-424e-b266-1d320be679b3",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.8796387,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:44:03.435Z",
+    "startedAt": "2025-10-02T16:44:01.694Z",
+    "endedAt": "2025-10-02T16:44:02.094Z"
+  },
+  {
+    "id": "46d7c5a3-48ad-4d7f-b1bf-be8c670a2083",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.9885254,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:44:09.827Z",
+    "startedAt": "2025-10-02T16:44:08.104Z",
+    "endedAt": "2025-10-02T16:44:08.503Z"
+  },
+  {
+    "id": "99500633-fa79-4e21-ac9f-664902db5125",
+    "text": "right",
+    "final": true,
+    "confidence": 0.7541504,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:44:14.674Z",
+    "startedAt": "2025-10-02T16:44:13.014Z",
+    "endedAt": "2025-10-02T16:44:13.414Z"
+  },
+  {
+    "id": "fdf1263f-5bd1-4385-b4cb-7a5968d03029",
+    "text": "alright",
+    "final": true,
+    "confidence": 0.83447266,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:44:21.484Z",
+    "startedAt": "2025-10-02T16:44:19.674Z",
+    "endedAt": "2025-10-02T16:44:20.074Z"
+  },
+  {
+    "id": "77b18146-ba3e-4fa6-bc32-aceffcc85d73",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.8779297,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:44:25.855Z",
+    "startedAt": "2025-10-02T16:44:24.014Z",
+    "endedAt": "2025-10-02T16:44:24.494Z"
+  },
+  {
+    "id": "6a22dab1-73b5-46e5-b741-25a3d297bb3d",
+    "text": "yep",
+    "final": true,
+    "confidence": 0.8354492,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:44:28.965Z",
+    "startedAt": "2025-10-02T16:44:27.294Z",
+    "endedAt": "2025-10-02T16:44:27.694Z"
+  },
+  {
+    "id": "2b878c70-8f53-4010-8e42-658ab8df9e91",
+    "text": "thank you",
+    "final": true,
+    "confidence": 0.9941406,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:44:42.115Z",
+    "startedAt": "2025-10-02T16:44:40.174Z",
+    "endedAt": "2025-10-02T16:44:40.654Z"
+  },
+  {
+    "id": "6b6c4989-5408-4d81-8d03-4556fa822a39",
+    "text": "yeah that's",
+    "final": true,
+    "confidence": 0.7841797,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:44:50.125Z",
+    "startedAt": "2025-10-02T16:44:47.944Z",
+    "endedAt": "2025-10-02T16:44:48.664Z"
+  },
+  {
+    "id": "a1ac725c-1af5-472d-af7b-0f702e219bf3",
+    "text": "reassuring thanks for that",
+    "final": true,
+    "confidence": 0.9135742,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:44:53.449Z",
+    "startedAt": "2025-10-02T16:44:50.274Z",
+    "endedAt": "2025-10-02T16:44:52.274Z"
+  },
+  {
+    "id": "a01e04e4-05ca-4a9a-9b6d-162e6db0f014",
+    "text": "oh that's great",
+    "final": true,
+    "confidence": 0.9980469,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:45:05.473Z",
+    "startedAt": "2025-10-02T16:45:03.334Z",
+    "endedAt": "2025-10-02T16:45:04.214Z"
+  },
+  {
+    "id": "59b03d6c-8185-4eb2-8486-ec1f7c19a7f8",
+    "text": "take it",
+    "final": true,
+    "confidence": 0.8964844,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:45:09.403Z",
+    "startedAt": "2025-10-02T16:45:07.624Z",
+    "endedAt": "2025-10-02T16:45:08.184Z"
+  },
+  {
+    "id": "cfef8194-9d5a-4214-9289-701db17dad55",
+    "text": "that's perfect thank you so much",
+    "final": true,
+    "confidence": 0.99853516,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:45:13.415Z",
+    "startedAt": "2025-10-02T16:45:10.624Z",
+    "endedAt": "2025-10-02T16:45:12.064Z"
+  },
+  {
+    "id": "9cbbdcee-df8d-4057-abba-b9a0de9db1e3",
+    "text": "no questions i'll just await the",
+    "final": true,
+    "confidence": 0.85717773,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:45:18.459Z",
+    "startedAt": "2025-10-02T16:45:13.873Z",
+    "endedAt": "2025-10-02T16:45:16.354Z"
+  },
+  {
+    "id": "b83d6e6b-5fbd-4e13-8359-5dac822e4363",
+    "text": "no problem i'll speak to you soon",
+    "final": true,
+    "confidence": 0.99609375,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T16:45:22.549Z",
+    "startedAt": "2025-10-02T16:45:19.713Z",
+    "endedAt": "2025-10-02T16:45:21.234Z"
+  }
+]

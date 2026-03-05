@@ -1,0 +1,502 @@
+[
+  {
+    "id": "b53d2653-32bb-44ce-9727-331d9a81cba4",
+    "text": "hi",
+    "final": true,
+    "confidence": 0.99560547,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:37:48.135Z",
+    "startedAt": "2025-10-02T12:37:46.592Z",
+    "endedAt": "2025-10-02T12:37:46.991Z"
+  },
+  {
+    "id": "6a25a5e8-fe97-47bb-94a0-8afcca5f869b",
+    "text": "yes",
+    "final": true,
+    "confidence": 0.9946289,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:37:55.953Z",
+    "startedAt": "2025-10-02T12:37:54.272Z",
+    "endedAt": "2025-10-02T12:37:54.672Z"
+  },
+  {
+    "id": "825bc348-cb73-404b-80bc-525fd158d969",
+    "text": "yep",
+    "final": true,
+    "confidence": 0.98413086,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:00.070Z",
+    "startedAt": "2025-10-02T12:37:58.671Z",
+    "endedAt": "2025-10-02T12:37:58.992Z"
+  },
+  {
+    "id": "84c14765-0862-40ad-a382-8441de3ff561",
+    "text": "i'm forty eight",
+    "final": true,
+    "confidence": 0.9199219,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:03.369Z",
+    "startedAt": "2025-10-02T12:38:01.142Z",
+    "endedAt": "2025-10-02T12:38:02.261Z"
+  },
+  {
+    "id": "0f5521ae-33d0-415c-8f1e-d4d18cf531b7",
+    "text": "right so i've been having diarrhea for like let's say past three days more or less",
+    "final": true,
+    "confidence": 0.99108885,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:17.843Z",
+    "startedAt": "2025-10-02T12:38:08.842Z",
+    "endedAt": "2025-10-02T12:38:16.612Z"
+  },
+  {
+    "id": "c20f09b1-0e9c-4e75-b1a8-303779e2aa18",
+    "text": "yeah so it's been a very bad diarrhea so it keeps me like i keep going back and forth to to the toilet very often mhmm yeah it started like three days ago",
+    "final": true,
+    "confidence": 0.997314445,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:37.581Z",
+    "startedAt": "2025-10-02T12:38:23.182Z",
+    "endedAt": "2025-10-02T12:38:36.462Z"
+  },
+  {
+    "id": "bbbc5d3e-8972-499f-a960-3e8aa423e0db",
+    "text": "and so it started with vomiting so i vomited a couple of times",
+    "final": true,
+    "confidence": 0.9946288999999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:43.582Z",
+    "startedAt": "2025-10-02T12:38:37.922Z",
+    "endedAt": "2025-10-02T12:38:42.332Z"
+  },
+  {
+    "id": "e146c8c2-387d-4493-b593-ed7dca786863",
+    "text": "but then that went away and yeah it's just diarrhea now",
+    "final": true,
+    "confidence": 0.9975586000000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:38:49.808Z",
+    "startedAt": "2025-10-02T12:38:43.362Z",
+    "endedAt": "2025-10-02T12:38:48.762Z"
+  },
+  {
+    "id": "985472ef-7170-4f6c-be61-b18e704c00d1",
+    "text": "yeah around five to six times a day",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:00.634Z",
+    "startedAt": "2025-10-02T12:38:56.371Z",
+    "endedAt": "2025-10-02T12:38:59.412Z"
+  },
+  {
+    "id": "73920fc9-0d2b-4498-8424-f63b4850d94a",
+    "text": "yes it's definitely definitely watery",
+    "final": true,
+    "confidence": 0.94970703,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:12.865Z",
+    "startedAt": "2025-10-02T12:39:08.092Z",
+    "endedAt": "2025-10-02T12:39:11.612Z"
+  },
+  {
+    "id": "e8c2e2f2-76da-477c-bf90-00114294deae",
+    "text": "no not that i could see",
+    "final": true,
+    "confidence": 0.99316406,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:19.276Z",
+    "startedAt": "2025-10-02T12:39:16.742Z",
+    "endedAt": "2025-10-02T12:39:18.262Z"
+  },
+  {
+    "id": "e070fd25-ee31-4678-a2b9-6cc35f174732",
+    "text": "not not really no but i i i feel like i can't",
+    "final": true,
+    "confidence": 0.9752197499999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:32.604Z",
+    "startedAt": "2025-10-02T12:39:25.472Z",
+    "endedAt": "2025-10-02T12:39:31.642Z"
+  },
+  {
+    "id": "0d09d6bb-af28-4a56-8eb3-9b69b28b3ca1",
+    "text": "really drink too much so i feel very dehydrated",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:36.731Z",
+    "startedAt": "2025-10-02T12:39:32.132Z",
+    "endedAt": "2025-10-02T12:39:35.652Z"
+  },
+  {
+    "id": "f2661d1e-072f-4226-852c-4a7b585e5cc8",
+    "text": "yeah because",
+    "final": true,
+    "confidence": 0.9980469,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:42.046Z",
+    "startedAt": "2025-10-02T12:39:40.162Z",
+    "endedAt": "2025-10-02T12:39:40.882Z"
+  },
+  {
+    "id": "51771fed-d7b5-4ec6-9ed9-a79d0b8974d3",
+    "text": "i feel like i don't drink enough like i'm i'm drink i'm trying to drink but then i just go to the loo and i like i i i poo everything and i feel dehydrated again",
+    "final": true,
+    "confidence": 0.9912923266666667,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:39:57.299Z",
+    "startedAt": "2025-10-02T12:39:45.072Z",
+    "endedAt": "2025-10-02T12:39:56.212Z"
+  },
+  {
+    "id": "967fa705-ae5d-4a7b-8f73-bcc5a8e9f784",
+    "text": "not much not much so just a little bit but i don't feel",
+    "final": true,
+    "confidence": 0.9663086,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:10.734Z",
+    "startedAt": "2025-10-02T12:40:03.882Z",
+    "endedAt": "2025-10-02T12:40:09.512Z"
+  },
+  {
+    "id": "510a67a4-828e-4daa-a253-527db847a1f5",
+    "text": "i don't really feel like i have appetite",
+    "final": true,
+    "confidence": 0.99853516,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:15.449Z",
+    "startedAt": "2025-10-02T12:40:10.942Z",
+    "endedAt": "2025-10-02T12:40:14.142Z"
+  },
+  {
+    "id": "7070db3e-991a-42fc-9d80-171dea05d41d",
+    "text": "yes",
+    "final": true,
+    "confidence": 0.9707031,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:25.479Z",
+    "startedAt": "2025-10-02T12:40:23.372Z",
+    "endedAt": "2025-10-02T12:40:23.772Z"
+  },
+  {
+    "id": "fcc60cf2-aebe-4468-845e-429690191a57",
+    "text": "so not really i i feel a little bit warm probably at the at the beginning i was feeling i had a bit of temperature but now i feel i feel kind of fine",
+    "final": true,
+    "confidence": 0.9852050699999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:45.457Z",
+    "startedAt": "2025-10-02T12:40:30.222Z",
+    "endedAt": "2025-10-02T12:40:44.252Z"
+  },
+  {
+    "id": "cddccff5-1157-438c-922e-d640f5e949ea",
+    "text": "not not really",
+    "final": true,
+    "confidence": 0.7758789,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:40:54.262Z",
+    "startedAt": "2025-10-02T12:40:51.352Z",
+    "endedAt": "2025-10-02T12:40:52.712Z"
+  },
+  {
+    "id": "a29331a6-d0d8-4b15-8d6a-9294a88c3c70",
+    "text": "not that i remember what was i doing i i was at home i was working",
+    "final": true,
+    "confidence": 0.9921875,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:07.515Z",
+    "startedAt": "2025-10-02T12:41:01.502Z",
+    "endedAt": "2025-10-02T12:41:06.382Z"
+  },
+  {
+    "id": "9f74cadf-4741-47fb-b508-28b77c955e55",
+    "text": "on my computer and yeah i just felt some nausea and i had to to vomit and then i had some diarrhea straight after that",
+    "final": true,
+    "confidence": 0.9957682266666666,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:17.453Z",
+    "startedAt": "2025-10-02T12:41:06.902Z",
+    "endedAt": "2025-10-02T12:41:16.311Z"
+  },
+  {
+    "id": "676fa8c0-263b-4da4-a016-89a8e63982f1",
+    "text": "hope that i remember",
+    "final": true,
+    "confidence": 0.96875,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:25.155Z",
+    "startedAt": "2025-10-02T12:41:21.752Z",
+    "endedAt": "2025-10-02T12:41:23.591Z"
+  },
+  {
+    "id": "67dd1017-1b13-4b97-9697-dbeb73f3ee4b",
+    "text": "not that i know not that",
+    "final": true,
+    "confidence": 0.98291016,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:34.280Z",
+    "startedAt": "2025-10-02T12:41:31.732Z",
+    "endedAt": "2025-10-02T12:41:33.252Z"
+  },
+  {
+    "id": "7e8e6370-403f-47f8-bfea-710f1481df20",
+    "text": "yep yep",
+    "final": true,
+    "confidence": 0.94384766,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:41:43.042Z",
+    "startedAt": "2025-10-02T12:41:40.332Z",
+    "endedAt": "2025-10-02T12:41:41.532Z"
+  },
+  {
+    "id": "7f71f052-4346-4986-a6ee-fd4e69130b68",
+    "text": "so i i do suffer of ask so i do have my nailers that are you know i i i use infrequently let's say only when i have a a",
+    "final": true,
+    "confidence": 0.931030275,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:01.373Z",
+    "startedAt": "2025-10-02T12:41:46.282Z",
+    "endedAt": "2025-10-02T12:42:00.021Z"
+  },
+  {
+    "id": "8a0df7c5-ff51-4cb7-b0de-ffe8c4671c53",
+    "text": "yes it is yeah",
+    "final": true,
+    "confidence": 0.98535156,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:06.268Z",
+    "startedAt": "2025-10-02T12:42:04.442Z",
+    "endedAt": "2025-10-02T12:42:05.402Z"
+  },
+  {
+    "id": "860bd137-1c83-4ccc-a010-cc637d267496",
+    "text": "no nothing",
+    "final": true,
+    "confidence": 0.9970703,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:12.485Z",
+    "startedAt": "2025-10-02T12:42:10.482Z",
+    "endedAt": "2025-10-02T12:42:11.442Z"
+  },
+  {
+    "id": "16d4b0dd-27f3-4f4d-9161-3f59f6f90082",
+    "text": "not that i know of",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:18.002Z",
+    "startedAt": "2025-10-02T12:42:15.522Z",
+    "endedAt": "2025-10-02T12:42:16.882Z"
+  },
+  {
+    "id": "246c60e1-9e14-4bc0-a623-d3e800bc92ad",
+    "text": "so my father has high well used to have high blood pressure he actually so he actually died of",
+    "final": true,
+    "confidence": 0.9977213466666667,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:33.344Z",
+    "startedAt": "2025-10-02T12:42:23.182Z",
+    "endedAt": "2025-10-02T12:42:32.312Z"
+  },
+  {
+    "id": "278129d1-dd03-4d55-9bbf-a9d49e222b7a",
+    "text": "oh yes so probably it's worth mentioning she she has diabetes",
+    "final": true,
+    "confidence": 0.8873291,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:47.895Z",
+    "startedAt": "2025-10-02T12:42:41.532Z",
+    "endedAt": "2025-10-02T12:42:46.622Z"
+  },
+  {
+    "id": "e0bda515-6b5b-48b5-af65-2a57f19c099a",
+    "text": "it's type two",
+    "final": true,
+    "confidence": 0.87475586,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:42:53.601Z",
+    "startedAt": "2025-10-02T12:42:50.902Z",
+    "endedAt": "2025-10-02T12:42:52.422Z"
+  },
+  {
+    "id": "bf8bb9bc-ebee-45b2-83b8-ea17e7ee0018",
+    "text": "sorry",
+    "final": true,
+    "confidence": 0.96655273,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:06.752Z",
+    "startedAt": "2025-10-02T12:43:05.202Z",
+    "endedAt": "2025-10-02T12:43:05.682Z"
+  },
+  {
+    "id": "150da5fa-02a3-4523-9d16-0f54b2af7fe2",
+    "text": "oh i i live alone",
+    "final": true,
+    "confidence": 0.9902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:10.271Z",
+    "startedAt": "2025-10-02T12:43:07.812Z",
+    "endedAt": "2025-10-02T12:43:09.252Z"
+  },
+  {
+    "id": "d1f7831a-e019-4de8-883f-af652c4016f7",
+    "text": "well i haven't been able to work in the past few days but yes like in in my",
+    "final": true,
+    "confidence": 0.9091796999999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:20.110Z",
+    "startedAt": "2025-10-02T12:43:13.952Z",
+    "endedAt": "2025-10-02T12:43:18.952Z"
+  },
+  {
+    "id": "8e57073c-6fb0-4280-9d80-87a788787091",
+    "text": "i'm a software engineer",
+    "final": true,
+    "confidence": 0.99902344,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:24.529Z",
+    "startedAt": "2025-10-02T12:43:22.112Z",
+    "endedAt": "2025-10-02T12:43:23.392Z"
+  },
+  {
+    "id": "6a313e65-15e5-4ccb-9210-cd57ade41021",
+    "text": "yes yes i have",
+    "final": true,
+    "confidence": 0.9733886700000001,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:34.337Z",
+    "startedAt": "2025-10-02T12:43:30.662Z",
+    "endedAt": "2025-10-02T12:43:32.682Z"
+  },
+  {
+    "id": "cedd689d-c7cc-4244-912f-20b627b5e5bd",
+    "text": "this past three days i've been feeling really unwell so i couldn't work",
+    "final": true,
+    "confidence": 0.99194336,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:38.774Z",
+    "startedAt": "2025-10-02T12:43:34.282Z",
+    "endedAt": "2025-10-02T12:43:37.801Z"
+  },
+  {
+    "id": "f9b39f33-7355-4fae-90b0-7a6d96ad5981",
+    "text": "not really i drink infrequently like socially let's say and i don't smoke",
+    "final": true,
+    "confidence": 0.99658203,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:43:52.902Z",
+    "startedAt": "2025-10-02T12:43:46.982Z",
+    "endedAt": "2025-10-02T12:43:51.762Z"
+  },
+  {
+    "id": "e6676916-e873-40cf-a984-8c4dfc748fc0",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.9868164,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:07.042Z",
+    "startedAt": "2025-10-02T12:44:05.361Z",
+    "endedAt": "2025-10-02T12:44:05.842Z"
+  },
+  {
+    "id": "45493792-f724-44a7-a986-60df7c550249",
+    "text": "alright",
+    "final": true,
+    "confidence": 0.99609375,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:17.875Z",
+    "startedAt": "2025-10-02T12:44:16.352Z",
+    "endedAt": "2025-10-02T12:44:16.752Z"
+  },
+  {
+    "id": "51129c8c-758f-4cc3-8ec1-6b0e2f3940f0",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.9914551,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:27.908Z",
+    "startedAt": "2025-10-02T12:44:26.271Z",
+    "endedAt": "2025-10-02T12:44:26.752Z"
+  },
+  {
+    "id": "6d8b3df1-014e-4c15-91a8-1398bc2537e1",
+    "text": "sorry what's the name of that",
+    "final": true,
+    "confidence": 0.99609375,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:37.129Z",
+    "startedAt": "2025-10-02T12:44:34.632Z",
+    "endedAt": "2025-10-02T12:44:36.152Z"
+  },
+  {
+    "id": "b962426b-9e34-43d1-b683-0c24c58fa8df",
+    "text": "k",
+    "final": true,
+    "confidence": 0.92993164,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:41.149Z",
+    "startedAt": "2025-10-02T12:44:39.642Z",
+    "endedAt": "2025-10-02T12:44:40.042Z"
+  },
+  {
+    "id": "74ae4e46-1cb6-41f3-99d1-1249365e1857",
+    "text": "hello",
+    "final": true,
+    "confidence": 0.9682617,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:45.150Z",
+    "startedAt": "2025-10-02T12:44:43.522Z",
+    "endedAt": "2025-10-02T12:44:43.922Z"
+  },
+  {
+    "id": "740b1f35-53f2-4484-ba0f-4e22eb6097ec",
+    "text": "okay",
+    "final": true,
+    "confidence": 0.9914551,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:44:54.974Z",
+    "startedAt": "2025-10-02T12:44:53.392Z",
+    "endedAt": "2025-10-02T12:44:53.872Z"
+  },
+  {
+    "id": "3621d207-a7e2-4935-8aa2-0264f3920de8",
+    "text": "that sounds good that sounds good thanks so much",
+    "final": true,
+    "confidence": 0.9907226499999999,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:13.518Z",
+    "startedAt": "2025-10-02T12:45:09.442Z",
+    "endedAt": "2025-10-02T12:45:12.402Z"
+  },
+  {
+    "id": "a75b3979-25a6-4ff5-9f76-05bd44a97cb9",
+    "text": "no i think that's fine yeah i'll",
+    "final": true,
+    "confidence": 0.9995117,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:19.035Z",
+    "startedAt": "2025-10-02T12:45:14.932Z",
+    "endedAt": "2025-10-02T12:45:17.972Z"
+  },
+  {
+    "id": "7f25513a-4db8-4db6-9873-ebfd792f9199",
+    "text": "i'll try to write and drink plenty of fluid and i hope it works if it doesn't i'll call i'll call back is that okay",
+    "final": true,
+    "confidence": 0.97216798,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:27.362Z",
+    "startedAt": "2025-10-02T12:45:18.392Z",
+    "endedAt": "2025-10-02T12:45:26.402Z"
+  },
+  {
+    "id": "8e6993a1-d390-4d77-a4dd-3302bfb70fb8",
+    "text": "thanks a lot thanks so much for your time",
+    "final": true,
+    "confidence": 0.9970703,
+    "systemIdentifier": "Deepgram",
+    "receivedAt": "2025-10-02T12:45:31.773Z",
+    "startedAt": "2025-10-02T12:45:28.671Z",
+    "endedAt": "2025-10-02T12:45:30.752Z"
+  }
+]
